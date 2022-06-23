@@ -4,9 +4,8 @@
 -- Instances:
 
 local ChubHub = Instance.new("ScreenGui")
-local OpenClose = Instance.new("TextButton")
-local TextButton = Instance.new("TextButton")
 local rice4 = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
 local TextButton_2 = Instance.new("TextButton")
 local TextButton_3 = Instance.new("TextButton")
 local TextButton_4 = Instance.new("TextButton")
@@ -14,77 +13,75 @@ local TextButton_5 = Instance.new("TextButton")
 local TextButton_6 = Instance.new("TextButton")
 local TextButton_7 = Instance.new("TextButton")
 local TextButton_8 = Instance.new("TextButton")
-local TextButton_9 = Instance.new("TextButton")
 local TextLabel = Instance.new("TextLabel")
 local CPlayerTp = Instance.new("TextButton")
 local STP = Instance.new("TextBox")
-local TextButton_10 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
 local MagTPPlayer = Instance.new("TextButton")
-local TextButton_11 = Instance.new("TextButton")
+local TextButton_10 = Instance.new("TextButton")
 local rice2 = Instance.new("Frame")
-local TextButton_12 = Instance.new("TextButton")
-local Op = Instance.new("TextBox")
-local ItemName = Instance.new("TextBox")
+local t2 = Instance.new("TextLabel")
 local ObjectName = Instance.new("TextBox")
 local TextLabel_2 = Instance.new("TextLabel")
-local TextLabel_3 = Instance.new("TextLabel")
 local AutoPick = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
 local TextLabel_4 = Instance.new("TextLabel")
+local TextButton_11 = Instance.new("TextButton")
+local t1 = Instance.new("TextLabel")
+local TextButton_12 = Instance.new("TextButton")
 local TextLabel_5 = Instance.new("TextLabel")
 local TextButton_13 = Instance.new("TextButton")
 local TextLabel_6 = Instance.new("TextLabel")
-local TextButton_14 = Instance.new("TextButton")
-local TextLabel_7 = Instance.new("TextLabel")
-local TextButton_15 = Instance.new("TextButton")
-local AutoFarm = Instance.new("TextButton")
-local ResourceName = Instance.new("TextBox")
-local TextLabel_8 = Instance.new("TextLabel")
-local TextLabel_9 = Instance.new("TextLabel")
-local Autohit = Instance.new("TextButton")
 local Enchance = Instance.new("TextButton")
-local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local Hitbox = Instance.new("TextButton")
+local Autohit = Instance.new("TextButton")
+local AntiAura = Instance.new("TextButton")
+local TextLabel_8 = Instance.new("TextLabel")
+local Esp = Instance.new("TextButton")
+local ItemName = Instance.new("TextBox")
+local TextLabel_9 = Instance.new("TextLabel")
 local rice = Instance.new("Frame")
+local TextButton_14 = Instance.new("TextButton")
+local TextButton_15 = Instance.new("TextButton")
 local TextButton_16 = Instance.new("TextButton")
 local TextButton_17 = Instance.new("TextButton")
+local TextLabel_10 = Instance.new("TextLabel")
 local TextButton_18 = Instance.new("TextButton")
-local TextButton_19 = Instance.new("TextButton")
 local TextLabel_11 = Instance.new("TextLabel")
+local TextButton_19 = Instance.new("TextButton")
 local TextButton_20 = Instance.new("TextButton")
-local TextLabel_12 = Instance.new("TextLabel")
 local TextButton_21 = Instance.new("TextButton")
-local TextButton_22 = Instance.new("TextButton")
-local TextButton_23 = Instance.new("TextButton")
 local AutoCraft = Instance.new("TextButton")
 local ItemName_2 = Instance.new("TextBox")
 local rice5 = Instance.new("Frame")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextButton_22 = Instance.new("TextButton")
 local TextLabel_13 = Instance.new("TextLabel")
-local TextButton_24 = Instance.new("TextButton")
-local TextLabel_14 = Instance.new("TextLabel")
 local DefaultSpeed = Instance.new("TextBox")
 local speedhaxx = Instance.new("TextBox")
-local TextButtonCopy = Instance.new("TextButton")
 local rice6 = Instance.new("Frame")
+local TextLabel_14 = Instance.new("TextLabel")
+local TextButton_23 = Instance.new("TextButton")
 local TextLabel_15 = Instance.new("TextLabel")
-local TextButton_25 = Instance.new("TextButton")
-local TextLabel_16 = Instance.new("TextLabel")
 local DefaultJump = Instance.new("TextBox")
 local jumphaxx = Instance.new("TextBox")
 local rice1 = Instance.new("Frame")
-local TextButton_26 = Instance.new("TextButton")
+local TextButton_24 = Instance.new("TextButton")
 local Info = Instance.new("Frame")
+local TextLabel_16 = Instance.new("TextLabel")
 local TextLabel_17 = Instance.new("TextLabel")
 local TextLabel_18 = Instance.new("TextLabel")
 local TextLabel_19 = Instance.new("TextLabel")
-local TextLabel_20 = Instance.new("TextLabel")
 local Frame = Instance.new("Frame")
 local Frame_2 = Instance.new("Frame")
 local Planboxa = Instance.new("TextBox")
 local Infoo = Instance.new("TextButton")
-local TextButtonCopy_2 = Instance.new("TextButton")
+local TextButtonCopy = Instance.new("TextButton")
 local DefaultPots = Instance.new("TextButton")
 local DefaultPots_2 = Instance.new("TextLabel")
-local TextButton_27 = Instance.new("TextButton")
-local TextButton_28 = Instance.new("TextButton")
+local TextButton_25 = Instance.new("TextButton")
+local TextButton_26 = Instance.new("TextButton")
 local rice7 = Instance.new("ScrollingFrame")
 local UIListLayout = Instance.new("UIListLayout")
 local _7 = Instance.new("TextButton")
@@ -97,120 +94,119 @@ local _1 = Instance.new("TextButton")
 local _0 = Instance.new("TextButton")
 local SC = Instance.new("TextLabel")
 local rice9 = Instance.new("Frame")
-local TextLabel_21 = Instance.new("TextLabel")
+local TextLabel_20 = Instance.new("TextLabel")
 local aof = Instance.new("TextButton")
 local healitem = Instance.new("TextBox")
+local rice10 = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local AutoFarm = Instance.new("TextButton")
+local EntityName = Instance.new("TextBox")
+local Delay = Instance.new("TextBox")
+local a = Instance.new("TextButton")
+local Select = Instance.new("Frame")
+local b = Instance.new("TextButton")
+local c = Instance.new("TextButton")
+local d = Instance.new("TextButton")
+local OC = Instance.new("TextButton")
+local TextLabel_21 = Instance.new("TextLabel")
+local TextButton_27 = Instance.new("TextButton")
+local Shadow = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local rice11 = Instance.new("Frame")
+local TextLabel_22 = Instance.new("TextLabel")
+local aof1 = Instance.new("TextButton")
+local d3 = Instance.new("TextBox")
+local d2 = Instance.new("TextBox")
+local d1 = Instance.new("TextBox")
 
 --Properties:
 
 ChubHub.Name = "ChubHub"
 ChubHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-
-OpenClose.Name = "Open/Close"
-OpenClose.Parent = ChubHub
-OpenClose.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-OpenClose.BorderColor3 = Color3.fromRGB(0, 0, 0)
-OpenClose.Position = UDim2.new(0.505232751, 0, 0.0362625942, 0)
-OpenClose.Size = UDim2.new(0, 69, 0, 35)
-OpenClose.Font = Enum.Font.Sarpanch
-OpenClose.Text = "Open/Close"
-OpenClose.TextColor3 = Color3.fromRGB(22, 225, 0)
-OpenClose.TextSize = 14.000
-OpenClose.TextWrapped = true
-
-TextButton.Parent = OpenClose
-TextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
-TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.Position = UDim2.new(0, 0, -0.314285725, 0)
-TextButton.Size = UDim2.new(0, 69, 0, 11)
-TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "X"
-TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.TextScaled = true
-TextButton.TextSize = 14.000
-TextButton.TextWrapped = true
+ChubHub.ResetOnSpawn = false
 
 rice4.Name = "rice4"
 rice4.Parent = ChubHub
 rice4.Active = true
 rice4.BackgroundColor3 = Color3.fromRGB(192, 247, 255)
 rice4.BorderColor3 = Color3.fromRGB(192, 247, 255)
-rice4.Position = UDim2.new(0.748322725, 0, 0.0873439908, 0)
+rice4.Position = UDim2.new(0.669156075, 0, 0.0946167186, 0)
 rice4.Size = UDim2.new(0, 285, 0, 222)
+
+TextButton.Parent = rice4
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0.0390537083, 0, 0.136811271, 0)
+TextButton.Size = UDim2.new(0, 65, 0, 23)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Sky Island 1"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
 
 TextButton_2.Parent = rice4
 TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_2.Position = UDim2.new(0.0390537083, 0, 0.136811271, 0)
-TextButton_2.Size = UDim2.new(0, 65, 0, 23)
+TextButton_2.Position = UDim2.new(0.328214079, 0, 0.132376418, 0)
+TextButton_2.Size = UDim2.new(0, 68, 0, 23)
 TextButton_2.Font = Enum.Font.SourceSans
-TextButton_2.Text = "Sky Island 1"
+TextButton_2.Text = "Desert Biome"
 TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_2.TextSize = 14.000
 
 TextButton_3.Parent = rice4
 TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_3.Position = UDim2.new(0.321196526, 0, 0.132376418, 0)
-TextButton_3.Size = UDim2.new(0, 68, 0, 23)
+TextButton_3.Position = UDim2.new(0.0390537083, 0, 0.289964437, 0)
+TextButton_3.Size = UDim2.new(0, 65, 0, 23)
 TextButton_3.Font = Enum.Font.SourceSans
-TextButton_3.Text = "Desert Biome"
+TextButton_3.Text = "Sky Island 2"
 TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_3.TextSize = 14.000
 
 TextButton_4.Parent = rice4
 TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_4.Position = UDim2.new(0.0390537083, 0, 0.289964437, 0)
+TextButton_4.Position = UDim2.new(0.0390537083, 0, 0.447622091, 0)
 TextButton_4.Size = UDim2.new(0, 65, 0, 23)
 TextButton_4.Font = Enum.Font.SourceSans
-TextButton_4.Text = "Sky Island 2"
+TextButton_4.Text = "Sky Island 3"
 TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_4.TextSize = 14.000
 
 TextButton_5.Parent = rice4
 TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_5.Position = UDim2.new(0.0390537083, 0, 0.447622091, 0)
-TextButton_5.Size = UDim2.new(0, 65, 0, 23)
-TextButton_5.Font = Enum.Font.SourceSans
-TextButton_5.Text = "Sky Island 3"
+TextButton_5.Position = UDim2.new(0.328214139, 0, 0.443117619, 0)
+TextButton_5.Size = UDim2.new(0, 68, 0, 23)
+TextButton_5.Font = Enum.Font.TitilliumWeb
+TextButton_5.Text = "Hidden Spot"
 TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextScaled = true
 TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
 
 TextButton_6.Parent = rice4
 TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_6.Position = UDim2.new(0.321196586, 0, 0.44762212, 0)
-TextButton_6.Size = UDim2.new(0, 68, 0, 23)
-TextButton_6.Font = Enum.Font.TitilliumWeb
-TextButton_6.Text = "Hidden Spot"
+TextButton_6.Position = UDim2.new(0.617103279, 0, 0.29928112, 0)
+TextButton_6.Size = UDim2.new(0, 106, 0, 17)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "Bloodfruit Spawn 2"
 TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_6.TextScaled = true
 TextButton_6.TextSize = 14.000
-TextButton_6.TextWrapped = true
 
 TextButton_7.Parent = rice4
 TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_7.Position = UDim2.new(0.617103279, 0, 0.29928112, 0)
-TextButton_7.Size = UDim2.new(0, 106, 0, 17)
+TextButton_7.Position = UDim2.new(0.616706073, 0, 0.447622091, 0)
+TextButton_7.Size = UDim2.new(0, 98, 0, 20)
 TextButton_7.Font = Enum.Font.SourceSans
-TextButton_7.Text = "Bloodfruit Spawn 2"
+TextButton_7.Text = "Bloodfruit Spawn 3"
 TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_7.TextSize = 14.000
 
 TextButton_8.Parent = rice4
 TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_8.Position = UDim2.new(0.616706073, 0, 0.447622091, 0)
+TextButton_8.Position = UDim2.new(0.618690312, 0, 0.136799201, 0)
 TextButton_8.Size = UDim2.new(0, 98, 0, 20)
 TextButton_8.Font = Enum.Font.SourceSans
-TextButton_8.Text = "Bloodfruit Spawn 3"
+TextButton_8.Text = "Bloodfruit Spawn 1"
 TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_8.TextSize = 14.000
-
-TextButton_9.Parent = rice4
-TextButton_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_9.Position = UDim2.new(0.618690312, 0, 0.136799201, 0)
-TextButton_9.Size = UDim2.new(0, 98, 0, 20)
-TextButton_9.Font = Enum.Font.SourceSans
-TextButton_9.Text = "Bloodfruit Spawn 1"
-TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_9.TextSize = 14.000
 
 TextLabel.Parent = rice4
 TextLabel.BackgroundColor3 = Color3.fromRGB(12, 223, 255)
@@ -246,16 +242,16 @@ STP.TextScaled = true
 STP.TextSize = 14.000
 STP.TextWrapped = true
 
-TextButton_10.Parent = CPlayerTp
-TextButton_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_10.BorderColor3 = Color3.fromRGB(241, 241, 241)
-TextButton_10.Position = UDim2.new(-0.156257376, 0, 3.81002688, 0)
-TextButton_10.Size = UDim2.new(0, 60, 0, 25)
-TextButton_10.Font = Enum.Font.SourceSans
-TextButton_10.Text = "TP Spam"
-TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_10.TextSize = 14.000
-TextButton_10.TextWrapped = true
+TextButton_9.Parent = CPlayerTp
+TextButton_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.BorderColor3 = Color3.fromRGB(241, 241, 241)
+TextButton_9.Position = UDim2.new(-0.156257376, 0, 3.81002688, 0)
+TextButton_9.Size = UDim2.new(0, 60, 0, 25)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "TP Spam"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextSize = 14.000
+TextButton_9.TextWrapped = true
 
 MagTPPlayer.Name = "MagTPPlayer"
 MagTPPlayer.Parent = rice4
@@ -270,63 +266,38 @@ MagTPPlayer.TextScaled = true
 MagTPPlayer.TextSize = 14.000
 MagTPPlayer.TextWrapped = true
 
-TextButton_11.Parent = rice4
-TextButton_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_11.Position = UDim2.new(0.31768775, 0, 0.294538558, 0)
-TextButton_11.Size = UDim2.new(0, 68, 0, 23)
-TextButton_11.Font = Enum.Font.SourceSans
-TextButton_11.Text = "Ice Biome"
-TextButton_11.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_11.TextSize = 14.000
+TextButton_10.Parent = rice4
+TextButton_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.Position = UDim2.new(0.328214079, 0, 0.285529554, 0)
+TextButton_10.Size = UDim2.new(0, 68, 0, 23)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "Ice Biome"
+TextButton_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.TextSize = 14.000
 
 rice2.Name = "rice2"
 rice2.Parent = ChubHub
 rice2.Active = true
 rice2.BackgroundColor3 = Color3.fromRGB(192, 247, 255)
 rice2.BorderColor3 = Color3.fromRGB(192, 247, 255)
-rice2.Position = UDim2.new(0.563627541, 0, 0.107878804, 0)
-rice2.Size = UDim2.new(0, 263, 0, 222)
+rice2.Position = UDim2.new(0.526648402, 0, 0.0969697013, 0)
+rice2.Size = UDim2.new(0, 263, 0, 240)
 
-TextButton_12.Parent = rice2
-TextButton_12.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
-TextButton_12.BorderColor3 = Color3.fromRGB(0, 255, 140)
-TextButton_12.Position = UDim2.new(0.0701342672, 0, 0.882385492, 0)
-TextButton_12.Size = UDim2.new(0, 60, 0, 16)
-TextButton_12.Font = Enum.Font.SourceSans
-TextButton_12.Text = "On/Off"
-TextButton_12.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_12.TextSize = 14.000
-
-Op.Name = "Op"
-Op.Parent = TextButton_12
-Op.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Op.Position = UDim2.new(-0.161913842, 0, -1.0710969, 0)
-Op.Size = UDim2.new(0, 73, 0, 10)
-Op.ClearTextOnFocus = false
-Op.Font = Enum.Font.SourceSans
-Op.PlaceholderText = "Item Name"
-Op.Text = ""
-Op.TextColor3 = Color3.fromRGB(0, 0, 0)
-Op.TextSize = 14.000
-Op.TextWrapped = true
-
-ItemName.Name = "ItemName"
-ItemName.Parent = TextButton_12
-ItemName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ItemName.Position = UDim2.new(0.204752654, 0, -5.66408539, 0)
-ItemName.Size = UDim2.new(0, 73, 0, 10)
-ItemName.ClearTextOnFocus = false
-ItemName.Font = Enum.Font.SourceSans
-ItemName.PlaceholderText = "Item Name"
-ItemName.Text = ""
-ItemName.TextColor3 = Color3.fromRGB(0, 0, 0)
-ItemName.TextSize = 14.000
-ItemName.TextWrapped = true
+t2.Name = "t2"
+t2.Parent = rice2
+t2.Active = true
+t2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+t2.Position = UDim2.new(-1.80599999, -111, -0.925000012, -111)
+t2.Visible = false
+t2.Font = Enum.Font.SourceSans
+t2.Text = ""
+t2.TextColor3 = Color3.fromRGB(0, 0, 0)
+t2.TextSize = 14.000
 
 ObjectName.Name = "ObjectName"
-ObjectName.Parent = TextButton_12
+ObjectName.Parent = rice2
 ObjectName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ObjectName.Position = UDim2.new(2.33808613, 0, -5.66408539, 0)
+ObjectName.Position = UDim2.new(0.60076046, 0, 0.584905624, 0)
 ObjectName.Size = UDim2.new(0, 73, 0, 10)
 ObjectName.ClearTextOnFocus = false
 ObjectName.Font = Enum.Font.SourceSans
@@ -337,31 +308,21 @@ ObjectName.TextSize = 14.000
 ObjectName.TextWrapped = true
 
 TextLabel_2.Parent = rice2
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_2.Position = UDim2.new(0.0322808772, 0, 0.703779459, 0)
-TextLabel_2.Size = UDim2.new(0, 78, 0, 16)
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(12, 223, 255)
+TextLabel_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.Position = UDim2.new(0, 0, -0.00808611605, 0)
+TextLabel_2.Size = UDim2.new(0, 263, 0, 16)
 TextLabel_2.Font = Enum.Font.Sarpanch
-TextLabel_2.Text = "AutoDrop"
-TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.Text = "Others"
+TextLabel_2.TextColor3 = Color3.fromRGB(53, 0, 159)
 TextLabel_2.TextSize = 14.000
-
-TextLabel_3.Parent = rice2
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(12, 223, 255)
-TextLabel_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.Position = UDim2.new(0, 0, -0.00808611605, 0)
-TextLabel_3.Size = UDim2.new(0, 263, 0, 16)
-TextLabel_3.Font = Enum.Font.Sarpanch
-TextLabel_3.Text = "Others"
-TextLabel_3.TextColor3 = Color3.fromRGB(53, 0, 159)
-TextLabel_3.TextSize = 14.000
 
 AutoPick.Name = "AutoPick"
 AutoPick.Parent = rice2
 AutoPick.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
 AutoPick.BorderColor3 = Color3.fromRGB(0, 255, 140)
-AutoPick.Position = UDim2.new(0.673847139, 0, 0.267537564, 0)
-AutoPick.Size = UDim2.new(0, 46, 0, 11)
+AutoPick.Position = UDim2.new(0.6624403, 0, 0.370996684, 0)
+AutoPick.Size = UDim2.new(0, 60, 0, 15)
 AutoPick.Font = Enum.Font.SourceSans
 AutoPick.Text = "On/Off"
 AutoPick.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -369,33 +330,76 @@ AutoPick.TextScaled = true
 AutoPick.TextSize = 14.000
 AutoPick.TextWrapped = true
 
+TextLabel_3.Parent = rice2
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.Position = UDim2.new(0.611275196, 0, 0.28109026, 0)
+TextLabel_3.Size = UDim2.new(0, 85, 0, 12)
+TextLabel_3.Font = Enum.Font.Sarpanch
+TextLabel_3.Text = "Auto Pickup All"
+TextLabel_3.TextColor3 = Color3.fromRGB(53, 0, 159)
+TextLabel_3.TextSize = 14.000
+
 TextLabel_4.Parent = rice2
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_4.Position = UDim2.new(0.615077496, 0, 0.194297791, 0)
-TextLabel_4.Size = UDim2.new(0, 85, 0, 12)
+TextLabel_4.Position = UDim2.new(0.0626991242, 0, 0.28109026, 0)
+TextLabel_4.Size = UDim2.new(0, 95, 0, 12)
 TextLabel_4.Font = Enum.Font.Sarpanch
-TextLabel_4.Text = "Auto Pickup All"
+TextLabel_4.Text = "Auto Pickup Mag"
 TextLabel_4.TextColor3 = Color3.fromRGB(53, 0, 159)
 TextLabel_4.TextSize = 14.000
+
+TextButton_11.Parent = rice2
+TextButton_11.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
+TextButton_11.BorderColor3 = Color3.fromRGB(0, 255, 140)
+TextButton_11.Position = UDim2.new(0.127171963, 0, 0.370996684, 0)
+TextButton_11.Size = UDim2.new(0, 60, 0, 15)
+TextButton_11.Font = Enum.Font.SourceSans
+TextButton_11.Text = "On/Off"
+TextButton_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.TextScaled = true
+TextButton_11.TextSize = 14.000
+TextButton_11.TextWrapped = true
+
+t1.Name = "t1"
+t1.Parent = rice2
+t1.Active = true
+t1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+t1.Position = UDim2.new(-1.80599999, -111, -0.925000012, -111)
+t1.Visible = false
+t1.Font = Enum.Font.SourceSans
+t1.Text = ""
+t1.TextColor3 = Color3.fromRGB(0, 0, 0)
+t1.TextSize = 14.000
+
+TextButton_12.Parent = rice2
+TextButton_12.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
+TextButton_12.BorderColor3 = Color3.fromRGB(0, 255, 140)
+TextButton_12.Position = UDim2.new(0.1461799, 0, 0.652219057, 0)
+TextButton_12.Size = UDim2.new(0, 60, 0, 15)
+TextButton_12.Font = Enum.Font.SourceSans
+TextButton_12.Text = "On/Off"
+TextButton_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.TextSize = 14.000
 
 TextLabel_5.Parent = rice2
 TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_5.Position = UDim2.new(0.0665014088, 0, 0.194297791, 0)
-TextLabel_5.Size = UDim2.new(0, 95, 0, 12)
+TextLabel_5.Position = UDim2.new(0.549391091, 0, 0.482664824, 0)
+TextLabel_5.Size = UDim2.new(0, 101, 0, 16)
 TextLabel_5.Font = Enum.Font.Sarpanch
-TextLabel_5.Text = "Auto Pickup Mag"
+TextLabel_5.Text = "Place Object"
 TextLabel_5.TextColor3 = Color3.fromRGB(53, 0, 159)
 TextLabel_5.TextSize = 14.000
 
 TextButton_13.Parent = rice2
 TextButton_13.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
 TextButton_13.BorderColor3 = Color3.fromRGB(0, 255, 140)
-TextButton_13.Position = UDim2.new(0.168997064, 0, 0.267537564, 0)
-TextButton_13.Size = UDim2.new(0, 46, 0, 11)
+TextButton_13.Position = UDim2.new(0.630153894, 0, 0.652219057, 0)
+TextButton_13.Size = UDim2.new(0, 60, 0, 15)
 TextButton_13.Font = Enum.Font.SourceSans
-TextButton_13.Text = "On/Off"
+TextButton_13.Text = "Place"
 TextButton_13.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_13.TextScaled = true
 TextButton_13.TextSize = 14.000
@@ -404,106 +408,18 @@ TextButton_13.TextWrapped = true
 TextLabel_6.Parent = rice2
 TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_6.Position = UDim2.new(0.0665013939, 0, 0.369457275, 0)
-TextLabel_6.Size = UDim2.new(0, 101, 0, 16)
+TextLabel_6.Position = UDim2.new(0.636843562, 0, 0.783143699, 0)
+TextLabel_6.Size = UDim2.new(0, 63, 0, 16)
 TextLabel_6.Font = Enum.Font.Sarpanch
-TextLabel_6.Text = " Tp + Pick Up Item"
-TextLabel_6.TextColor3 = Color3.fromRGB(53, 0, 159)
+TextLabel_6.Text = "Autohit"
+TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_6.TextSize = 14.000
-
-TextButton_14.Parent = rice2
-TextButton_14.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
-TextButton_14.BorderColor3 = Color3.fromRGB(0, 255, 140)
-TextButton_14.Position = UDim2.new(0.13857533, 0, 0.554105878, 0)
-TextButton_14.Size = UDim2.new(0, 60, 0, 15)
-TextButton_14.Font = Enum.Font.SourceSans
-TextButton_14.Text = "On/Off"
-TextButton_14.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_14.TextSize = 14.000
-
-TextLabel_7.Parent = rice2
-TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_7.Position = UDim2.new(0.55319339, 0, 0.369457275, 0)
-TextLabel_7.Size = UDim2.new(0, 101, 0, 16)
-TextLabel_7.Font = Enum.Font.Sarpanch
-TextLabel_7.Text = "Place Object"
-TextLabel_7.TextColor3 = Color3.fromRGB(53, 0, 159)
-TextLabel_7.TextSize = 14.000
-
-TextButton_15.Parent = rice2
-TextButton_15.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
-TextButton_15.BorderColor3 = Color3.fromRGB(0, 255, 140)
-TextButton_15.Position = UDim2.new(0.630153894, 0, 0.554105878, 0)
-TextButton_15.Size = UDim2.new(0, 60, 0, 15)
-TextButton_15.Font = Enum.Font.SourceSans
-TextButton_15.Text = "Place"
-TextButton_15.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_15.TextScaled = true
-TextButton_15.TextSize = 14.000
-TextButton_15.TextWrapped = true
-
-AutoFarm.Name = "AutoFarm"
-AutoFarm.Parent = rice2
-AutoFarm.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
-AutoFarm.BorderColor3 = Color3.fromRGB(0, 255, 140)
-AutoFarm.Position = UDim2.new(0.716522098, 0, 0.882385492, 0)
-AutoFarm.Size = UDim2.new(0, 60, 0, 16)
-AutoFarm.Font = Enum.Font.SourceSans
-AutoFarm.Text = "On/Off"
-AutoFarm.TextColor3 = Color3.fromRGB(0, 0, 0)
-AutoFarm.TextSize = 14.000
-
-ResourceName.Name = "Resource Name"
-ResourceName.Parent = AutoFarm
-ResourceName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ResourceName.Position = UDim2.new(-0.161913842, 0, -1.0710969, 0)
-ResourceName.Size = UDim2.new(0, 73, 0, 10)
-ResourceName.ClearTextOnFocus = false
-ResourceName.Font = Enum.Font.SourceSans
-ResourceName.PlaceholderText = "Resource Name"
-ResourceName.Text = ""
-ResourceName.TextColor3 = Color3.fromRGB(0, 0, 0)
-ResourceName.TextScaled = true
-ResourceName.TextSize = 14.000
-ResourceName.TextWrapped = true
-
-TextLabel_8.Parent = rice2
-TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_8.Position = UDim2.new(0.678668737, 0, 0.703779459, 0)
-TextLabel_8.Size = UDim2.new(0, 78, 0, 16)
-TextLabel_8.Font = Enum.Font.Sarpanch
-TextLabel_8.Text = "AutoFarm"
-TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_8.TextSize = 14.000
-
-TextLabel_9.Parent = rice2
-TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_9.Position = UDim2.new(0.427718103, 0, 0.703779459, 0)
-TextLabel_9.Size = UDim2.new(0, 43, 0, 16)
-TextLabel_9.Font = Enum.Font.Sarpanch
-TextLabel_9.Text = "Autohit"
-TextLabel_9.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_9.TextSize = 14.000
-
-Autohit.Name = "Autohit"
-Autohit.Parent = rice2
-Autohit.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
-Autohit.BorderColor3 = Color3.fromRGB(0, 255, 140)
-Autohit.Position = UDim2.new(0.400932729, 0, 0.810313404, 0)
-Autohit.Size = UDim2.new(0, 60, 0, 16)
-Autohit.Font = Enum.Font.SourceSans
-Autohit.Text = "On/Off"
-Autohit.TextColor3 = Color3.fromRGB(0, 0, 0)
-Autohit.TextSize = 14.000
 
 Enchance.Name = "Enchance"
 Enchance.Parent = rice2
 Enchance.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Enchance.BorderColor3 = Color3.fromRGB(0, 25, 255)
-Enchance.Position = UDim2.new(0.27654171, 0, 0.0924733505, 0)
+Enchance.Position = UDim2.new(0.0636139512, 0, 0.0879688486, 0)
 Enchance.Size = UDim2.new(0, 116, 0, 12)
 Enchance.Font = Enum.Font.Sarpanch
 Enchance.Text = "Enchance Game"
@@ -511,116 +427,195 @@ Enchance.TextColor3 = Color3.fromRGB(0, 184, 225)
 Enchance.TextSize = 14.000
 Enchance.TextWrapped = true
 
-TextLabel_10.Parent = rice2
-TextLabel_10.BackgroundColor3 = Color3.fromRGB(12, 223, 255)
-TextLabel_10.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_10.Position = UDim2.new(0, 0, -0.00808611605, 0)
-TextLabel_10.Size = UDim2.new(0, 263, 0, 16)
-TextLabel_10.Font = Enum.Font.Sarpanch
-TextLabel_10.Text = "Others"
-TextLabel_10.TextColor3 = Color3.fromRGB(53, 0, 159)
-TextLabel_10.TextSize = 14.000
+TextLabel_7.Parent = rice2
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(12, 223, 255)
+TextLabel_7.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.Position = UDim2.new(0, 0, -0.00808611605, 0)
+TextLabel_7.Size = UDim2.new(0, 263, 0, 16)
+TextLabel_7.Font = Enum.Font.Sarpanch
+TextLabel_7.Text = "Others"
+TextLabel_7.TextColor3 = Color3.fromRGB(53, 0, 159)
+TextLabel_7.TextSize = 14.000
+
+Hitbox.Name = "Hitbox"
+Hitbox.Parent = rice2
+Hitbox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Hitbox.BorderColor3 = Color3.fromRGB(0, 25, 255)
+Hitbox.Position = UDim2.new(0.531294584, 0, 0.0879688486, 0)
+Hitbox.Size = UDim2.new(0, 116, 0, 12)
+Hitbox.Font = Enum.Font.Sarpanch
+Hitbox.Text = "Increased Hitbox"
+Hitbox.TextColor3 = Color3.fromRGB(0, 184, 225)
+Hitbox.TextSize = 14.000
+Hitbox.TextWrapped = true
+
+Autohit.Name = "Autohit"
+Autohit.Parent = rice2
+Autohit.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
+Autohit.BorderColor3 = Color3.fromRGB(0, 255, 140)
+Autohit.Position = UDim2.new(0.648081005, 0, 0.885173261, 0)
+Autohit.Size = UDim2.new(0, 60, 0, 16)
+Autohit.Font = Enum.Font.SourceSans
+Autohit.Text = "On/Off"
+Autohit.TextColor3 = Color3.fromRGB(0, 0, 0)
+Autohit.TextSize = 14.000
+
+AntiAura.Name = "Anti-Aura"
+AntiAura.Parent = rice2
+AntiAura.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
+AntiAura.BorderColor3 = Color3.fromRGB(0, 255, 140)
+AntiAura.Position = UDim2.new(0.142164111, 0, 0.892380893, 0)
+AntiAura.Size = UDim2.new(0, 60, 0, 16)
+AntiAura.Font = Enum.Font.SourceSans
+AntiAura.Text = "Execute"
+AntiAura.TextColor3 = Color3.fromRGB(0, 0, 0)
+AntiAura.TextSize = 14.000
+
+TextLabel_8.Parent = rice2
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.Position = UDim2.new(0.134942442, 0, 0.778639257, 0)
+TextLabel_8.Size = UDim2.new(0, 63, 0, 16)
+TextLabel_8.Font = Enum.Font.Sarpanch
+TextLabel_8.Text = "Anti-Aura"
+TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.TextSize = 14.000
+
+Esp.Name = "Esp"
+Esp.Parent = rice2
+Esp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Esp.BorderColor3 = Color3.fromRGB(0, 25, 255)
+Esp.Position = UDim2.new(0.303157687, 0, 0.167214125, 0)
+Esp.Size = UDim2.new(0, 116, 0, 12)
+Esp.Font = Enum.Font.Sarpanch
+Esp.Text = "Esp (On/Off)"
+Esp.TextColor3 = Color3.fromRGB(0, 184, 225)
+Esp.TextSize = 14.000
+Esp.TextWrapped = true
+
+ItemName.Name = "ItemName"
+ItemName.Parent = rice2
+ItemName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ItemName.Position = UDim2.new(0.125714839, 0, 0.584830165, 0)
+ItemName.Size = UDim2.new(0, 73, 0, 10)
+ItemName.ClearTextOnFocus = false
+ItemName.Font = Enum.Font.SourceSans
+ItemName.PlaceholderText = "Item Name"
+ItemName.Text = ""
+ItemName.TextColor3 = Color3.fromRGB(0, 0, 0)
+ItemName.TextSize = 14.000
+ItemName.TextWrapped = true
+
+TextLabel_9.Parent = rice2
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.Position = UDim2.new(0.0703036711, 0, 0.482664824, 0)
+TextLabel_9.Size = UDim2.new(0, 101, 0, 16)
+TextLabel_9.Font = Enum.Font.Sarpanch
+TextLabel_9.Text = " Tp + Pick Up Item"
+TextLabel_9.TextColor3 = Color3.fromRGB(53, 0, 159)
+TextLabel_9.TextSize = 14.000
 
 rice.Name = "rice"
 rice.Parent = ChubHub
 rice.Active = true
 rice.BackgroundColor3 = Color3.fromRGB(192, 247, 255)
 rice.BorderColor3 = Color3.fromRGB(192, 247, 255)
-rice.Position = UDim2.new(0.369688064, 0, 0.108188882, 0)
+rice.Position = UDim2.new(0.369688064, 0, 0.0972797945, 0)
 rice.Size = UDim2.new(0, 284, 0, 185)
+
+TextButton_14.Parent = rice
+TextButton_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_14.Position = UDim2.new(0.686702788, 0, 0.13516593, 0)
+TextButton_14.Size = UDim2.new(0, 77, 0, 23)
+TextButton_14.Font = Enum.Font.SourceSans
+TextButton_14.Text = "Mag - Axe"
+TextButton_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_14.TextSize = 14.000
+
+TextButton_15.Parent = rice
+TextButton_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_15.Position = UDim2.new(0.689368784, 0, 0.315871656, 0)
+TextButton_15.Size = UDim2.new(0, 77, 0, 23)
+TextButton_15.Font = Enum.Font.SourceSans
+TextButton_15.Text = "Mag - Pick"
+TextButton_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_15.TextSize = 14.000
 
 TextButton_16.Parent = rice
 TextButton_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_16.Position = UDim2.new(0.686702788, 0, 0.13516593, 0)
+TextButton_16.Position = UDim2.new(0.0349645317, 0, 0.137493253, 0)
 TextButton_16.Size = UDim2.new(0, 77, 0, 23)
 TextButton_16.Font = Enum.Font.SourceSans
-TextButton_16.Text = "Mag - Axe"
+TextButton_16.Text = "Mag - Bag"
 TextButton_16.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_16.TextSize = 14.000
 
 TextButton_17.Parent = rice
 TextButton_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_17.Position = UDim2.new(0.689368784, 0, 0.315871656, 0)
+TextButton_17.Position = UDim2.new(0.0352943055, 0, 0.315871626, 0)
 TextButton_17.Size = UDim2.new(0, 77, 0, 23)
 TextButton_17.Font = Enum.Font.SourceSans
-TextButton_17.Text = "Mag - Pick"
+TextButton_17.Text = "Mag - M"
 TextButton_17.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_17.TextSize = 14.000
 
+TextLabel_10.Parent = rice
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(12, 223, 255)
+TextLabel_10.BorderColor3 = Color3.fromRGB(12, 223, 255)
+TextLabel_10.Position = UDim2.new(0, 0, 0.932591856, 0)
+TextLabel_10.Size = UDim2.new(0, 284, 0, 16)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "| M - Mask | C - Chestplate | G - Greaves | "
+TextLabel_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.TextSize = 14.000
+
 TextButton_18.Parent = rice
 TextButton_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_18.Position = UDim2.new(0.0349645317, 0, 0.137493253, 0)
+TextButton_18.Position = UDim2.new(0.0317731798, 0, 0.491922677, 0)
 TextButton_18.Size = UDim2.new(0, 77, 0, 23)
 TextButton_18.Font = Enum.Font.SourceSans
-TextButton_18.Text = "Mag - Bag"
+TextButton_18.Text = "Mag - C"
 TextButton_18.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_18.TextSize = 14.000
 
+TextLabel_11.Parent = rice
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(12, 223, 255)
+TextLabel_11.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.Position = UDim2.new(0, 0, -0.00808616821, 0)
+TextLabel_11.Size = UDim2.new(0, 284, 0, 16)
+TextLabel_11.Font = Enum.Font.Sarpanch
+TextLabel_11.Text = "Autocraft"
+TextLabel_11.TextColor3 = Color3.fromRGB(53, 0, 159)
+TextLabel_11.TextSize = 14.000
+
 TextButton_19.Parent = rice
 TextButton_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_19.Position = UDim2.new(0.0352943055, 0, 0.315871626, 0)
+TextButton_19.Position = UDim2.new(0.0352943055, 0, 0.666971266, 0)
 TextButton_19.Size = UDim2.new(0, 77, 0, 23)
 TextButton_19.Font = Enum.Font.SourceSans
-TextButton_19.Text = "Mag - M"
+TextButton_19.Text = "Mag - G"
 TextButton_19.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_19.TextSize = 14.000
 
-TextLabel_11.Parent = rice
-TextLabel_11.BackgroundColor3 = Color3.fromRGB(12, 223, 255)
-TextLabel_11.BorderColor3 = Color3.fromRGB(12, 223, 255)
-TextLabel_11.Position = UDim2.new(0, 0, 0.932591856, 0)
-TextLabel_11.Size = UDim2.new(0, 284, 0, 16)
-TextLabel_11.Font = Enum.Font.SourceSans
-TextLabel_11.Text = "| M - Mask | C - Chestplate | G - Greaves | "
-TextLabel_11.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_11.TextSize = 14.000
-
 TextButton_20.Parent = rice
 TextButton_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_20.Position = UDim2.new(0.0317731798, 0, 0.491922677, 0)
-TextButton_20.Size = UDim2.new(0, 77, 0, 23)
+TextButton_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_20.Position = UDim2.new(0.689368904, 0, 0.66181761, 0)
+TextButton_20.Size = UDim2.new(0, 82, 0, 23)
 TextButton_20.Font = Enum.Font.SourceSans
-TextButton_20.Text = "Mag - C"
+TextButton_20.Text = "Full Mag Set"
 TextButton_20.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_20.TextSize = 14.000
 
-TextLabel_12.Parent = rice
-TextLabel_12.BackgroundColor3 = Color3.fromRGB(12, 223, 255)
-TextLabel_12.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_12.Position = UDim2.new(0, 0, -0.00808616821, 0)
-TextLabel_12.Size = UDim2.new(0, 284, 0, 16)
-TextLabel_12.Font = Enum.Font.Sarpanch
-TextLabel_12.Text = "Autocraft"
-TextLabel_12.TextColor3 = Color3.fromRGB(53, 0, 159)
-TextLabel_12.TextSize = 14.000
-
 TextButton_21.Parent = rice
 TextButton_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_21.Position = UDim2.new(0.0352943055, 0, 0.666971266, 0)
+TextButton_21.Position = UDim2.new(0.689368725, 0, 0.488844603, 0)
 TextButton_21.Size = UDim2.new(0, 77, 0, 23)
 TextButton_21.Font = Enum.Font.SourceSans
-TextButton_21.Text = "Mag - G"
+TextButton_21.Text = "Mag - Stick"
 TextButton_21.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_21.TextSize = 14.000
-
-TextButton_22.Parent = rice
-TextButton_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_22.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_22.Position = UDim2.new(0.689368904, 0, 0.66181761, 0)
-TextButton_22.Size = UDim2.new(0, 82, 0, 23)
-TextButton_22.Font = Enum.Font.SourceSans
-TextButton_22.Text = "Full Mag Set"
-TextButton_22.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_22.TextSize = 14.000
-
-TextButton_23.Parent = rice
-TextButton_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_23.Position = UDim2.new(0.689368725, 0, 0.488844603, 0)
-TextButton_23.Size = UDim2.new(0, 77, 0, 23)
-TextButton_23.Font = Enum.Font.SourceSans
-TextButton_23.Text = "Mag - Stick"
-TextButton_23.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_23.TextSize = 14.000
 
 AutoCraft.Name = "AutoCraft"
 AutoCraft.Parent = rice
@@ -650,42 +645,42 @@ ItemName_2.TextSize = 14.000
 rice5.Name = "rice5"
 rice5.Parent = ChubHub
 rice5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-rice5.Position = UDim2.new(0.116969697, 0, 0.109090909, 0)
+rice5.Position = UDim2.new(0.172178015, 0, 0.0981818214, 0)
 rice5.Size = UDim2.new(0, 100, 0, 100)
 
+TextLabel_12.Parent = rice5
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(182, 93, 255)
+TextLabel_12.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.Position = UDim2.new(-0.0499999262, 0, -0.0400000028, 0)
+TextLabel_12.Size = UDim2.new(0, 110, 0, 26)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = "Speed Hack"
+TextLabel_12.TextColor3 = Color3.fromRGB(65, 65, 65)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 11.000
+TextLabel_12.TextWrapped = true
+
+TextButton_22.Parent = rice5
+TextButton_22.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
+TextButton_22.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_22.Position = UDim2.new(0.180000067, 0, 0.405308604, 0)
+TextButton_22.Size = UDim2.new(0, 64, 0, 23)
+TextButton_22.ZIndex = 2
+TextButton_22.Modal = true
+TextButton_22.Font = Enum.Font.Arial
+TextButton_22.Text = "Execute"
+TextButton_22.TextColor3 = Color3.fromRGB(72, 72, 72)
+TextButton_22.TextSize = 14.000
+
 TextLabel_13.Parent = rice5
-TextLabel_13.BackgroundColor3 = Color3.fromRGB(182, 93, 255)
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_13.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_13.Position = UDim2.new(-0.0499999262, 0, -0.0400000028, 0)
-TextLabel_13.Size = UDim2.new(0, 110, 0, 26)
+TextLabel_13.Position = UDim2.new(0.219999999, 0, 0.903141916, 0)
+TextLabel_13.Size = UDim2.new(0, 56, 0, 7)
 TextLabel_13.Font = Enum.Font.SourceSans
-TextLabel_13.Text = "Speed Hack"
-TextLabel_13.TextColor3 = Color3.fromRGB(65, 65, 65)
-TextLabel_13.TextScaled = true
+TextLabel_13.Text = "Keybind : f"
+TextLabel_13.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_13.TextSize = 11.000
-TextLabel_13.TextWrapped = true
-
-TextButton_24.Parent = rice5
-TextButton_24.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
-TextButton_24.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_24.Position = UDim2.new(0.180000067, 0, 0.405308604, 0)
-TextButton_24.Size = UDim2.new(0, 64, 0, 23)
-TextButton_24.ZIndex = 2
-TextButton_24.Modal = true
-TextButton_24.Font = Enum.Font.Arial
-TextButton_24.Text = "Execute"
-TextButton_24.TextColor3 = Color3.fromRGB(72, 72, 72)
-TextButton_24.TextSize = 14.000
-
-TextLabel_14.Parent = rice5
-TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_14.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_14.Position = UDim2.new(0.219999999, 0, 0.903141916, 0)
-TextLabel_14.Size = UDim2.new(0, 56, 0, 7)
-TextLabel_14.Font = Enum.Font.SourceSans
-TextLabel_14.Text = "Keybind : f"
-TextLabel_14.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_14.TextSize = 11.000
 
 DefaultSpeed.Name = "DefaultSpeed"
 DefaultSpeed.Parent = rice5
@@ -713,56 +708,44 @@ speedhaxx.Text = ""
 speedhaxx.TextColor3 = Color3.fromRGB(0, 0, 0)
 speedhaxx.TextSize = 14.000
 
-TextButtonCopy.Name = "TextButtonCopy"
-TextButtonCopy.Parent = rice5
-TextButtonCopy.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
-TextButtonCopy.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButtonCopy.Position = UDim2.new(0.180000067, 0, 0.405308604, 0)
-TextButtonCopy.Size = UDim2.new(0, 64, 0, 23)
-TextButtonCopy.Modal = true
-TextButtonCopy.Font = Enum.Font.Arial
-TextButtonCopy.Text = "Execute"
-TextButtonCopy.TextColor3 = Color3.fromRGB(72, 72, 72)
-TextButtonCopy.TextSize = 14.000
-
 rice6.Name = "rice6"
 rice6.Parent = ChubHub
 rice6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-rice6.Position = UDim2.new(0.037575759, 0, 0.107878789, 0)
+rice6.Position = UDim2.new(0.111013263, 0, 0.0969697013, 0)
 rice6.Size = UDim2.new(0, 100, 0, 100)
 
+TextLabel_14.Parent = rice6
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(231, 255, 121)
+TextLabel_14.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.Position = UDim2.new(-0.0500000007, 0, -0.0299999993, 0)
+TextLabel_14.Size = UDim2.new(0, 110, 0, 25)
+TextLabel_14.Font = Enum.Font.SourceSans
+TextLabel_14.Text = "Infinite Jump"
+TextLabel_14.TextColor3 = Color3.fromRGB(65, 65, 65)
+TextLabel_14.TextScaled = true
+TextLabel_14.TextSize = 11.000
+TextLabel_14.TextWrapped = true
+
+TextButton_23.Parent = rice6
+TextButton_23.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
+TextButton_23.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_23.Position = UDim2.new(0.170000061, 0, 0.409999967, 0)
+TextButton_23.Size = UDim2.new(0, 64, 0, 23)
+TextButton_23.Modal = true
+TextButton_23.Font = Enum.Font.Arial
+TextButton_23.Text = "Execute"
+TextButton_23.TextColor3 = Color3.fromRGB(72, 72, 72)
+TextButton_23.TextSize = 14.000
+
 TextLabel_15.Parent = rice6
-TextLabel_15.BackgroundColor3 = Color3.fromRGB(231, 255, 121)
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_15.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_15.Position = UDim2.new(-0.0499999262, 0, -0.0400000028, 0)
-TextLabel_15.Size = UDim2.new(0, 110, 0, 26)
+TextLabel_15.Position = UDim2.new(0.200000003, 0, 0.802051961, 0)
+TextLabel_15.Size = UDim2.new(0, 60, 0, 19)
 TextLabel_15.Font = Enum.Font.SourceSans
-TextLabel_15.Text = "Infinite Jump"
-TextLabel_15.TextColor3 = Color3.fromRGB(65, 65, 65)
-TextLabel_15.TextScaled = true
-TextLabel_15.TextSize = 11.000
-TextLabel_15.TextWrapped = true
-
-TextButton_25.Parent = rice6
-TextButton_25.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
-TextButton_25.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_25.Position = UDim2.new(0.170000061, 0, 0.409999967, 0)
-TextButton_25.Size = UDim2.new(0, 64, 0, 23)
-TextButton_25.Modal = true
-TextButton_25.Font = Enum.Font.Arial
-TextButton_25.Text = "Execute"
-TextButton_25.TextColor3 = Color3.fromRGB(72, 72, 72)
-TextButton_25.TextSize = 14.000
-
-TextLabel_16.Parent = rice6
-TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_16.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_16.Position = UDim2.new(0.200000003, 0, 0.802051961, 0)
-TextLabel_16.Size = UDim2.new(0, 60, 0, 19)
-TextLabel_16.Font = Enum.Font.SourceSans
-TextLabel_16.Text = "Keybind : space"
-TextLabel_16.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_16.TextSize = 10.000
+TextLabel_15.Text = "Keybind : space"
+TextLabel_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_15.TextSize = 10.000
 
 DefaultJump.Name = "DefaultJump"
 DefaultJump.Parent = rice6
@@ -795,19 +778,19 @@ rice1.Parent = ChubHub
 rice1.Active = true
 rice1.BackgroundColor3 = Color3.fromRGB(192, 247, 255)
 rice1.BorderColor3 = Color3.fromRGB(192, 247, 255)
-rice1.Position = UDim2.new(0.204242438, 0, 0.105454564, 0)
+rice1.Position = UDim2.new(0.230804935, 0, 0.0945454761, 0)
 rice1.Size = UDim2.new(0, 252, 0, 107)
 
-TextButton_26.Parent = rice1
-TextButton_26.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
-TextButton_26.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_26.Position = UDim2.new(0.344818085, 0, 0.258432865, 0)
-TextButton_26.Size = UDim2.new(0, 77, 0, 23)
-TextButton_26.ZIndex = 3
-TextButton_26.Font = Enum.Font.Arial
-TextButton_26.Text = "Execute"
-TextButton_26.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_26.TextSize = 14.000
+TextButton_24.Parent = rice1
+TextButton_24.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
+TextButton_24.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_24.Position = UDim2.new(0.344999999, 0, 0.342186928, 0)
+TextButton_24.Size = UDim2.new(0, 77, 0, 23)
+TextButton_24.ZIndex = 3
+TextButton_24.Font = Enum.Font.Arial
+TextButton_24.Text = "Execute"
+TextButton_24.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_24.TextSize = 14.000
 
 Info.Name = "Info"
 Info.Parent = rice1
@@ -816,46 +799,46 @@ Info.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Info.Position = UDim2.new(0.128066406, 0, 1.1735599, 0)
 Info.Size = UDim2.new(0, 186, 0, 142)
 
+TextLabel_16.Parent = Info
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.Position = UDim2.new(0.281578809, 0, 0.541546464, 0)
+TextLabel_16.Size = UDim2.new(0, 77, 0, 20)
+TextLabel_16.Font = Enum.Font.SourceSans
+TextLabel_16.Text = "Autoplant: ["
+TextLabel_16.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_16.TextSize = 14.000
+
 TextLabel_17.Parent = Info
 TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_17.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_17.Position = UDim2.new(0.281578809, 0, 0.541546464, 0)
-TextLabel_17.Size = UDim2.new(0, 77, 0, 20)
+TextLabel_17.Position = UDim2.new(0.281610906, 0, 0.817775846, 0)
+TextLabel_17.Size = UDim2.new(0, 77, 0, 15)
 TextLabel_17.Font = Enum.Font.SourceSans
-TextLabel_17.Text = "Autoplant: ["
+TextLabel_17.Text = "Auto Pickup Dropped Bloodfruit: ]"
 TextLabel_17.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_17.TextSize = 14.000
 
 TextLabel_18.Parent = Info
 TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_18.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_18.Position = UDim2.new(0.281610906, 0, 0.817775846, 0)
-TextLabel_18.Size = UDim2.new(0, 77, 0, 15)
+TextLabel_18.Position = UDim2.new(0.03763441, 0, 0.14963758, 0)
+TextLabel_18.Size = UDim2.new(0, 172, 0, 12)
 TextLabel_18.Font = Enum.Font.SourceSans
-TextLabel_18.Text = "Auto Pickup Dropped Bloodfruit: ]"
+TextLabel_18.Text = "Place Plantbox : p "
 TextLabel_18.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_18.TextSize = 14.000
 
 TextLabel_19.Parent = Info
-TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_19.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_19.Position = UDim2.new(0.03763441, 0, 0.14963758, 0)
-TextLabel_19.Size = UDim2.new(0, 172, 0, 12)
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(193, 255, 46)
+TextLabel_19.Position = UDim2.new(-0.0589327253, 0, -0.091256462, 0)
+TextLabel_19.Size = UDim2.new(0, 208, 0, 26)
 TextLabel_19.Font = Enum.Font.SourceSans
-TextLabel_19.Text = "Place Plantbox(15) : p "
-TextLabel_19.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_19.TextSize = 14.000
-
-TextLabel_20.Parent = Info
-TextLabel_20.BackgroundColor3 = Color3.fromRGB(193, 255, 46)
-TextLabel_20.Position = UDim2.new(-0.0589327253, 0, -0.091256462, 0)
-TextLabel_20.Size = UDim2.new(0, 208, 0, 26)
-TextLabel_20.Font = Enum.Font.SourceSans
-TextLabel_20.Text = "Keybinds - Settings"
-TextLabel_20.TextColor3 = Color3.fromRGB(65, 65, 65)
-TextLabel_20.TextScaled = true
-TextLabel_20.TextSize = 11.000
-TextLabel_20.TextWrapped = true
+TextLabel_19.Text = "Keybinds - Settings"
+TextLabel_19.TextColor3 = Color3.fromRGB(65, 65, 65)
+TextLabel_19.TextScaled = true
+TextLabel_19.TextSize = 11.000
+TextLabel_19.TextWrapped = true
 
 Frame.Parent = Info
 Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -890,16 +873,16 @@ Infoo.Text = "Keybinds"
 Infoo.TextColor3 = Color3.fromRGB(255, 255, 255)
 Infoo.TextSize = 11.000
 
-TextButtonCopy_2.Name = "TextButtonCopy"
-TextButtonCopy_2.Parent = rice1
-TextButtonCopy_2.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
-TextButtonCopy_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButtonCopy_2.Position = UDim2.new(0.344818085, 0, 0.258432865, 0)
-TextButtonCopy_2.Size = UDim2.new(0, 77, 0, 23)
-TextButtonCopy_2.Font = Enum.Font.Arial
-TextButtonCopy_2.Text = "Execute"
-TextButtonCopy_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButtonCopy_2.TextSize = 14.000
+TextButtonCopy.Name = "TextButtonCopy"
+TextButtonCopy.Parent = rice1
+TextButtonCopy.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
+TextButtonCopy.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButtonCopy.Position = UDim2.new(0.344999999, 0, 0.342000008, 0)
+TextButtonCopy.Size = UDim2.new(0, 77, 0, 23)
+TextButtonCopy.Font = Enum.Font.Arial
+TextButtonCopy.Text = "Execute"
+TextButtonCopy.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButtonCopy.TextSize = 14.000
 
 DefaultPots.Name = "DefaultPots"
 DefaultPots.Parent = rice1
@@ -922,34 +905,34 @@ DefaultPots_2.Text = "Bloodfruit Farm"
 DefaultPots_2.TextColor3 = Color3.fromRGB(53, 0, 159)
 DefaultPots_2.TextSize = 14.000
 
-TextButton_27.Parent = rice1
-TextButton_27.BackgroundColor3 = Color3.fromRGB(214, 214, 214)
-TextButton_27.BorderColor3 = Color3.fromRGB(166, 166, 166)
-TextButton_27.Position = UDim2.new(0.132034659, 0, 0.566843987, 0)
-TextButton_27.Size = UDim2.new(0, 185, 0, 16)
-TextButton_27.ZIndex = 2
-TextButton_27.Font = Enum.Font.Arial
-TextButton_27.Text = "Create Private Farm Area(Need 2 Logs)"
-TextButton_27.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_27.TextSize = 10.000
+TextButton_25.Parent = rice1
+TextButton_25.BackgroundColor3 = Color3.fromRGB(214, 214, 214)
+TextButton_25.BorderColor3 = Color3.fromRGB(166, 166, 166)
+TextButton_25.Position = UDim2.new(0.132034659, 0, 0.604227185, 0)
+TextButton_25.Size = UDim2.new(0, 185, 0, 16)
+TextButton_25.ZIndex = 2
+TextButton_25.Font = Enum.Font.Arial
+TextButton_25.Text = "Create Private Farm Area(Need 2 Logs)"
+TextButton_25.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_25.TextSize = 10.000
 
-TextButton_28.Parent = rice1
-TextButton_28.BackgroundColor3 = Color3.fromRGB(173, 173, 173)
-TextButton_28.BorderColor3 = Color3.fromRGB(166, 166, 166)
-TextButton_28.Position = UDim2.new(0.33589837, 0, 0.800488889, 0)
-TextButton_28.Size = UDim2.new(0, 79, 0, 16)
-TextButton_28.ZIndex = 2
-TextButton_28.Font = Enum.Font.Arial
-TextButton_28.Text = "Teleport Back"
-TextButton_28.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_28.TextSize = 10.000
+TextButton_26.Parent = rice1
+TextButton_26.BackgroundColor3 = Color3.fromRGB(173, 173, 173)
+TextButton_26.BorderColor3 = Color3.fromRGB(166, 166, 166)
+TextButton_26.Position = UDim2.new(0.33589837, 0, 0.800488889, 0)
+TextButton_26.Size = UDim2.new(0, 79, 0, 16)
+TextButton_26.ZIndex = 2
+TextButton_26.Font = Enum.Font.Arial
+TextButton_26.Text = "Teleport Back"
+TextButton_26.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_26.TextSize = 10.000
 
 rice7.Name = "rice7"
 rice7.Parent = ChubHub
 rice7.Active = true
 rice7.BackgroundColor3 = Color3.fromRGB(192, 247, 255)
 rice7.BorderColor3 = Color3.fromRGB(255, 255, 255)
-rice7.Position = UDim2.new(0.0369696952, 0, 0.289696962, 0)
+rice7.Position = UDim2.new(0.108323857, 0, 0.25333333, 0)
 rice7.Size = UDim2.new(0, 100, 0, 97)
 
 UIListLayout.Parent = rice7
@@ -1026,7 +1009,7 @@ _1.TextSize = 14.000
 
 _0.Name = "0"
 _0.Parent = rice7
-_0.BackgroundColor3 = Color3.fromRGB(184, 184, 184)
+_0.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
 _0.Size = UDim2.new(0, 87, 0, 24)
 _0.Font = Enum.Font.SourceSans
 _0.Text = "Find"
@@ -1037,7 +1020,7 @@ SC.Name = "SC"
 SC.Parent = ChubHub
 SC.BackgroundColor3 = Color3.fromRGB(12, 223, 255)
 SC.BorderColor3 = Color3.fromRGB(255, 255, 255)
-SC.Position = UDim2.new(0.0363636725, 0, 0.267935216, 0)
+SC.Position = UDim2.new(0.106420495, 0, 0.221874595, 0)
 SC.Size = UDim2.new(0, 101, 0, 24)
 SC.ZIndex = 3
 SC.Font = Enum.Font.SourceSans
@@ -1048,20 +1031,20 @@ SC.TextSize = 14.000
 rice9.Name = "rice9"
 rice9.Parent = ChubHub
 rice9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-rice9.Position = UDim2.new(0.113939397, 0, 0.272634625, 0)
+rice9.Position = UDim2.new(0.0493560508, 0, 0.0968770459, 0)
 rice9.Size = UDim2.new(0, 100, 0, 100)
 
-TextLabel_21.Parent = rice9
-TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 182, 98)
-TextLabel_21.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_21.Position = UDim2.new(-0.0499999262, 0, -0.0400000028, 0)
-TextLabel_21.Size = UDim2.new(0, 110, 0, 26)
-TextLabel_21.Font = Enum.Font.SourceSans
-TextLabel_21.Text = "Auto Heal"
-TextLabel_21.TextColor3 = Color3.fromRGB(65, 65, 65)
-TextLabel_21.TextScaled = true
-TextLabel_21.TextSize = 11.000
-TextLabel_21.TextWrapped = true
+TextLabel_20.Parent = rice9
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 182, 98)
+TextLabel_20.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.Position = UDim2.new(-0.0500000007, 0, -0.036598891, 0)
+TextLabel_20.Size = UDim2.new(0, 110, 0, 25)
+TextLabel_20.Font = Enum.Font.SourceSans
+TextLabel_20.Text = "Auto Heal"
+TextLabel_20.TextColor3 = Color3.fromRGB(65, 65, 65)
+TextLabel_20.TextScaled = true
+TextLabel_20.TextSize = 11.000
+TextLabel_20.TextWrapped = true
 
 aof.Name = "aof"
 aof.Parent = rice9
@@ -1090,185 +1073,276 @@ healitem.Text = ""
 healitem.TextColor3 = Color3.fromRGB(0, 0, 0)
 healitem.TextSize = 14.000
 
+rice10.Name = "rice10"
+rice10.Parent = ChubHub
+rice10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+rice10.Position = UDim2.new(0.171751902, 0, 0.228109717, 0)
+rice10.Size = UDim2.new(0, 100, 0, 113)
+
+Title.Name = "Title"
+Title.Parent = rice10
+Title.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+Title.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Title.Position = UDim2.new(-0.0499999262, 0, -0.0400000028, 0)
+Title.Size = UDim2.new(0, 110, 0, 26)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "Auto Farm"
+Title.TextColor3 = Color3.fromRGB(65, 65, 65)
+Title.TextScaled = true
+Title.TextSize = 11.000
+Title.TextWrapped = true
+
+AutoFarm.Name = "AutoFarm"
+AutoFarm.Parent = rice10
+AutoFarm.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
+AutoFarm.BorderColor3 = Color3.fromRGB(0, 255, 140)
+AutoFarm.Position = UDim2.new(0.226522118, 0, 0.588805676, 0)
+AutoFarm.Size = UDim2.new(0, 60, 0, 16)
+AutoFarm.Font = Enum.Font.SourceSans
+AutoFarm.Text = "On/Off"
+AutoFarm.TextColor3 = Color3.fromRGB(0, 0, 0)
+AutoFarm.TextSize = 14.000
+
+EntityName.Name = "EntityName"
+EntityName.Parent = AutoFarm
+EntityName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EntityName.Position = UDim2.new(-0.145247176, 0, -2.3210969, 0)
+EntityName.Size = UDim2.new(0, 73, 0, 10)
+EntityName.ClearTextOnFocus = false
+EntityName.Font = Enum.Font.SourceSans
+EntityName.PlaceholderText = "Name"
+EntityName.Text = ""
+EntityName.TextColor3 = Color3.fromRGB(0, 0, 0)
+EntityName.TextScaled = true
+EntityName.TextSize = 14.000
+EntityName.TextWrapped = true
+
+Delay.Name = "Delay"
+Delay.Parent = AutoFarm
+Delay.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Delay.Position = UDim2.new(-0.161913842, 0, -0.946096897, 0)
+Delay.Size = UDim2.new(0, 73, 0, 10)
+Delay.ClearTextOnFocus = false
+Delay.Font = Enum.Font.SourceSans
+Delay.PlaceholderText = "Delay (3.5)"
+Delay.Text = ""
+Delay.TextColor3 = Color3.fromRGB(0, 0, 0)
+Delay.TextScaled = true
+Delay.TextSize = 14.000
+Delay.TextWrapped = true
+
+a.Name = "a"
+a.Parent = rice10
+a.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+a.Position = UDim2.new(0, 0, 0.78071928, 0)
+a.Size = UDim2.new(0, 100, 0, 24)
+a.Font = Enum.Font.SourceSans
+a.Text = "Type"
+a.TextColor3 = Color3.fromRGB(0, 0, 0)
+a.TextSize = 14.000
+
+Select.Name = "Select"
+Select.Parent = rice10
+Select.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Select.Position = UDim2.new(0.00150054879, 0, 0.99496609, 0)
+Select.Size = UDim2.new(0, 99, 0, 77)
+
+b.Name = "b"
+b.Parent = Select
+b.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+b.Size = UDim2.new(0, 99, 0, 25)
+b.Font = Enum.Font.SourceSans
+b.Text = "Resources"
+b.TextColor3 = Color3.fromRGB(0, 0, 0)
+b.TextSize = 14.000
+
+c.Name = "c"
+c.Parent = Select
+c.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+c.Position = UDim2.new(0, 0, 0.337741613, 0)
+c.Size = UDim2.new(0, 99, 0, 25)
+c.Font = Enum.Font.SourceSans
+c.Text = "Deployables"
+c.TextColor3 = Color3.fromRGB(0, 0, 0)
+c.TextSize = 14.000
+
+d.Name = "d"
+d.Parent = Select
+d.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+d.Position = UDim2.new(0, 0, 0.662496209, 0)
+d.Size = UDim2.new(0, 99, 0, 25)
+d.Font = Enum.Font.SourceSans
+d.Text = "Critters"
+d.TextColor3 = Color3.fromRGB(0, 0, 0)
+d.TextSize = 14.000
+
+OC.Name = "OC"
+OC.Parent = ChubHub
+OC.BackgroundColor3 = Color3.fromRGB(39, 209, 255)
+OC.BorderSizePixel = 0
+OC.Position = UDim2.new(0.496643662, 0, 0.052558925, 0)
+OC.Size = UDim2.new(0, 82, 0, 34)
+OC.ZIndex = 2
+OC.Font = Enum.Font.GothamMedium
+OC.Text = ""
+OC.TextColor3 = Color3.fromRGB(255, 255, 255)
+OC.TextScaled = true
+OC.TextSize = 14.000
+OC.TextWrapped = true
+
+TextLabel_21.Parent = OC
+TextLabel_21.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_21.BorderSizePixel = 0
+TextLabel_21.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_21.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_21.ZIndex = 2
+TextLabel_21.Font = Enum.Font.GothamMedium
+TextLabel_21.Text = "Open/Close"
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextScaled = true
+TextLabel_21.TextSize = 14.000
+TextLabel_21.TextWrapped = true
+
+TextButton_27.Parent = OC
+TextButton_27.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+TextButton_27.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_27.Position = UDim2.new(0.807073057, 0, 0, 0)
+TextButton_27.Size = UDim2.new(0, 15, 0, 10)
+TextButton_27.ZIndex = 5
+TextButton_27.Font = Enum.Font.SourceSans
+TextButton_27.Text = "X"
+TextButton_27.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_27.TextScaled = true
+TextButton_27.TextSize = 14.000
+TextButton_27.TextWrapped = true
+
+Shadow.Name = "Shadow"
+Shadow.Parent = OC
+Shadow.BackgroundColor3 = Color3.fromRGB(67, 155, 249)
+Shadow.BorderSizePixel = 0
+Shadow.Size = UDim2.new(1, 0, 1, 4)
+
+UICorner.CornerRadius = UDim.new(1, 0)
+UICorner.Parent = Shadow
+
+UICorner_2.CornerRadius = UDim.new(1, 0)
+UICorner_2.Parent = OC
+
+rice11.Name = "rice11"
+rice11.Parent = ChubHub
+rice11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+rice11.Position = UDim2.new(0.0463257469, 0, 0.227786109, 0)
+rice11.Size = UDim2.new(0, 100, 0, 113)
+
+TextLabel_22.Parent = rice11
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 21, 24)
+TextLabel_22.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.Position = UDim2.new(-0.0500000007, 0, -0.036598891, 0)
+TextLabel_22.Size = UDim2.new(0, 110, 0, 25)
+TextLabel_22.Font = Enum.Font.SourceSans
+TextLabel_22.Text = "AutoDrop"
+TextLabel_22.TextColor3 = Color3.fromRGB(65, 65, 65)
+TextLabel_22.TextScaled = true
+TextLabel_22.TextSize = 11.000
+TextLabel_22.TextWrapped = true
+
+aof1.Name = "aof1"
+aof1.Parent = rice11
+aof1.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
+aof1.BorderColor3 = Color3.fromRGB(255, 255, 255)
+aof1.Position = UDim2.new(0.170000076, 0, 0.753797472, 0)
+aof1.Size = UDim2.new(0, 64, 0, 23)
+aof1.ZIndex = 2
+aof1.Modal = true
+aof1.Font = Enum.Font.Arial
+aof1.Text = "On/Off"
+aof1.TextColor3 = Color3.fromRGB(72, 72, 72)
+aof1.TextSize = 14.000
+
+d3.Name = "d3"
+d3.Parent = rice11
+d3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+d3.BorderColor3 = Color3.fromRGB(130, 203, 255)
+d3.Position = UDim2.new(0.129999995, 0, 0.626386046, 0)
+d3.Size = UDim2.new(0, 73, 0, 10)
+d3.ZIndex = 2
+d3.Font = Enum.Font.SourceSans
+d3.MultiLine = true
+d3.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
+d3.PlaceholderText = "Item Name(3)"
+d3.Text = ""
+d3.TextColor3 = Color3.fromRGB(0, 0, 0)
+d3.TextSize = 14.000
+
+d2.Name = "d2"
+d2.Parent = rice11
+d2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+d2.BorderColor3 = Color3.fromRGB(130, 203, 255)
+d2.Position = UDim2.new(0.140000001, 0, 0.44946149, 0)
+d2.Size = UDim2.new(0, 73, 0, 10)
+d2.ZIndex = 2
+d2.Font = Enum.Font.SourceSans
+d2.MultiLine = true
+d2.PlaceholderText = "Item Name(2)"
+d2.Text = ""
+d2.TextColor3 = Color3.fromRGB(0, 0, 0)
+d2.TextSize = 14.000
+
+d1.Name = "d1"
+d1.Parent = rice11
+d1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+d1.BorderColor3 = Color3.fromRGB(130, 203, 255)
+d1.Position = UDim2.new(0.129999995, 0, 0.259727031, 0)
+d1.Size = UDim2.new(0, 73, 0, 10)
+d1.ZIndex = 2
+d1.Font = Enum.Font.SourceSans
+d1.MultiLine = true
+d1.PlaceholderText = "Item Name(1)"
+d1.Text = ""
+d1.TextColor3 = Color3.fromRGB(0, 0, 0)
+d1.TextSize = 14.000
+
 -- Scripts:
 
-local function ANADWAP_fake_script() -- OpenClose.LocalScript 
-	local script = Instance.new('LocalScript', OpenClose)
-
-	script.Parent.Draggable = true
-	-- Open/close
-	local frame = script.Parent.Parent.rice
-	local open = false
-	
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		if frame.Visible == false then
-			frame.Visible = true
-		else
-			frame.Visible = false
-		end
-	end)
-	
-	local frame = script.Parent.Parent.rice1
-	local open = false
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		if frame.Visible == false then
-			frame.Visible = true
-		else
-			frame.Visible = false
-		end
-	end)
-	
-	local frame = script.Parent.Parent.rice2
-	local open = false
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		if frame.Visible == false then
-			frame.Visible = true
-		else
-			frame.Visible = false
-		end
-	end)
-	
-	local frame = script.Parent.Parent.rice4
-	local open = false
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		if frame.Visible == false then
-			frame.Visible = true
-		else
-			frame.Visible = false
-		end
-	end)
-	
-	local frame = script.Parent.Parent.rice5
-	local open = false
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		if frame.Visible == false then
-			frame.Visible = true
-		else
-			frame.Visible = false
-		end
-	end)
-	
-	local frame = script.Parent.Parent.rice6
-	local open = false
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		if frame.Visible == false then
-			frame.Visible = true
-		else
-			frame.Visible = false
-		end
-	end)
-	
-	-- Close At First--------------
-	local frame = script.Parent.Parent.rice1.Info
-	local open = false
-	script.Parent.MouseButton1Click:Connect(function()
-		if frame.Visible == true then
-			frame.Visible = false
-		else
-			frame.Visible = false
-	
-		end
-	end)
-	-------------------------------
-	local frame = script.Parent.Parent.rice7
-	local open = false
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		if frame.Visible == false then
-			frame.Visible = true
-		else
-			frame.Visible = false
-		end
-	end)
-	
-	local frame = script.Parent.Parent.SC
-	local open = false
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		if frame.Visible == false then
-			frame.Visible = true
-		else
-			frame.Visible = false
-		end
-	end)
-	
-	local frame = script.Parent.Parent.rice9
-	local open = false
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		if frame.Visible == false then
-			frame.Visible = true
-		else
-			frame.Visible = false
-		end
-	end)
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-end
-coroutine.wrap(ANADWAP_fake_script)()
-local function LNNFPVS_fake_script() -- TextButton.LocalScript 
+local function YVCW_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		local player = game:GetService("Players").LocalPlayer.Character
-		for i, v in pairs(game:GetService("Players")[player.Name].PlayerGui:GetChildren()) do
-			if v.Name == "ChubHub" then
-				v:Destroy()
-			end
-		end
-	end)
-end
-coroutine.wrap(LNNFPVS_fake_script)()
-local function RHSCMWT_fake_script() -- TextButton_2.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Down:connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-129.430252, 236.999954, -774.69165, 0.292690486, 0, 0.956207216, 0, 1, 0, -0.956207216, 0, 0.292690486)
 		end)
 	
 end
-coroutine.wrap(RHSCMWT_fake_script)()
-local function XKMDUTS_fake_script() -- rice4.LocalScript 
+coroutine.wrap(YVCW_fake_script)()
+local function SBPVJ_fake_script() -- rice4.LocalScript 
 	local script = Instance.new('LocalScript', rice4)
 
 	script.Parent.Visible = false
 	
 end
-coroutine.wrap(XKMDUTS_fake_script)()
-local function YAEFLCJ_fake_script() -- TextButton_3.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_3)
+coroutine.wrap(SBPVJ_fake_script)()
+local function SEVNPD_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Down:connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(866.874268, -3.00000119, 364.762573, -0.296465635, 0, -0.955043495, 0, 1, 0, 0.955043495, 0, -0.296465635)
 	end)
 	
 end
-coroutine.wrap(YAEFLCJ_fake_script)()
-local function DGOJ_fake_script() -- TextButton_4.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_4)
+coroutine.wrap(SEVNPD_fake_script)()
+local function KLGVQGD_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Down:connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-557.749939, 382.088867, -1198.76611, -0.744088948, 0, 0.668080568, 0, 1, 0, -0.668080568, 0, -0.744088948)
 	end)
 	
 end
-coroutine.wrap(DGOJ_fake_script)()
-local function TPVYRPU_fake_script() -- TextButton_5.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_5)
+coroutine.wrap(KLGVQGD_fake_script)()
+local function CWCN_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
 
 	script.Parent.MouseButton1Down:connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1120.70923, 308.999878, -1220.78735, -0.327721924, 0, 0.94477421, 0, 1, 0, -0.94477421, 0, -0.327721924)
@@ -1276,43 +1350,43 @@ local function TPVYRPU_fake_script() -- TextButton_5.LocalScript
 	
 	
 end
-coroutine.wrap(TPVYRPU_fake_script)()
-local function RHETA_fake_script() -- TextButton_6.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_6)
+coroutine.wrap(CWCN_fake_script)()
+local function GYOXW_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
 
 	script.Parent.MouseButton1Down:connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-139.342209, -3.00000119, 16991.3945, 0.111919224, 0, 0.993717313, 0, 1, 0, -0.993717313, 0, 0.111919224)
 	end)
 	
 end
-coroutine.wrap(RHETA_fake_script)()
-local function AYFM_fake_script() -- TextButton_7.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_7)
+coroutine.wrap(GYOXW_fake_script)()
+local function NPJFID_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
 
 	script.Parent.MouseButton1Down:connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(39.3500061, -3.00000119, -122.116287, 0.999781132, 0, -0.0209210142, 0, 1, 0, 0.0209210142, 0, 0.999781132)
 	end)
 	
 end
-coroutine.wrap(AYFM_fake_script)()
-local function IFWKVSS_fake_script() -- TextButton_8.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_8)
+coroutine.wrap(NPJFID_fake_script)()
+local function DDSH_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
 
 	script.Parent.MouseButton1Down:connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(138.981812, 25.2140656, -876.704346, -0.998482645, 0, -0.0550677143, 0, 1, 0, 0.0550677143, 0, -0.998482645)
 	end)
 	
 end
-coroutine.wrap(IFWKVSS_fake_script)()
-local function VAIE_fake_script() -- TextButton_9.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_9)
+coroutine.wrap(DDSH_fake_script)()
+local function NPOXAQC_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
 
 	script.Parent.MouseButton1Down:connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1283.44812, -3.50844264, 1378.06348, -0.117543168, 0, 0.993067801, 0, 1, 0, -0.993067801, 0, -0.117543168)
 	end)
 end
-coroutine.wrap(VAIE_fake_script)()
-local function KOYQV_fake_script() -- CPlayerTp.LocalScript 
+coroutine.wrap(NPOXAQC_fake_script)()
+local function MLWGIQJ_fake_script() -- CPlayerTp.LocalScript 
 	local script = Instance.new('LocalScript', CPlayerTp)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -1328,8 +1402,8 @@ local function KOYQV_fake_script() -- CPlayerTp.LocalScript
 	end)
 	
 end
-coroutine.wrap(KOYQV_fake_script)()
-local function ROJAL_fake_script() -- STP.LocalScript 
+coroutine.wrap(MLWGIQJ_fake_script)()
+local function MJOW_fake_script() -- STP.LocalScript 
 	local script = Instance.new('LocalScript', STP)
 
 	script.Parent.Parent.STP.FocusLost:Connect(function() 
@@ -1338,9 +1412,9 @@ local function ROJAL_fake_script() -- STP.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ROJAL_fake_script)()
-local function KTVMK_fake_script() -- TextButton_10.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_10)
+coroutine.wrap(MJOW_fake_script)()
+local function YEVPFI_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
 
 	toggle = false
 	script.Parent.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
@@ -1362,7 +1436,7 @@ local function KTVMK_fake_script() -- TextButton_10.LocalScript
 		end
 		spawn(function()
 			while script.Parent.BackgroundColor3 == Color3.fromRGB(0, 255, 0) do
-				wait(0.0005)
+				wait()
 				getgenv().pick = true
 				spawn(function()
 					local player = game:GetService("Players").LocalPlayer.Character
@@ -1370,7 +1444,7 @@ local function KTVMK_fake_script() -- TextButton_10.LocalScript
 					for i,v in pairs(game:GetService("Workspace").Characters:GetChildren()) do
 	
 						if v.Name:lower():find(p4:lower()) then 
-							player:MoveTo(Vector3.new(v.HumanoidRootPart.CFrame.Position.x + math.random(-8.5, 8.5), v.HumanoidRootPart.CFrame.Position.y + math.random(7, 7), v.HumanoidRootPart.CFrame.Position.z + math.random(-8.5, 8.5))) 
+							player:MoveTo(Vector3.new(v.HumanoidRootPart.CFrame.Position.x + math.random(-10.5, 10.5), v.HumanoidRootPart.CFrame.Position.y + math.random(7, 7), v.HumanoidRootPart.CFrame.Position.z + math.random(-10.5, 10.5))) 
 						end
 					end
 				end)
@@ -1395,7 +1469,7 @@ local function KTVMK_fake_script() -- TextButton_10.LocalScript
 			end
 			spawn(function()
 				while script.Parent.BackgroundColor3 == Color3.fromRGB(0, 255, 0) do
-					wait(0.25)
+					wait()
 					getgenv().pick = true
 					spawn(function()
 						local player = game:GetService("Players").LocalPlayer.Character
@@ -1403,7 +1477,7 @@ local function KTVMK_fake_script() -- TextButton_10.LocalScript
 						for i,v in pairs(game:GetService("Workspace").Characters:GetChildren()) do
 	
 							if v.Name:lower():find(p4:lower()) then 
-								player:MoveTo(Vector3.new(v.HumanoidRootPart.CFrame.Position.x), v.HumanoidRootPart.CFrame.Position.y, v.HumanoidRootPart.CFrame.Position.z + math.random(-5, 5)) 
+								player:MoveTo(Vector3.new(v.HumanoidRootPart.CFrame.Position.x), v.HumanoidRootPart.CFrame.Position.y, v.HumanoidRootPart.CFrame.Position.z + math.random(-6.5, 6.5)) 
 							end
 						end
 					end)
@@ -1419,8 +1493,8 @@ local function KTVMK_fake_script() -- TextButton_10.LocalScript
 	end)
 	
 end
-coroutine.wrap(KTVMK_fake_script)()
-local function QLYXQXW_fake_script() -- MagTPPlayer.LocalScript 
+coroutine.wrap(YEVPFI_fake_script)()
+local function AFWZQA_fake_script() -- MagTPPlayer.LocalScript 
 	local script = Instance.new('LocalScript', MagTPPlayer)
 
 	toggle = false
@@ -1497,66 +1571,27 @@ local function QLYXQXW_fake_script() -- MagTPPlayer.LocalScript
 		end))
 	end)
 end
-coroutine.wrap(QLYXQXW_fake_script)()
-local function EJXIMTU_fake_script() -- TextButton_11.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_11)
+coroutine.wrap(AFWZQA_fake_script)()
+local function SQNQLX_fake_script() -- TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_10)
 
 	script.Parent.MouseButton1Down:connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(355.434387, 64.9999771, -1518.46533, 0.994095743, 0, 0.108506724, 0, 1, 0, -0.108506724, 0, 0.994095743)
 	end)
 	
 end
-coroutine.wrap(EJXIMTU_fake_script)()
-local function EBVXG_fake_script() -- TextButton_12.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_12)
-
-	local condition = false
-	
-	script.Parent.MouseButton1Click:Connect(function()
-	
-		if condition == false then
-			condition = true
-			script.Parent.Text = "On"
-		else
-			condition = false
-			script.Parent.Text = "Off"
-		end
-		spawn(function()
-			while condition == true do
-				--CODE
-				wait(0.00001)
-	
-				local args = {
-					[1] = ""..script.Parent.Op.Text..""
-				}
-	
-				game:GetService("ReplicatedStorage").Events.DropBagItem:FireServer(unpack(args))
-			end
-		end)
-	end)
-end
-coroutine.wrap(EBVXG_fake_script)()
-local function NIQLKNR_fake_script() -- ItemName.LocalScript 
-	local script = Instance.new('LocalScript', ItemName)
-
-	script.Parent.Parent.ItemName.FocusLost:Connect(function() 
-		if script.Parent.Parent.ItemName.Text ~= "" then
-			p3 = script.Parent.Parent.ItemName.Text
-		end
-	end)
-end
-coroutine.wrap(NIQLKNR_fake_script)()
-local function YYNN_fake_script() -- ObjectName.LocalScript 
+coroutine.wrap(SQNQLX_fake_script)()
+local function EMWT_fake_script() -- ObjectName.LocalScript 
 	local script = Instance.new('LocalScript', ObjectName)
 
-	script.Parent.Parent.ObjectName.FocusLost:Connect(function() 
-		if script.Parent.Parent.ObjectName.Text ~= "" then
-			ObjectPlace = script.Parent.Parent.ObjectName.Text
+	script.Parent.Parent.Parent.rice2.ObjectName.FocusLost:Connect(function() 
+		if script.Parent.Parent.Parent.rice2.ObjectName.Text ~= "" then
+			ObjectPlace = script.Parent.Parent.Parent.rice2.ObjectName.Text
 		end
 	end)
 end
-coroutine.wrap(YYNN_fake_script)()
-local function NHTTF_fake_script() -- AutoPick.LocalScript 
+coroutine.wrap(EMWT_fake_script)()
+local function FZMTLXE_fake_script() -- AutoPick.LocalScript 
 	local script = Instance.new('LocalScript', AutoPick)
 
 	local condition = false
@@ -1581,9 +1616,9 @@ local function NHTTF_fake_script() -- AutoPick.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(NHTTF_fake_script)()
-local function XHDR_fake_script() -- TextButton_13.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_13)
+coroutine.wrap(FZMTLXE_fake_script)()
+local function MZITBZ_fake_script() -- TextButton_11.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_11)
 
 	local condition = false
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1615,16 +1650,16 @@ local function XHDR_fake_script() -- TextButton_13.LocalScript
 	
 	
 end
-coroutine.wrap(XHDR_fake_script)()
-local function ZZNJH_fake_script() -- rice2.LocalScript 
+coroutine.wrap(MZITBZ_fake_script)()
+local function MXNQ_fake_script() -- rice2.LocalScript 
 	local script = Instance.new('LocalScript', rice2)
 
 	script.Parent.Visible = false
 	
 end
-coroutine.wrap(ZZNJH_fake_script)()
-local function YIYGM_fake_script() -- TextButton_14.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_14)
+coroutine.wrap(MXNQ_fake_script)()
+local function HSJL_fake_script() -- TextButton_12.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_12)
 
 	local Player = game:GetService("Players").LocalPlayer
 	
@@ -1668,9 +1703,9 @@ local function YIYGM_fake_script() -- TextButton_14.LocalScript
 	
 	
 end
-coroutine.wrap(YIYGM_fake_script)()
-local function CGBNAP_fake_script() -- TextButton_15.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_15)
+coroutine.wrap(HSJL_fake_script)()
+local function LVPQUGB_fake_script() -- TextButton_13.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_13)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		local a1 = ObjectPlace
@@ -1681,70 +1716,88 @@ local function CGBNAP_fake_script() -- TextButton_15.LocalScript
 	end)
 	
 end
-coroutine.wrap(CGBNAP_fake_script)()
-local function MBVSX_fake_script() -- AutoFarm.LocalScript 
-	local script = Instance.new('LocalScript', AutoFarm)
+coroutine.wrap(LVPQUGB_fake_script)()
+local function TNUUVE_fake_script() -- Enchance.LocalScript 
+	local script = Instance.new('LocalScript', Enchance)
 
-	local condition = false
-	
-	script.Parent.MouseButton1Click:Connect(function()
-	
-		if condition == false then
-			game:GetService("Workspace").Gravity = 0
-			condition = true
-			script.Parent.Text = "On"
-		else
-			game:GetService("Workspace").Gravity = 196.2
-			condition = false
-			script.Parent.Text = "Off"
+	local s = Instance.new("PointLight", game.Players.LocalPlayer.Character.Head)
+	script.Parent.MouseButton1Down:Connect(function(a)
+		local decalsyeeted = true -- Made by someone else (NOT ME AND IDK WHO)
+		local g = game
+		local w = g.Workspace
+		local l = g.Lighting
+		local t = w.Terrain
+		t.WaterWaveSize = 0
+		t.WaterWaveSpeed = 0
+		t.WaterReflectance = 0
+		t.WaterTransparency = 0
+		l.GlobalShadows = false
+		l.FogEnd = 9e9
+		l.Brightness = 3.2
+		for i, v in pairs(g:GetDescendants()) do
+			if v:IsA("Part") or v:IsA("Union") or v:IsA("CornerWedgePart") or v:IsA("TrussPart") then
+				v.Material = "Plastic"
+				v.Reflectance = 0
+			elseif v:IsA("Decal") or v:IsA("Texture") and decalsyeeted then
+				v.Transparency = 1
+			elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+				v.Lifetime = NumberRange.new(0)
+			elseif v:IsA("Explosion") then
+				v.BlastPressure = 1
+				v.BlastRadius = 1
+			elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") then
+				v.Enabled = false
+			elseif v:IsA("MeshPart") then
+				v.Material = "Plastic"
+				v.Reflectance = 0
+				v.TextureID = 10385902758728957
+			end
 		end
-		spawn(function()
-			while condition == true and RN ~= "" do wait(0.89)
-				--CODE
-				for _, v in pairs(game:GetService("Workspace").Resources:GetChildren()) do
-					if script.Parent.Text == "On" then
-						if v.Name ~= nil and v.Name == RN and v.PrimaryPart ~= nil then 
-							game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Workspace").Resources[RN].PrimaryPart.Position.x, game:GetService("Workspace").Resources[RN].PrimaryPart.Position.y, game:GetService("Workspace").Resources[RN].PrimaryPart.Position.z) wait(3.5)
-						end
+		for i, e in pairs(l:GetChildren()) do
+			if e:IsA("BlurEffect") or e:IsA("SunRaysEffect") or e:IsA("ColorCorrectionEffect") or e:IsA("BloomEffect") or e:IsA("DepthOfFieldEffect") then
+				e.Enabled = false
+			end
+		end
+	end)
+	--
+	script.Parent.MouseButton1Down:Connect(function(a)
+		print("Works")
+		game:GetService("Workspace").RainPart:Destroy()
+	end)
+end
+coroutine.wrap(TNUUVE_fake_script)()
+local function OOKKXB_fake_script() -- Hitbox.LocalScript 
+	local script = Instance.new('LocalScript', Hitbox)
+
+	local player = game:GetService("Players").LocalPlayer.Character
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		if script.Parent.Parent.t1.Active == true then
+			game.StarterGui:SetCore( "ChatMakeSystemMessage", 
+				{ Text = "[ChubHub]: When A Player Dies Their Hitbox Resets To DEFAULT; Enable Larger Hitbox AGAIN For It To Work On That Player!", 
+					Color = Color3.fromRGB( 255,255,0 ), 
+					Font = Enum.Font.ArialBold, 
+					FontSize = Enum.FontSize.Size24 } )
+	
+		script.Parent.Parent.t1.Active = false
+		end
+		for _, a in pairs(game:GetService("Workspace").Characters:GetChildren()) do
+			if a.Name ~= player.Name then
+				for _, b in pairs(game:GetService("Workspace").Characters[a.Name]:GetDescendants()) do
+					if b.Name == "HumanoidRootPart" then
+						if game:GetService("Workspace").Characters[a.Name].HumanoidRootPart.Size == Vector3.new(2, 2, 1) then
+							game:GetService("Workspace").Characters[a.Name].HumanoidRootPart.Size = Vector3.new(10, 10, 20)
+						end 
 					end
 	
 				end
 			end
-		end)
-		spawn(function()
-			if condition == true and RN ~= "" then 
-				--CODE
-				for _, v in pairs(game:GetService("Workspace").Resources:GetChildren()) do
-					if v.Name ~= nil and v.Name == RN and v.PrimaryPart ~= nil then
-						while script.Parent.Text == "On" do wait(0.000000001)
-							getgenv().Target = game:GetService("Workspace").Resources[RN].PrimaryPart
-	
-							local A1  = {
-								[1] = getgenv().Target
-							}
-							local A2 = game:GetService("ReplicatedStorage").RelativeTime.Value
-							game:GetService("ReplicatedStorage").Events.SwingTool:FireServer(A2, A1)
-						end
-					end
-	
-				end
-			end
-		end)
-	end)
-	
-end
-coroutine.wrap(MBVSX_fake_script)()
-local function YQOELSL_fake_script() -- ResourceName.LocalScript 
-	local script = Instance.new('LocalScript', ResourceName)
-
-	script.Parent.Parent["Resource Name"].FocusLost:Connect(function() 
-		if script.Parent.Parent["Resource Name"].Text ~= "" then
-			RN = script.Parent.Parent["Resource Name"].Text
 		end
 	end)
+	
 end
-coroutine.wrap(YQOELSL_fake_script)()
-local function NRGJTQ_fake_script() -- Autohit.LocalScript 
+coroutine.wrap(OOKKXB_fake_script)()
+local function XXONNOG_fake_script() -- Autohit.LocalScript 
 	local script = Instance.new('LocalScript', Autohit)
 
 	local player = game:GetService("Players").LocalPlayer.Character
@@ -1754,12 +1807,22 @@ local function NRGJTQ_fake_script() -- Autohit.LocalScript
 	local autohit = false
 	
 	getgenv().on = false
+	
 	getgenv().on1 = false
+	
 	script.Parent.MouseEnter:Connect(function()
 		tc = game:GetService("Workspace").Characters[player.Name].BodyColors.TorsoColor
 	end)
 	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.t2.Active == true then
+			game.StarterGui:SetCore( "ChatMakeSystemMessage", 
+				{ Text = "[ChubHub]: Better With Larger Hitbox!", 
+					Color = Color3.fromRGB( 255,255,0 ), 
+					Font = Enum.Font.ArialBold, 
+					FontSize = Enum.FontSize.Size24 } )
 	
+			script.Parent.Parent.t2.Active = false
+			end
 		if autohit == false then
 			autohit = true
 			script.Parent.Text = "On"
@@ -1773,48 +1836,74 @@ local function NRGJTQ_fake_script() -- Autohit.LocalScript
 			coroutine.resume(coroutine.create(function()
 				--CODE
 	
-				for i, v in pairs(game:GetService("Players"):GetChildren()) do
+				for i, v in pairs(game:GetService("Players"):GetPlayers()) do
 					if (game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).magnitude < 21 and v.Name ~= player.Name and  
-						game:GetService("Workspace").Characters[v.Name].BodyColors.TorsoColor ~= tc and game:GetService("Workspace").Characters[v.Name].Humanoid.Health > 0 then
-						getgenv().on = true
-					else 
+						game:GetService("Workspace").Characters[v.Name].BodyColors.TorsoColor == tc and game:GetService("Workspace").Characters[v.Name].Humanoid.Health > 0 then
+						getgenv().on = false
 						getgenv().on1 = true
-						wait()
+					else
+	
+						getgenv().on = true
+						getgenv().on1 = false
 	
 					end
-				end
-			end))
-			coroutine.resume(coroutine.create(function()
 	
-				if getgenv().on == true then wait() 
-					for i, v in pairs(game:GetService("Players"):GetChildren()) do
+					for i, v in pairs(game:GetService("Players"):GetPlayers()) do
 						if (game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).magnitude < 21 and v.Name ~= player.Name and  
-							game:GetService("Workspace").Characters[v.Name].BodyColors.TorsoColor ~= tc and game:GetService("Workspace").Characters[v.Name].Humanoid.Health > 0 then
-							local rTV = game:GetService("ReplicatedStorage").RelativeTime.Value
-							local attackTable = {
-								[1] = game:GetService("Workspace").Characters[v.Name].RightUpperLeg,
-								[2] = game:GetService("Workspace").Characters[v.Name].LeftUpperLeg
-							}
-							game:GetService("ReplicatedStorage").Events.SwingTool:FireServer(rTV, attackTable)
-							wait(0.000000001)
+							game:GetService("Workspace").Characters[v.Name].BodyColors.TorsoColor3 == Color3.fromRGB(124, 92, 70) and game:GetService("Workspace").Characters[v.Name].Humanoid.Health > 0 then
+							getgenv().on = false
+							getgenv().on1 = false
+							getgenv().on2 = true
 						end
 					end
 				end
 				coroutine.resume(coroutine.create(function()
 	
-					if getgenv().on1 == true then wait()
-						for i, v in pairs(game:GetService("Players"):GetChildren()) do
-							if (game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).magnitude < 21 and v.Name ~= player.Name and game:GetService("Workspace").Characters[v.Name].Humanoid.Health > 0 then
+					if getgenv().on == true then wait() 
+						tc = game:GetService("Workspace").Characters[player.Name].BodyColors.TorsoColor
+						for i, v in pairs(game:GetService("Players"):GetPlayers()) do
+							if (game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).magnitude < 21 and v.Name ~= player.Name and  
+								game:GetService("Workspace").Characters[v.Name].BodyColors.TorsoColor ~= tc and game:GetService("Workspace").Characters[v.Name].Humanoid.Health > 0 then
 								local rTV = game:GetService("ReplicatedStorage").RelativeTime.Value
 								local attackTable = {
 									[1] = game:GetService("Workspace").Characters[v.Name].RightUpperLeg,
 									[2] = game:GetService("Workspace").Characters[v.Name].LeftUpperLeg
 								}
 								game:GetService("ReplicatedStorage").Events.SwingTool:FireServer(rTV, attackTable)
-								wait(0.000000001)
 							end
 						end
 					end
+					coroutine.resume(coroutine.create(function()
+						tc = game:GetService("Workspace").Characters[player.Name].BodyColors.TorsoColor
+						if getgenv().on1 == true then wait()
+							for i, v in pairs(game:GetService("Players"):GetPlayers()) do
+								if (game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).magnitude < 21 and v.Name ~= player.Name and game:GetService("Workspace").Characters[v.Name].Humanoid.Health > 0 then
+									local rTV = game:GetService("ReplicatedStorage").RelativeTime.Value
+									local attackTable = {
+										[1] = game:GetService("Workspace").Characters[v.Name].RightUpperLeg,
+										[2] = game:GetService("Workspace").Characters[v.Name].LeftUpperLeg
+									}
+									game:GetService("ReplicatedStorage").Events.SwingTool:FireServer(rTV, attackTable)
+								end
+							end
+						end
+						coroutine.resume(coroutine.create(function()
+							tc = game:GetService("Workspace").Characters[player.Name].BodyColors.TorsoColor
+							if getgenv().on2 == true then wait()
+								for i, v in pairs(game:GetService("Players"):GetPlayers()) do
+									if (game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).magnitude < 21 and v.Name ~= player.Name and  
+										game:GetService("Workspace").Characters[v.Name].BodyColors.TorsoColor3 == Color3.fromRGB(124, 92, 70) and game:GetService("Workspace").Characters[v.Name].Humanoid.Health > 0 then
+										local rTV = game:GetService("ReplicatedStorage").RelativeTime.Value
+										local attackTable = {
+											[1] = game:GetService("Workspace").Characters[v.Name].RightUpperLeg,
+											[2] = game:GetService("Workspace").Characters[v.Name].LeftUpperLeg
+										}
+										game:GetService("ReplicatedStorage").Events.SwingTool:FireServer(rTV, attackTable)
+									end
+								end
+							end
+						end))
+					end))
 				end))
 			end))
 		end
@@ -1822,30 +1911,99 @@ local function NRGJTQ_fake_script() -- Autohit.LocalScript
 	
 	
 end
-coroutine.wrap(NRGJTQ_fake_script)()
-local function IIXFQFW_fake_script() -- Enchance.LocalScript 
-	local script = Instance.new('LocalScript', Enchance)
+coroutine.wrap(XXONNOG_fake_script)()
+local function UZRLJP_fake_script() -- AntiAura.LocalScript 
+	local script = Instance.new('LocalScript', AntiAura)
 
-	local s = Instance.new("PointLight", game.Players.LocalPlayer.Character.Head)
-	script.Parent.MouseButton1Down:Connect(function()
-		game:GetService("Workspace").RainPart:Destroy()
-		s.Brightness = .3
-		s.Range = 100
+	local player = game:GetService("Players").LocalPlayer.Character
 	
-		game.Lighting.Changed:connect(function()
-			game.Lighting.TimeOfDay = "14:00:00"
-			game.Lighting.FogEnd = 9999
-			game.Lighting.Brightness = 2
-			game.Lighting.ColorCorrection.Brightness = 0.1
-			game.Lighting.ColorCorrection.Saturation = 0.1
-			game.Lighting.Bloom.Intensity = 0.1
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("Workspace").Characters[player.Name].LeftUpperArm:Destroy()
+		game:GetService("Workspace").Characters[player.Name].RightUpperArm:Destroy()
+		game:GetService("Workspace").Characters[player.Name].LeftHand:Destroy()
+		game:GetService("Workspace").Characters[player.Name].LeftLowerArm:Destroy()
+		game:GetService("Workspace").Characters[player.Name].RightHand:Destroy()
+		game:GetService("Workspace").Characters[player.Name].RightLowerArm:Destroy()
+	end)
 	
-		end)
+	
+	
+	
+end
+coroutine.wrap(UZRLJP_fake_script)()
+local function ESVFHT_fake_script() -- Esp.LocalScript 
+	local script = Instance.new('LocalScript', Esp)
+
+	local player = game:GetService("Players").LocalPlayer.Character
+	
+	local condition = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		if condition == false then
+			condition = true
+			script.Parent.Text = "ESP (On)"
+		else
+			condition = false
+			script.Parent.Text = "ESP (Off)"
+			for i,v in pairs (game:GetService("Players"):GetPlayers()) do
+				v.Character.Head:FindFirstChild("Esp"):Destroy()
+			end
+		end
+		while condition == true do wait()
+			print("gat")
+			spawn(function()
+	
+				local esp_settings = { 
+					textsize = 8,
+					colour = 255,255,255
+				}
+	
+				local gui = Instance.new("BillboardGui")
+				local esp = Instance.new("TextLabel",gui) 
+	
+	
+				gui.Name = "Esp"; 
+				gui.ResetOnSpawn = false
+				gui.AlwaysOnTop = true;
+				gui.LightInfluence = 0;
+				gui.Size = UDim2.new(3, 0, 3, 0);
+				esp.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+				esp.Text = ""
+				esp.Size = UDim2.new(0.0001, 0.00001, 0.0001, 0.00001);
+				esp.BorderSizePixel = 10;
+				esp.BorderColor3 = Color3.new(esp_settings.colour)
+				esp.BorderSizePixel = 0
+				esp.Font = "ArialBold" 
+				esp.TextSize = esp_settings.textsize
+				esp.TextColor3 = Color3.fromRGB(esp_settings.colour)
+	
+				for i,v in pairs (game:GetService("Players"):GetPlayers()) do
+					if v ~= game:GetService("Players").LocalPlayer and v.Character.Head:FindFirstChild("Esp") == nil then 
+						esp.TextColor3 = game:GetService("Workspace").Characters[v.Name].BodyColors.TorsoColor3
+						esp.Text = ""..v.Name..""
+						gui:Clone().Parent = v.Character.Head
+						wait(2)
+						v.Character.Head["Esp"]:Destroy()
+					end
+				end
+			end)
+		end
 	end)
 end
-coroutine.wrap(IIXFQFW_fake_script)()
-local function FOLX_fake_script() -- TextButton_16.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_16)
+coroutine.wrap(ESVFHT_fake_script)()
+local function EYDGOT_fake_script() -- ItemName.LocalScript 
+	local script = Instance.new('LocalScript', ItemName)
+
+	script.Parent.Parent.Parent.rice2.ItemName.FocusLost:Connect(function() 
+		if script.Parent.Parent.Parent.rice2.ItemName.Text ~= "" then
+			p3 = script.Parent.Parent.Parent.rice2.ItemName.Text
+		end
+	end)
+end
+coroutine.wrap(EYDGOT_fake_script)()
+local function RUWIJBC_fake_script() -- TextButton_14.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_14)
 
 	script.Parent.MouseButton1Down:connect(function()
 		local args = {
@@ -1857,9 +2015,9 @@ local function FOLX_fake_script() -- TextButton_16.LocalScript
 	end)
 	
 end
-coroutine.wrap(FOLX_fake_script)()
-local function SSWXDE_fake_script() -- TextButton_17.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_17)
+coroutine.wrap(RUWIJBC_fake_script)()
+local function UTIUL_fake_script() -- TextButton_15.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_15)
 
 	script.Parent.MouseButton1Down:connect(function()
 		local args = {
@@ -1871,9 +2029,9 @@ local function SSWXDE_fake_script() -- TextButton_17.LocalScript
 	end)
 	
 end
-coroutine.wrap(SSWXDE_fake_script)()
-local function LIMKAXX_fake_script() -- TextButton_18.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_18)
+coroutine.wrap(UTIUL_fake_script)()
+local function MOVHWN_fake_script() -- TextButton_16.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_16)
 
 	script.Parent.MouseButton1Down:connect(function()
 		local args = {
@@ -1885,20 +2043,48 @@ local function LIMKAXX_fake_script() -- TextButton_18.LocalScript
 	end)
 	
 end
-coroutine.wrap(LIMKAXX_fake_script)()
-local function BITXK_fake_script() -- rice.LocalScript 
+coroutine.wrap(MOVHWN_fake_script)()
+local function KDGZZV_fake_script() -- rice.LocalScript 
 	local script = Instance.new('LocalScript', rice)
 
 	script.Parent.Visible = false
 	
 end
-coroutine.wrap(BITXK_fake_script)()
-local function KNBMKFS_fake_script() -- TextButton_19.LocalScript 
+coroutine.wrap(KDGZZV_fake_script)()
+local function AIUTW_fake_script() -- TextButton_17.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_17)
+
+	script.Parent.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "Magnetite Mask"
+		}
+	
+		game:GetService("ReplicatedStorage").Events.CraftItem:FireServer(unpack(args))
+	
+	end)
+	
+end
+coroutine.wrap(AIUTW_fake_script)()
+local function JYWYQ_fake_script() -- TextButton_18.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_18)
+
+	script.Parent.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "Magnetite Chestplate"
+		}
+	
+		game:GetService("ReplicatedStorage").Events.CraftItem:FireServer(unpack(args))
+	
+	end)
+	
+end
+coroutine.wrap(JYWYQ_fake_script)()
+local function GWZOXV_fake_script() -- TextButton_19.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_19)
 
 	script.Parent.MouseButton1Down:connect(function()
 		local args = {
-			[1] = "Magnetite Mask"
+			[1] = "Magnetite Greaves"
 		}
 	
 		game:GetService("ReplicatedStorage").Events.CraftItem:FireServer(unpack(args))
@@ -1906,40 +2092,12 @@ local function KNBMKFS_fake_script() -- TextButton_19.LocalScript
 	end)
 	
 end
-coroutine.wrap(KNBMKFS_fake_script)()
-local function VYAPQX_fake_script() -- TextButton_20.LocalScript 
+coroutine.wrap(GWZOXV_fake_script)()
+local function IUBI_fake_script() -- TextButton_20.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_20)
 
 	script.Parent.MouseButton1Down:connect(function()
 		local args = {
-			[1] = "Magnetite Chestplate"
-		}
-	
-		game:GetService("ReplicatedStorage").Events.CraftItem:FireServer(unpack(args))
-	
-	end)
-	
-end
-coroutine.wrap(VYAPQX_fake_script)()
-local function DFBU_fake_script() -- TextButton_21.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_21)
-
-	script.Parent.MouseButton1Down:connect(function()
-		local args = {
-			[1] = "Magnetite Greaves"
-		}
-	
-		game:GetService("ReplicatedStorage").Events.CraftItem:FireServer(unpack(args))
-	
-	end)
-	
-end
-coroutine.wrap(DFBU_fake_script)()
-local function NUZS_fake_script() -- TextButton_22.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_22)
-
-	script.Parent.MouseButton1Down:connect(function()
-		local args = {
 			[1] = "Magnetite Mask"
 		}
 	
@@ -1960,9 +2118,9 @@ local function NUZS_fake_script() -- TextButton_22.LocalScript
 	end)
 	
 end
-coroutine.wrap(NUZS_fake_script)()
-local function OWUX_fake_script() -- TextButton_23.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_23)
+coroutine.wrap(IUBI_fake_script)()
+local function XAKJPGM_fake_script() -- TextButton_21.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_21)
 
 	script.Parent.MouseButton1Down:connect(function()
 		local args = {
@@ -1974,8 +2132,8 @@ local function OWUX_fake_script() -- TextButton_23.LocalScript
 	end)
 	
 end
-coroutine.wrap(OWUX_fake_script)()
-local function MAINFZ_fake_script() -- AutoCraft.LocalScript 
+coroutine.wrap(XAKJPGM_fake_script)()
+local function XZPKUT_fake_script() -- AutoCraft.LocalScript 
 	local script = Instance.new('LocalScript', AutoCraft)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -1987,23 +2145,21 @@ local function MAINFZ_fake_script() -- AutoCraft.LocalScript
 	end)
 	
 end
-coroutine.wrap(MAINFZ_fake_script)()
-local function PJOQRJ_fake_script() -- TextLabel_13.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel_13)
+coroutine.wrap(XZPKUT_fake_script)()
+local function CNGVTQ_fake_script() -- TextLabel_12.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_12)
 
 	print("Have a nice day!")
 	
 end
-coroutine.wrap(PJOQRJ_fake_script)()
-local function GFUIGT_fake_script() -- TextButton_24.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_24)
+coroutine.wrap(CNGVTQ_fake_script)()
+local function GVCK_fake_script() -- TextButton_22.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_22)
 
 	local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
 	local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.speedhaxx.Visible = true
-		script.Parent.Parent.TextButton.Visible = false
-		script.Parent.Parent.TextButtonCopy.Visible = true
 		
 		spawn(function()
 			if (""..script.Parent.Parent.speedhaxx.Text.."") == "" then wait(0.005)
@@ -2019,7 +2175,7 @@ local function GFUIGT_fake_script() -- TextButton_24.LocalScript
 				game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
 					if (""..script.Parent.Parent.speedhaxx.Text.."") == "" and key == "f" then wait(0.00005)
 						getgenv().loop = true
-						while wait(0.000001) and loop == true do
+						while loop == true do wait()
 	
 							char.CFrame = char.CFrame + char.CFrame.lookVector * (""..script.Parent.Parent.DefaultSpeed.PlaceholderText.."")
 	
@@ -2032,7 +2188,7 @@ local function GFUIGT_fake_script() -- TextButton_24.LocalScript
 							game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
 								if key == "f" and script.Parent.Parent.speedhaxx.Text ~= "" then
 									getgenv().loop = true
-									while wait() and loop == true do
+									while wait() and loop == true do wait()
 										char.CFrame = char.CFrame + char.CFrame.lookVector * speedy
 	
 									end
@@ -2046,15 +2202,15 @@ local function GFUIGT_fake_script() -- TextButton_24.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(GFUIGT_fake_script)()
-local function NRPOKZ_fake_script() -- rice5.LocalScript 
+coroutine.wrap(GVCK_fake_script)()
+local function BQEUXY_fake_script() -- rice5.LocalScript 
 	local script = Instance.new('LocalScript', rice5)
 
 	script.Parent.Visible = false
 	script.Parent.Draggable = true
 end
-coroutine.wrap(NRPOKZ_fake_script)()
-local function FWROIK_fake_script() -- speedhaxx.LocalScript 
+coroutine.wrap(BQEUXY_fake_script)()
+local function SEZPCP_fake_script() -- speedhaxx.LocalScript 
 	local script = Instance.new('LocalScript', speedhaxx)
 
 	script.Parent.Visible = false
@@ -2077,16 +2233,16 @@ local function FWROIK_fake_script() -- speedhaxx.LocalScript
 	end)
 	
 end
-coroutine.wrap(FWROIK_fake_script)()
-local function DGCHP_fake_script() -- TextLabel_15.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel_15)
+coroutine.wrap(SEZPCP_fake_script)()
+local function OFRIEA_fake_script() -- TextLabel_14.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_14)
 
 	print("Have a nice day!")
 	
 end
-coroutine.wrap(DGCHP_fake_script)()
-local function PRQJVF_fake_script() -- TextButton_25.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_25)
+coroutine.wrap(OFRIEA_fake_script)()
+local function BAOF_fake_script() -- TextButton_23.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_23)
 
 	local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
 	local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
@@ -2118,15 +2274,15 @@ local function PRQJVF_fake_script() -- TextButton_25.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PRQJVF_fake_script)()
-local function OGKY_fake_script() -- rice6.LocalScript 
+coroutine.wrap(BAOF_fake_script)()
+local function DOTE_fake_script() -- rice6.LocalScript 
 	local script = Instance.new('LocalScript', rice6)
 
 	script.Parent.Visible = false
 	script.Parent.Draggable = true
 end
-coroutine.wrap(OGKY_fake_script)()
-local function KVXOZ_fake_script() -- jumphaxx.LocalScript 
+coroutine.wrap(DOTE_fake_script)()
+local function TOGU_fake_script() -- jumphaxx.LocalScript 
 	local script = Instance.new('LocalScript', jumphaxx)
 
 	script.Parent.Visible = false
@@ -2157,25 +2313,30 @@ local function KVXOZ_fake_script() -- jumphaxx.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KVXOZ_fake_script)()
-local function KKTEU_fake_script() -- TextButton_26.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_26)
+coroutine.wrap(TOGU_fake_script)()
+local function MGEGH_fake_script() -- TextButton_24.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_24)
 
 	
 	local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
 	
 	local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
 	
+	local path = script.Parent.Parent.Parent.rice1.Info.Planboxa.Text
+	
 	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.rice1.TextButton.Visible = false
+		script.Parent.Parent.Parent.rice1.TextButtonCopy.Visible = true
 		
 		Notification:Notify(
 			{Title = "Bloodfruit Farm: Activated", Description = "Check Keybinds for info/setting!"},
 			{OutlineColor = Color3.fromRGB(80, 80, 80),Time = 10, Type = "image"},
 			{Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)})
 		
-		if script.Parent.Parent.Parent.rice1.Info.Planboxa.Text ~= "" then
-			script.Parent.Parent.Parent.rice1.TextButton.Visible = false
-			script.Parent.Parent.Parent.rice1.TextButtonCopy.Visible = true
+		if path ~= "" then
+			amountofpots = script.Parent.Parent.Info.Planboxa.Text
+		else 
+			amountofpots = "1"
 		end
 		spawn(function()
 			local placekey = "p"
@@ -2222,22 +2383,22 @@ local function KKTEU_fake_script() -- TextButton_26.LocalScript
 	end)
 	
 end
-coroutine.wrap(KKTEU_fake_script)()
-local function TDRGVLK_fake_script() -- rice1.LocalScript 
+coroutine.wrap(MGEGH_fake_script)()
+local function VQLXIC_fake_script() -- rice1.LocalScript 
 	local script = Instance.new('LocalScript', rice1)
 
 	script.Parent.Visible = false
 	
 end
-coroutine.wrap(TDRGVLK_fake_script)()
-local function CZVQQN_fake_script() -- Info.LocalScript 
+coroutine.wrap(VQLXIC_fake_script)()
+local function OZORUE_fake_script() -- Info.LocalScript 
 	local script = Instance.new('LocalScript', Info)
 
 	script.Parent.Visible = false
 	
 end
-coroutine.wrap(CZVQQN_fake_script)()
-local function AZKKU_fake_script() -- Planboxa.LocalScript 
+coroutine.wrap(OZORUE_fake_script)()
+local function YMHEHL_fake_script() -- Planboxa.LocalScript 
 	local script = Instance.new('LocalScript', Planboxa)
 
 	script.Parent.Parent.Planboxa.FocusLost:Connect(function() 
@@ -2246,8 +2407,8 @@ local function AZKKU_fake_script() -- Planboxa.LocalScript
 		end
 	end)
 end
-coroutine.wrap(AZKKU_fake_script)()
-local function UCVBPUA_fake_script() -- Infoo.LocalScript 
+coroutine.wrap(YMHEHL_fake_script)()
+local function OMOTP_fake_script() -- Infoo.LocalScript 
 	local script = Instance.new('LocalScript', Infoo)
 
 	-- Open/close
@@ -2263,15 +2424,15 @@ local function UCVBPUA_fake_script() -- Infoo.LocalScript
 	
 	
 end
-coroutine.wrap(UCVBPUA_fake_script)()
-local function HWBHRL_fake_script() -- TextButtonCopy_2.LocalScript 
-	local script = Instance.new('LocalScript', TextButtonCopy_2)
+coroutine.wrap(OMOTP_fake_script)()
+local function MRFUAWE_fake_script() -- TextButtonCopy.LocalScript 
+	local script = Instance.new('LocalScript', TextButtonCopy)
 
 	script.Parent.Visible = false
 end
-coroutine.wrap(HWBHRL_fake_script)()
-local function OPZFHGI_fake_script() -- TextButton_27.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_27)
+coroutine.wrap(MRFUAWE_fake_script)()
+local function MWZWXL_fake_script() -- TextButton_25.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_25)
 
 	script.Parent.MouseButton1Down:connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(602.956238, -47.1666183, -272.799988, 0.0835363939, 0, -0.996504724, 0, 1, 0, 0.996504724, 0, 0.0835363939) * CFrame.Angles(-0, -1.501023769378662, -0)
@@ -2287,32 +2448,50 @@ local function OPZFHGI_fake_script() -- TextButton_27.LocalScript
 	
 	
 end
-coroutine.wrap(OPZFHGI_fake_script)()
-local function PYTL_fake_script() -- TextButton_28.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_28)
+coroutine.wrap(MWZWXL_fake_script)()
+local function JPUMX_fake_script() -- TextButton_26.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_26)
 
 	script.Parent.MouseButton1Down:connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(602.956238, -47.1666183, -272.799988, 0.0835363939, 0, -0.996504724, 0, 1, 0, 0.996504724, 0, 0.0835363939) * CFrame.Angles(-0, -1.501023769378662, -0)
 	end)
 end
-coroutine.wrap(PYTL_fake_script)()
-local function NGQR_fake_script() -- ChubHub.LocalScript 
+coroutine.wrap(JPUMX_fake_script)()
+local function PIDEZEL_fake_script() -- ChubHub.LocalScript 
 	local script = Instance.new('LocalScript', ChubHub)
 
-	wait(1)
-	script.Parent.ResetOnSpawn = false
-	local ObjectPlace = nil
+	wait(0.05)
+	local Typo = nil
+	
 	local p3 = nil
+	
 	local p4 = nil
+	
 	local RN = nil
+	
 	local speedy = nil
+	
 	local jumpy = nil
+	
 	local amountofpots = nil
+	
 	local plr = game:GetService("Players").LocalPlayer
+	
 	local char = plr.Character
+	
 	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
+	
 	local hum = char:FindFirstChild("HumanoidRootPart")
+	
 	local checkselected = nil
+	
+	local Delayy = nil
+	
+	local d1 = nil
+	
+	local d2 = nil
+	
+	local d3 = nil
 	
 	getgenv().NotificationColour = nil
 	
@@ -2344,8 +2523,8 @@ local function NGQR_fake_script() -- ChubHub.LocalScript
 	end)
 	
 end
-coroutine.wrap(NGQR_fake_script)()
-local function NTFIU_fake_script() -- _7.LocalScript 
+coroutine.wrap(PIDEZEL_fake_script)()
+local function KZSSHW_fake_script() -- _7.LocalScript 
 	local script = Instance.new('LocalScript', _7)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -2354,8 +2533,8 @@ local function NTFIU_fake_script() -- _7.LocalScript
 		script.Parent.Parent.Parent.SC.Text = checkselected
 	end)
 end
-coroutine.wrap(NTFIU_fake_script)()
-local function APCQM_fake_script() -- _6.LocalScript 
+coroutine.wrap(KZSSHW_fake_script)()
+local function KYKAIL_fake_script() -- _6.LocalScript 
 	local script = Instance.new('LocalScript', _6)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -2364,8 +2543,8 @@ local function APCQM_fake_script() -- _6.LocalScript
 		script.Parent.Parent.Parent.SC.Text = checkselected
 	end)
 end
-coroutine.wrap(APCQM_fake_script)()
-local function DFBOOOS_fake_script() -- _5.LocalScript 
+coroutine.wrap(KYKAIL_fake_script)()
+local function ZDHXXW_fake_script() -- _5.LocalScript 
 	local script = Instance.new('LocalScript', _5)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -2374,8 +2553,8 @@ local function DFBOOOS_fake_script() -- _5.LocalScript
 		script.Parent.Parent.Parent.SC.Text = checkselected
 	end)
 end
-coroutine.wrap(DFBOOOS_fake_script)()
-local function VHVFZE_fake_script() -- _4.LocalScript 
+coroutine.wrap(ZDHXXW_fake_script)()
+local function JFQPG_fake_script() -- _4.LocalScript 
 	local script = Instance.new('LocalScript', _4)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -2384,8 +2563,8 @@ local function VHVFZE_fake_script() -- _4.LocalScript
 		script.Parent.Parent.Parent.SC.Text = checkselected
 	end)
 end
-coroutine.wrap(VHVFZE_fake_script)()
-local function EWALR_fake_script() -- _3.LocalScript 
+coroutine.wrap(JFQPG_fake_script)()
+local function FZEAQK_fake_script() -- _3.LocalScript 
 	local script = Instance.new('LocalScript', _3)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -2394,8 +2573,8 @@ local function EWALR_fake_script() -- _3.LocalScript
 		script.Parent.Parent.Parent.SC.Text = checkselected
 	end)
 end
-coroutine.wrap(EWALR_fake_script)()
-local function WVTP_fake_script() -- _2.LocalScript 
+coroutine.wrap(FZEAQK_fake_script)()
+local function SEQWB_fake_script() -- _2.LocalScript 
 	local script = Instance.new('LocalScript', _2)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -2404,8 +2583,8 @@ local function WVTP_fake_script() -- _2.LocalScript
 		script.Parent.Parent.Parent.SC.Text = checkselected
 	end)
 end
-coroutine.wrap(WVTP_fake_script)()
-local function GAAP_fake_script() -- _1.LocalScript 
+coroutine.wrap(SEQWB_fake_script)()
+local function HRGHTIR_fake_script() -- _1.LocalScript 
 	local script = Instance.new('LocalScript', _1)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -2414,8 +2593,8 @@ local function GAAP_fake_script() -- _1.LocalScript
 		script.Parent.Parent.Parent.SC.Text = checkselected
 	end)
 end
-coroutine.wrap(GAAP_fake_script)()
-local function AHUEJS_fake_script() -- _0.LocalScript 
+coroutine.wrap(HRGHTIR_fake_script)()
+local function OBHQ_fake_script() -- _0.LocalScript 
 	local script = Instance.new('LocalScript', _0)
 
 	local sc = script.Parent.Parent.Parent.SC.Text
@@ -2443,32 +2622,34 @@ local function AHUEJS_fake_script() -- _0.LocalScript
 		end
 	end)
 end
-coroutine.wrap(AHUEJS_fake_script)()
-local function IEEBR_fake_script() -- rice7.LocalScript 
+coroutine.wrap(OBHQ_fake_script)()
+local function THKHMY_fake_script() -- rice7.LocalScript 
 	local script = Instance.new('LocalScript', rice7)
 
 	script.Parent.Visible = false
 end
-coroutine.wrap(IEEBR_fake_script)()
-local function VHMBR_fake_script() -- SC.LocalScript 
+coroutine.wrap(THKHMY_fake_script)()
+local function JDREQ_fake_script() -- SC.LocalScript 
 	local script = Instance.new('LocalScript', SC)
 
 	script.Parent.Visible = false
 	script.Parent.Draggable = true
 	
 end
-coroutine.wrap(VHMBR_fake_script)()
-local function SLEPG_fake_script() -- TextLabel_21.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel_21)
+coroutine.wrap(JDREQ_fake_script)()
+local function TMUD_fake_script() -- TextLabel_20.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_20)
 
 	print("Have a nice day!")
 	
 end
-coroutine.wrap(SLEPG_fake_script)()
-local function VYVS_fake_script() -- aof.LocalScript 
+coroutine.wrap(TMUD_fake_script)()
+local function AISDDE_fake_script() -- aof.LocalScript 
 	local script = Instance.new('LocalScript', aof)
 
 	local condition = false
+	
+	local player = game:GetService("Players").LocalPlayer.Character
 	
 	script.Parent.MouseButton1Click:Connect(function()
 		if script.Parent.Parent.healitem.Text == "" then autoitem = "Bloodfruit"
@@ -2481,14 +2662,14 @@ local function VYVS_fake_script() -- aof.LocalScript
 			script.Parent.Text = "Off"
 		end
 		spawn(function()
-			while condition == true do wait(0.89)
+			while condition == true do wait(0.45)
 				--CODE
-				if condition == true and game:GetService("Workspace").Characters.WolvenClashgaming10.Humanoid.Health ~= 100 and game:GetService("Workspace").Characters.WolvenClashgaming10.Humanoid.Health < 70 then
+				if condition == true and game:GetService("Workspace").Characters[player.Name].Humanoid.Health ~= 100 and game:GetService("Workspace").Characters[player.Name].Humanoid.Health < 70 then
 	
 					repeat
 						game:GetService("ReplicatedStorage").Events.UseBagItem:FireServer(autoitem)
 						wait(0.09)
-					until game:GetService("Workspace").Characters.WolvenClashgaming10.Humanoid.Health == 70 or game:GetService("Workspace").Characters.WolvenClashgaming10.Humanoid.Health >= 70
+					until game:GetService("Workspace").Characters[player.Name].Humanoid.Health == 70 or game:GetService("Workspace").Characters[player.Name].Humanoid.Health >= 70
 	
 				end
 			end
@@ -2496,8 +2677,14 @@ local function VYVS_fake_script() -- aof.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(VYVS_fake_script)()
-local function CUPHV_fake_script() -- healitem.LocalScript 
+coroutine.wrap(AISDDE_fake_script)()
+local function TRDFP_fake_script() -- rice9.LocalScript 
+	local script = Instance.new('LocalScript', rice9)
+
+	script.Parent.Visible = false
+end
+coroutine.wrap(TRDFP_fake_script)()
+local function FLKVMB_fake_script() -- healitem.LocalScript 
 	local script = Instance.new('LocalScript', healitem)
 
 	local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
@@ -2521,10 +2708,404 @@ local function CUPHV_fake_script() -- healitem.LocalScript
 	end)
 	
 end
-coroutine.wrap(CUPHV_fake_script)()
-local function BQEB_fake_script() -- rice9.LocalScript 
-	local script = Instance.new('LocalScript', rice9)
+coroutine.wrap(FLKVMB_fake_script)()
+local function XLXE_fake_script() -- Title.LocalScript 
+	local script = Instance.new('LocalScript', Title)
+
+	print("Have a nice day!")
+	
+end
+coroutine.wrap(XLXE_fake_script)()
+local function AGAZT_fake_script() -- rice10.LocalScript 
+	local script = Instance.new('LocalScript', rice10)
 
 	script.Parent.Visible = false
 end
-coroutine.wrap(BQEB_fake_script)()
+coroutine.wrap(AGAZT_fake_script)()
+local function UZVEI_fake_script() -- AutoFarm.LocalScript 
+	local script = Instance.new('LocalScript', AutoFarm)
+
+	local condition = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Delay.Text == "" then
+			Delayy = 3.5
+		else
+			Delayy = script.Parent.Delay.Text
+		end
+	
+		if condition == false then
+			condition = true
+			script.Parent.Text = "On"
+		else
+			condition = false
+			script.Parent.Text = "Off"
+		end
+		spawn(function()
+			while condition == true and RN ~= "" do wait(0.89)
+				--CODE
+				for i, v in pairs(game:GetService("Workspace")[Typo]:GetChildren()) do
+					if script.Parent.Text == "On" then
+						if v.Name ~= nil and v.PrimaryPart ~= nil and v.Name== RN then 
+							game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Workspace")[Typo][RN].PrimaryPart.Position.x, game:GetService("Workspace")[Typo][RN].PrimaryPart.Position.y + (3), game:GetService("Workspace")[Typo][RN].PrimaryPart.Position.z) wait(Delayy)
+						end
+					end
+	
+				end
+			end
+		end)
+		spawn(function()
+			if condition == true and RN ~= "" then 
+				--CODE
+				for i, v in pairs(game:GetService("Workspace")[Typo]:GetChildren()) do
+					if v.Name ~= nil and v.PrimaryPart ~= nil and v.Name== RN then
+						while script.Parent.Text == "On" do wait()
+							getgenv().Target = game:GetService("Workspace")[Typo][RN].PrimaryPart
+	
+							local A1  = {
+								[1] = getgenv().Target
+							}
+							local A2 = game:GetService("ReplicatedStorage").RelativeTime.Value
+							game:GetService("ReplicatedStorage").Events.SwingTool:FireServer(A2, A1)
+						end
+					end
+	
+				end
+			end
+		end)
+	end)
+	
+end
+coroutine.wrap(UZVEI_fake_script)()
+local function SEQJVBV_fake_script() -- EntityName.LocalScript 
+	local script = Instance.new('LocalScript', EntityName)
+
+	script.Parent.Parent["EntityName"].FocusLost:Connect(function() 
+		if script.Parent.Parent["EntityName"].Text ~= "" then
+			RN = script.Parent.Parent["EntityName"].Text
+		end
+	end)
+end
+coroutine.wrap(SEQJVBV_fake_script)()
+local function KEROXU_fake_script() -- Delay.LocalScript 
+	local script = Instance.new('LocalScript', Delay)
+
+	script.Parent.Parent["Delay"].FocusLost:Connect(function() 
+		if script.Parent.Parent["Delay"].Text ~= "" then
+			Delayy = script.Parent.Parent["Delay"].Text
+		else
+			Delayy = 3.5
+		end
+	end)
+end
+coroutine.wrap(KEROXU_fake_script)()
+local function TPLMQOD_fake_script() -- a.LocalScript 
+	local script = Instance.new('LocalScript', a)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		if script.Parent.Parent.Select.Visible == false then
+			script.Parent.Parent.Select.Visible = true
+		else
+			script.Parent.Parent.Select.Visible = false
+		end
+	end)
+end
+coroutine.wrap(TPLMQOD_fake_script)()
+local function YFVLAK_fake_script() -- b.LocalScript 
+	local script = Instance.new('LocalScript', b)
+
+	script.Parent.MouseButton1Down:Connect(function(a)
+		Typo = "Resources"
+	end)
+	script.Parent.MouseButton1Down:Connect(function(a)
+		script.Parent.Parent.Parent.Parent.rice10.Select.Visible = false
+		script.Parent.Parent.Parent.Parent.rice10.a.Text = "Resources"
+	end)
+end
+coroutine.wrap(YFVLAK_fake_script)()
+local function SKDL_fake_script() -- c.LocalScript 
+	local script = Instance.new('LocalScript', c)
+
+	script.Parent.MouseButton1Down:Connect(function(b)
+		Typo = "Deployables"
+	end)
+	script.Parent.MouseButton1Down:Connect(function(b)
+		script.Parent.Parent.Parent.Parent.rice10.Select.Visible = false
+		script.Parent.Parent.Parent.Parent.rice10.a.Text = "Deployables"
+	end)
+end
+coroutine.wrap(SKDL_fake_script)()
+local function GEDV_fake_script() -- d.LocalScript 
+	local script = Instance.new('LocalScript', d)
+
+	script.Parent.MouseButton1Down:Connect(function(c)
+		Typo = "Critters"
+	end)
+	script.Parent.MouseButton1Down:Connect(function(c)
+		script.Parent.Parent.Parent.Parent.rice10.Select.Visible = false
+		script.Parent.Parent.Parent.Parent.rice10.a.Text = "Critters"
+	end)
+end
+coroutine.wrap(GEDV_fake_script)()
+local function SNGVDW_fake_script() -- Select.LocalScript 
+	local script = Instance.new('LocalScript', Select)
+
+	script.Parent.Visible = false
+end
+coroutine.wrap(SNGVDW_fake_script)()
+local function CUDAMOT_fake_script() -- TextButton_27.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_27)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local player = game:GetService("Players").LocalPlayer.Character
+		for i, v in pairs(game:GetService("Players")[player.Name].PlayerGui:GetChildren()) do
+			if v.Name == "ChubHub" then
+				v:Destroy()
+			end
+		end
+	end)
+end
+coroutine.wrap(CUDAMOT_fake_script)()
+local function DZSJ_fake_script() -- OC.LocalScript 
+	local script = Instance.new('LocalScript', OC)
+
+	script.Parent.Draggable = true
+	-- Open/close
+	local frame = script.Parent.Parent.rice
+	local open = false
+	
+	
+	script.Parent.MouseButton1Click:Connect(function(oc)
+		print(Typo)
+		if frame.Visible == false then
+			frame.Visible = true
+		else
+			frame.Visible = false
+		end
+	end)
+	
+	local frame = script.Parent.Parent.rice1
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function(oc)
+		if frame.Visible == false then
+			frame.Visible = true
+		else
+			frame.Visible = false
+		end
+	end)
+	
+	local frame = script.Parent.Parent.rice2
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function(oc)
+		if frame.Visible == false then
+			frame.Visible = true
+		else
+			frame.Visible = false
+		end
+	end)
+	
+	local frame = script.Parent.Parent.rice4
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function(oc)
+		if frame.Visible == false then
+			frame.Visible = true
+		else
+			frame.Visible = false
+		end
+	end)
+	
+	local frame = script.Parent.Parent.rice5
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function(oc)
+		if frame.Visible == false then
+			frame.Visible = true
+		else
+			frame.Visible = false
+		end
+	end)
+	
+	local frame = script.Parent.Parent.rice6
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function(oc)
+		if frame.Visible == false then
+			frame.Visible = true
+		else
+			frame.Visible = false
+		end
+	end)
+	
+	-- Close At First--------------
+	local frame = script.Parent.Parent.rice1.Info
+	local open = false
+	script.Parent.MouseButton1Click:Connect(function(oc)
+		if frame.Visible == true then
+			frame.Visible = false
+		else
+			frame.Visible = false
+	
+		end
+	end)
+	-------------------------------
+	local frame = script.Parent.Parent.rice7
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function(oc)
+		if frame.Visible == false then
+			frame.Visible = true
+		else
+			frame.Visible = false
+		end
+	end)
+	
+	local frame = script.Parent.Parent.SC
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function(oc)
+		if frame.Visible == false then
+			frame.Visible = true
+		else
+			frame.Visible = false
+		end
+	end)
+	
+	local frame = script.Parent.Parent.rice9
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function(oc)
+		if frame.Visible == false then
+			frame.Visible = true
+		else
+			frame.Visible = false
+		end
+	end)
+	
+	
+	local frame = script.Parent.Parent.rice10
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function(oc)
+		if frame.Visible == false then
+			frame.Visible = true
+		else
+			frame.Visible = false
+		end
+	end)
+	
+	local frame = script.Parent.Parent.rice11
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function(oc)
+		if frame.Visible == false then
+			frame.Visible = true
+		else
+			frame.Visible = false
+		end
+	end)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+end
+coroutine.wrap(DZSJ_fake_script)()
+local function TNAEKTG_fake_script() -- rice11.LocalScript 
+	local script = Instance.new('LocalScript', rice11)
+
+	script.Parent.Visible = false
+end
+coroutine.wrap(TNAEKTG_fake_script)()
+local function CSRYQYN_fake_script() -- aof1.LocalScript 
+	local script = Instance.new('LocalScript', aof1)
+
+	local condition = false
+	
+	local player = game:GetService("Players").LocalPlayer.Character
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if condition == false then
+			condition = true
+			script.Parent.Text = "On"
+		else
+			condition = false
+			script.Parent.Text = "Off"
+		end
+		while condition == true do wait(0.0005)
+			spawn(function()
+				--CODE
+				if game:GetService("Workspace").Characters[player.Name].Humanoid.Health > 0 then
+					repeat 
+						game:GetService("ReplicatedStorage").Events.DropBagItem:FireServer(""..d1.."")
+						game:GetService("ReplicatedStorage").Events.DropBagItem:FireServer(""..d2.."")
+						game:GetService("ReplicatedStorage").Events.DropBagItem:FireServer(""..d3.."")
+						wait()
+					until
+					condition == false
+				end
+			end)
+		end
+	end)
+	
+	
+end
+coroutine.wrap(CSRYQYN_fake_script)()
+local function TSDZ_fake_script() -- d3.LocalScript 
+	local script = Instance.new('LocalScript', d3)
+
+	script.Parent.Parent.d3.FocusLost:Connect(function() 
+		if script.Parent.Parent.d3.Text ~= "" then
+			d3 = script.Parent.Parent.d3.Text
+			game.StarterGui:SetCore("SendNotification",  {
+				Title = "DropItem3: ";
+				Text = ""..d3.."";
+				Duration = 5;
+			})
+		end
+	end)
+	
+end
+coroutine.wrap(TSDZ_fake_script)()
+local function URPHEC_fake_script() -- d2.LocalScript 
+	local script = Instance.new('LocalScript', d2)
+
+	script.Parent.Parent.d2.FocusLost:Connect(function() 
+		if script.Parent.Parent.d2.Text ~= "" then
+			d2 = script.Parent.Parent.d2.Text
+			game.StarterGui:SetCore("SendNotification",  {
+				Title = "DropItem2: ";
+				Text = ""..d2.."";
+				Duration = 5;
+			})
+		end
+	end)
+	
+end
+coroutine.wrap(URPHEC_fake_script)()
+local function YZSHXKC_fake_script() -- d1.LocalScript 
+	local script = Instance.new('LocalScript', d1)
+
+	script.Parent.Parent.d1.FocusLost:Connect(function() 
+		if script.Parent.Parent.d1.Text ~= "" then
+			d1 = script.Parent.Parent.d1.Text
+			game.StarterGui:SetCore("SendNotification",  {
+				Title = "DropItem1:";
+				Text = ""..d1.."";
+				Duration = 5;
+			})
+		end
+	end)
+end
+coroutine.wrap(YZSHXKC_fake_script)()
