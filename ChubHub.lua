@@ -1,5 +1,3 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Chubbix/ChubHub/main/Exit.lua"))()
-
 local ChubHub = Instance.new("ScreenGui")
 local rice4 = Instance.new("Frame")
 local TextButton = Instance.new("TextButton")
@@ -3152,3 +3150,5 @@ local function YFVE_fake_script() -- OpenClose.LocalScript
 end
 
 coroutine.wrap(YFVE_fake_script)()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Chubbix/ChubHub/main/Exit.lua"))()
+
