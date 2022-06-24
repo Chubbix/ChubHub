@@ -1,3 +1,28 @@
-script.Parent.MouseButton1Click:Connect(function()
-    game:GetService("CoreGui").ChubHub:Destroy()
-end)
+local ULOL = Instance.new("TextButton")
+
+--Properties:
+
+ULOL.Name = "ULOL"
+ULOL.Parent = game.CoreGui.ChubHub["Open/Close"]
+ULOL.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+ULOL.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ULOL.Position = UDim2.new(0.807073057, 0, 0, 0)
+ULOL.Size = UDim2.new(0, 15, 0, 10)
+ULOL.ZIndex = 5
+ULOL.Font = Enum.Font.SourceSans
+ULOL.Text = "X"
+ULOL.TextColor3 = Color3.fromRGB(0, 0, 0)
+ULOL.TextScaled = true
+ULOL.TextSize = 14.000
+ULOL.TextWrapped = true
+
+-- Scripts:
+
+local function YRRNUVQ_fake_script() -- ULOL.LocalScript 
+	local script = Instance.new('LocalScript', ULOL)
+
+	script.Parent.MouseButton1Click:Connect(function(oc)
+		game:GetService("CoreGui").ChubHub:Destroy()
+	end)
+end
+coroutine.wrap(YRRNUVQ_fake_script)()
