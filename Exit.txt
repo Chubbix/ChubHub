@@ -1,7 +1,5 @@
 local ULOL = Instance.new("TextButton")
 
---Properties:
-
 ULOL.Name = "ULOL"
 ULOL.Parent = game.CoreGui.ChubHub["Open/Close"]
 ULOL.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
@@ -16,9 +14,7 @@ ULOL.TextScaled = true
 ULOL.TextSize = 14.000
 ULOL.TextWrapped = true
 
--- Scripts:
-
-local function YRRNUVQ_fake_script() -- ULOL.LocalScript 
+local function YRRNUVQ_fake_script() 
 	local script = Instance.new('LocalScript', ULOL)
 
 	script.Parent.MouseButton1Click:Connect(function(oc)
