@@ -1,9 +1,16 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
 local ULOL = Instance.new("TextButton")
+
+--Properties:
 
 ULOL.Name = "ULOL"
 ULOL.Parent = game.CoreGui.ChubHub["Open/Close"]
 ULOL.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
-ULOL.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ULOL.BorderColor3 = Color3.fromRGB(255, 255, 255)
 ULOL.Position = UDim2.new(0.778087556, 0, 0, 0)
 ULOL.Size = UDim2.new(0, 15, 0, 10)
 ULOL.ZIndex = 5
@@ -14,11 +21,13 @@ ULOL.TextScaled = true
 ULOL.TextSize = 14.000
 ULOL.TextWrapped = true
 
-local function YSRWIG_fake_script() -- ULOL.LocalScript 
+-- Scripts:
+
+local function TRDT_fake_script() -- ULOL.LocalScript 
 	local script = Instance.new('LocalScript', ULOL)
 
 	script.Parent.MouseButton1Click:Connect(function(oc)
 		game:GetService("CoreGui").ChubHub:Destroy()
 	end)
 end
-coroutine.wrap(YSRWIG_fake_script)()
+coroutine.wrap(TRDT_fake_script)()
