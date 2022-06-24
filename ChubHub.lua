@@ -1,8 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local ChubHub = Instance.new("ScreenGui")
 local rice4 = Instance.new("Frame")
 local TextButton = Instance.new("TextButton")
