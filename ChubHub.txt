@@ -2553,7 +2553,7 @@ local function UKRG_fake_script() -- ChubHub.LocalScript
 	
 	getgenv().NotificationColour = nil
 	
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Chubbix/ChubHub/335237299d9bdd0c36092c30c09be6fa92e38f01/Exit.txt"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Chubbix/ChubHub/main/Exit.txt"))()
 	
 	--Copper
 	spawn(function()
