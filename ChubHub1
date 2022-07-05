@@ -1,0 +1,2806 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ChubHub = Instance.new("ScreenGui")
+local rice9 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local aof = Instance.new("TextButton")
+local healitem = Instance.new("TextBox")
+local FN = Instance.new("TextLabel")
+local rice6 = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local DefaultJump = Instance.new("TextBox")
+local jumphaxx = Instance.new("TextBox")
+local rice5 = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+local TextLabel_5 = Instance.new("TextLabel")
+local DefaultSpeed = Instance.new("TextBox")
+local speedhaxx = Instance.new("TextBox")
+local rice4 = Instance.new("Frame")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+local TextLabel_6 = Instance.new("TextLabel")
+local CPlayerTp = Instance.new("TextButton")
+local STP = Instance.new("TextBox")
+local TextButton_10 = Instance.new("TextButton")
+local TextButton_11 = Instance.new("TextButton")
+local TextButton_12 = Instance.new("TextButton")
+local TextButton_13 = Instance.new("TextButton")
+local TextButton_14 = Instance.new("TextButton")
+local TextButton_15 = Instance.new("TextButton")
+local MagTPPlayer = Instance.new("TextButton")
+local rice11 = Instance.new("Frame")
+local TextLabel_7 = Instance.new("TextLabel")
+local aof1 = Instance.new("TextButton")
+local d3 = Instance.new("TextBox")
+local d2 = Instance.new("TextBox")
+local d1 = Instance.new("TextBox")
+local Delay = Instance.new("TextBox")
+local rice10 = Instance.new("Frame")
+local Select = Instance.new("Frame")
+local d = Instance.new("TextButton")
+local c = Instance.new("TextButton")
+local b = Instance.new("TextButton")
+local aSelect = Instance.new("TextButton")
+local Title = Instance.new("TextLabel")
+local AutoFarm = Instance.new("TextButton")
+local Delay_2 = Instance.new("TextBox")
+local EntityName = Instance.new("TextBox")
+local QSelect = Instance.new("Frame")
+local c_2 = Instance.new("TextButton")
+local e = Instance.new("TextButton")
+local g = Instance.new("TextButton")
+local UIListLayout = Instance.new("UIListLayout")
+local d_2 = Instance.new("TextButton")
+local j = Instance.new("TextButton")
+local k = Instance.new("TextButton")
+local i = Instance.new("TextButton")
+local m = Instance.new("TextButton")
+local b_2 = Instance.new("TextButton")
+local n = Instance.new("TextButton")
+local o = Instance.new("TextButton")
+local r = Instance.new("TextButton")
+local a = Instance.new("TextButton")
+local h = Instance.new("TextButton")
+local q = Instance.new("TextButton")
+local s = Instance.new("TextButton")
+local t = Instance.new("TextButton")
+local u = Instance.new("TextButton")
+local v = Instance.new("TextButton")
+local w = Instance.new("TextButton")
+local bSelect = Instance.new("TextButton")
+local rice1 = Instance.new("Frame")
+local TextButton_16 = Instance.new("TextButton")
+local Infoo = Instance.new("TextButton")
+local TextButtonCopy = Instance.new("TextButton")
+local DefaultPots = Instance.new("TextButton")
+local DefaultPots_2 = Instance.new("TextLabel")
+local TextButton_17 = Instance.new("TextButton")
+local TextButton_18 = Instance.new("TextButton")
+local Info = Instance.new("Frame")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local Planboxa = Instance.new("TextBox")
+local rice = Instance.new("Frame")
+local TextButton_19 = Instance.new("TextButton")
+local TextButton_20 = Instance.new("TextButton")
+local TextButton_21 = Instance.new("TextButton")
+local TextButton_22 = Instance.new("TextButton")
+local TextButton_23 = Instance.new("TextButton")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextButton_24 = Instance.new("TextButton")
+local TextButton_25 = Instance.new("TextButton")
+local TextButton_26 = Instance.new("TextButton")
+local AutoCraft = Instance.new("TextButton")
+local ItemName = Instance.new("TextBox")
+
+--Properties:
+
+ChubHub.Name = "ChubHub"
+ChubHub.Parent = game.CoreGui
+ChubHub.ResetOnSpawn = false
+
+rice9.Name = "rice9"
+rice9.Parent = ChubHub
+rice9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+rice9.Position = UDim2.new(0.00761150196, 0, 0.0968770534, 0)
+rice9.Size = UDim2.new(0, 100, 0, 102)
+
+TextLabel.Parent = rice9
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 182, 98)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.Size = UDim2.new(0, 100, 0, 21)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Auto Heal"
+TextLabel.TextColor3 = Color3.fromRGB(65, 65, 65)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 11.000
+TextLabel.TextWrapped = true
+
+aof.Name = "aof"
+aof.Parent = rice9
+aof.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
+aof.BorderColor3 = Color3.fromRGB(255, 255, 255)
+aof.Position = UDim2.new(0.170000061, 0, 0.46413213, 0)
+aof.Size = UDim2.new(0, 64, 0, 23)
+aof.ZIndex = 2
+aof.Modal = true
+aof.Font = Enum.Font.Arial
+aof.Text = "On/Off"
+aof.TextColor3 = Color3.fromRGB(72, 72, 72)
+aof.TextSize = 14.000
+
+healitem.Name = "healitem"
+healitem.Parent = rice9
+healitem.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+healitem.BorderColor3 = Color3.fromRGB(130, 203, 255)
+healitem.Position = UDim2.new(0.119999997, 0, 0.76434499, 0)
+healitem.Size = UDim2.new(0, 73, 0, 10)
+healitem.ZIndex = 2
+healitem.Font = Enum.Font.SourceSans
+healitem.MultiLine = true
+healitem.PlaceholderText = "Food Name"
+healitem.Text = ""
+healitem.TextColor3 = Color3.fromRGB(0, 0, 0)
+healitem.TextSize = 14.000
+
+FN.Name = "FN"
+FN.Parent = rice9
+FN.BackgroundColor3 = Color3.fromRGB(208, 208, 208)
+FN.BorderColor3 = Color3.fromRGB(255, 255, 255)
+FN.Position = UDim2.new(0.0700000003, 0, 0.294247657, 0)
+FN.Size = UDim2.new(0, 86, 0, 10)
+FN.Font = Enum.Font.SourceSans
+FN.Text = "Food: Bloodfruit"
+FN.TextColor3 = Color3.fromRGB(0, 0, 0)
+FN.TextSize = 14.000
+
+rice6.Name = "rice6"
+rice6.Parent = ChubHub
+rice6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+rice6.Position = UDim2.new(0.0698917583, 0, 0.100223489, 0)
+rice6.Size = UDim2.new(0, 100, 0, 99)
+
+TextLabel_2.Parent = rice6
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(231, 255, 121)
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.Position = UDim2.new(0, 0, -0.0299999993, 0)
+TextLabel_2.Size = UDim2.new(0, 100, 0, 21)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Infinite Jump"
+TextLabel_2.TextColor3 = Color3.fromRGB(65, 65, 65)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 11.000
+TextLabel_2.TextWrapped = true
+
+TextButton.Parent = rice6
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
+TextButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0.170000061, 0, 0.409999967, 0)
+TextButton.Size = UDim2.new(0, 64, 0, 23)
+TextButton.Modal = true
+TextButton.Font = Enum.Font.Arial
+TextButton.Text = "Execute"
+TextButton.TextColor3 = Color3.fromRGB(72, 72, 72)
+TextButton.TextSize = 14.000
+
+TextLabel_3.Parent = rice6
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.Position = UDim2.new(0.200000003, 0, 0.912052035, 0)
+TextLabel_3.Size = UDim2.new(0, 60, 0, 0)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Keybind : space"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 10.000
+
+DefaultJump.Name = "DefaultJump"
+DefaultJump.Parent = rice6
+DefaultJump.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DefaultJump.Position = UDim2.new(-999993.5, 0, -99995.6953, 0)
+DefaultJump.Size = UDim2.new(0, 22, 0, 21)
+DefaultJump.Visible = false
+DefaultJump.Font = Enum.Font.SourceSans
+DefaultJump.PlaceholderText = "60"
+DefaultJump.Text = ""
+DefaultJump.TextColor3 = Color3.fromRGB(0, 0, 0)
+DefaultJump.TextSize = 14.000
+
+jumphaxx.Name = "jumphaxx"
+jumphaxx.Parent = rice6
+jumphaxx.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+jumphaxx.BorderColor3 = Color3.fromRGB(130, 203, 255)
+jumphaxx.Position = UDim2.new(0.129999995, 0, 0.690000057, 0)
+jumphaxx.Size = UDim2.new(0, 73, 0, 10)
+jumphaxx.ZIndex = 2
+jumphaxx.Font = Enum.Font.SourceSans
+jumphaxx.MultiLine = true
+jumphaxx.PlaceholderText = "Jump Power"
+jumphaxx.Text = ""
+jumphaxx.TextColor3 = Color3.fromRGB(0, 0, 0)
+jumphaxx.TextSize = 14.000
+
+rice5.Name = "rice5"
+rice5.Parent = ChubHub
+rice5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+rice5.Position = UDim2.new(0.131056532, 0, 0.101560205, 0)
+rice5.Size = UDim2.new(0, 100, 0, 98)
+
+TextLabel_4.Parent = rice5
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(182, 93, 255)
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.Position = UDim2.new(0, 0, -0.0399999991, 0)
+TextLabel_4.Size = UDim2.new(0, 100, 0, 21)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Speed Hack"
+TextLabel_4.TextColor3 = Color3.fromRGB(65, 65, 65)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 11.000
+TextLabel_4.TextWrapped = true
+
+TextButton_2.Parent = rice5
+TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
+TextButton_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.Position = UDim2.new(0.180000067, 0, 0.405308604, 0)
+TextButton_2.Size = UDim2.new(0, 64, 0, 23)
+TextButton_2.ZIndex = 2
+TextButton_2.Modal = true
+TextButton_2.Font = Enum.Font.Arial
+TextButton_2.Text = "Execute"
+TextButton_2.TextColor3 = Color3.fromRGB(72, 72, 72)
+TextButton_2.TextSize = 14.000
+
+TextLabel_5.Parent = rice5
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.Position = UDim2.new(0.219999999, 0, 0.903141916, 0)
+TextLabel_5.Size = UDim2.new(0, 56, 0, 7)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Keybind : f"
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextSize = 11.000
+
+DefaultSpeed.Name = "DefaultSpeed"
+DefaultSpeed.Parent = rice5
+DefaultSpeed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DefaultSpeed.Position = UDim2.new(-999993.5, 0, -99995.6953, 0)
+DefaultSpeed.Size = UDim2.new(0, 22, 0, 21)
+DefaultSpeed.Visible = false
+DefaultSpeed.Font = Enum.Font.SourceSans
+DefaultSpeed.PlaceholderText = "4.05"
+DefaultSpeed.Text = ""
+DefaultSpeed.TextColor3 = Color3.fromRGB(0, 0, 0)
+DefaultSpeed.TextSize = 14.000
+
+speedhaxx.Name = "speedhaxx"
+speedhaxx.Parent = rice5
+speedhaxx.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+speedhaxx.BorderColor3 = Color3.fromRGB(130, 203, 255)
+speedhaxx.Position = UDim2.new(0.129999995, 0, 0.705521464, 0)
+speedhaxx.Size = UDim2.new(0, 73, 0, 10)
+speedhaxx.ZIndex = 2
+speedhaxx.Font = Enum.Font.SourceSans
+speedhaxx.MultiLine = true
+speedhaxx.PlaceholderText = "Speed Power"
+speedhaxx.Text = ""
+speedhaxx.TextColor3 = Color3.fromRGB(0, 0, 0)
+speedhaxx.TextSize = 14.000
+
+rice4.Name = "rice4"
+rice4.Parent = ChubHub
+rice4.Active = true
+rice4.BackgroundColor3 = Color3.fromRGB(192, 247, 255)
+rice4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+rice4.Position = UDim2.new(0.720000029, 0, 0.0989999995, 0)
+rice4.Size = UDim2.new(0, 301, 0, 190)
+
+TextButton_3.Parent = rice4
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.Position = UDim2.new(0.0353472196, 0, 0.127802268, 0)
+TextButton_3.Size = UDim2.new(0, 65, 0, 16)
+TextButton_3.Font = Enum.Font.TitilliumWeb
+TextButton_3.Text = "Sky Island 1"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+
+TextButton_4.Parent = rice4
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.Position = UDim2.new(0.28324759, 0, 0.127871916, 0)
+TextButton_4.Size = UDim2.new(0, 65, 0, 16)
+TextButton_4.Font = Enum.Font.TitilliumWeb
+TextButton_4.Text = "Desert Biome"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+TextButton_5.Parent = rice4
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.Position = UDim2.new(0.0353472196, 0, 0.27194646, 0)
+TextButton_5.Size = UDim2.new(0, 65, 0, 16)
+TextButton_5.Font = Enum.Font.TitilliumWeb
+TextButton_5.Text = "Sky Island 2"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextSize = 14.000
+
+TextButton_6.Parent = rice4
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.Position = UDim2.new(0.0322336778, 0, 0.443117589, 0)
+TextButton_6.Size = UDim2.new(0, 65, 0, 16)
+TextButton_6.Font = Enum.Font.TitilliumWeb
+TextButton_6.Text = "Sky Island 3"
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextSize = 14.000
+
+TextButton_7.Parent = rice4
+TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.Position = UDim2.new(0.28324765, 0, 0.443117619, 0)
+TextButton_7.Size = UDim2.new(0, 65, 0, 16)
+TextButton_7.Font = Enum.Font.TitilliumWeb
+TextButton_7.Text = "Hidden Spot"
+TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14.000
+TextButton_7.TextWrapped = true
+
+TextButton_8.Parent = rice4
+TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.Position = UDim2.new(0.517321825, 0, 0.443117589, 0)
+TextButton_8.Size = UDim2.new(0, 65, 0, 16)
+TextButton_8.Font = Enum.Font.TitilliumWeb
+TextButton_8.Text = "Bloodfruit Spawn 3"
+TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.TextScaled = true
+TextButton_8.TextSize = 14.000
+TextButton_8.TextWrapped = true
+
+TextButton_9.Parent = rice4
+TextButton_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.Position = UDim2.new(0.515797317, 0, 0.127790198, 0)
+TextButton_9.Size = UDim2.new(0, 65, 0, 16)
+TextButton_9.Font = Enum.Font.TitilliumWeb
+TextButton_9.Text = "Bloodfruit Spawn 1"
+TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.TextScaled = true
+TextButton_9.TextSize = 14.000
+TextButton_9.TextWrapped = true
+
+TextLabel_6.Parent = rice4
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(12, 223, 255)
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.Position = UDim2.new(0, 0, -0.00808616169, 0)
+TextLabel_6.Size = UDim2.new(0, 301, 0, 16)
+TextLabel_6.Font = Enum.Font.Sarpanch
+TextLabel_6.Text = "Teleports"
+TextLabel_6.TextColor3 = Color3.fromRGB(53, 0, 159)
+TextLabel_6.TextSize = 14.000
+
+CPlayerTp.Name = "CPlayerTp"
+CPlayerTp.Parent = rice4
+CPlayerTp.BackgroundColor3 = Color3.fromRGB(255, 235, 10)
+CPlayerTp.BorderColor3 = Color3.fromRGB(255, 255, 255)
+CPlayerTp.Position = UDim2.new(0.31836167, 0, 0.599109948, 0)
+CPlayerTp.Size = UDim2.new(0, 116, 0, 14)
+CPlayerTp.Font = Enum.Font.Nunito
+CPlayerTp.Text = "Teleport To Player"
+CPlayerTp.TextColor3 = Color3.fromRGB(0, 0, 0)
+CPlayerTp.TextSize = 14.000
+
+STP.Name = "STP"
+STP.Parent = CPlayerTp
+STP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+STP.Position = UDim2.new(0.182218358, 0, 1.52431381, 0)
+STP.Size = UDim2.new(0, 73, 0, 17)
+STP.Font = Enum.Font.SourceSans
+STP.PlaceholderText = "Player Name"
+STP.Text = ""
+STP.TextColor3 = Color3.fromRGB(0, 0, 0)
+STP.TextScaled = true
+STP.TextSize = 14.000
+STP.TextWrapped = true
+
+TextButton_10.Parent = CPlayerTp
+TextButton_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.BorderColor3 = Color3.fromRGB(241, 241, 241)
+TextButton_10.Position = UDim2.new(-0.0528090969, 0, 3.16717005, 0)
+TextButton_10.Size = UDim2.new(0, 60, 0, 25)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "TP Spam"
+TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.TextSize = 14.000
+TextButton_10.TextWrapped = true
+
+TextButton_11.Parent = rice4
+TextButton_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_11.Position = UDim2.new(0.28324759, 0, 0.27652055, 0)
+TextButton_11.Size = UDim2.new(0, 65, 0, 16)
+TextButton_11.Font = Enum.Font.TitilliumWeb
+TextButton_11.Text = "Ice Biome"
+TextButton_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.TextSize = 14.000
+TextButton_11.TextWrapped = true
+
+TextButton_12.Parent = rice4
+TextButton_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.Position = UDim2.new(0.51771903, 0, 0.27225408, 0)
+TextButton_12.Size = UDim2.new(0, 65, 0, 16)
+TextButton_12.Font = Enum.Font.TitilliumWeb
+TextButton_12.Text = "Bloodfruit Spawn 2"
+TextButton_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.TextScaled = true
+TextButton_12.TextSize = 14.000
+TextButton_12.TextWrapped = true
+
+TextButton_13.Parent = rice4
+TextButton_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_13.Position = UDim2.new(0.760423779, 0, 0.127790198, 0)
+TextButton_13.Size = UDim2.new(0, 65, 0, 16)
+TextButton_13.Font = Enum.Font.TitilliumWeb
+TextButton_13.Text = "Adurite Cave"
+TextButton_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_13.TextScaled = true
+TextButton_13.TextSize = 14.000
+TextButton_13.TextWrapped = true
+
+TextButton_14.Parent = rice4
+TextButton_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_14.Position = UDim2.new(0.760423779, 0, 0.276438832, 0)
+TextButton_14.Size = UDim2.new(0, 65, 0, 16)
+TextButton_14.Font = Enum.Font.TitilliumWeb
+TextButton_14.Text = "Meteor Cave"
+TextButton_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_14.TextScaled = true
+TextButton_14.TextSize = 14.000
+TextButton_14.TextWrapped = true
+
+TextButton_15.Parent = rice4
+TextButton_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_15.Position = UDim2.new(0.760423779, 0, 0.443105519, 0)
+TextButton_15.Size = UDim2.new(0, 65, 0, 16)
+TextButton_15.Font = Enum.Font.TitilliumWeb
+TextButton_15.Text = "Gold Cave"
+TextButton_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_15.TextScaled = true
+TextButton_15.TextSize = 14.000
+TextButton_15.TextWrapped = true
+
+MagTPPlayer.Name = "MagTPPlayer"
+MagTPPlayer.Parent = rice4
+MagTPPlayer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MagTPPlayer.BorderColor3 = Color3.fromRGB(255, 255, 255)
+MagTPPlayer.Position = UDim2.new(0.531615019, 0, 0.831258476, 0)
+MagTPPlayer.Size = UDim2.new(0, 60, 0, 25)
+MagTPPlayer.Font = Enum.Font.SourceSans
+MagTPPlayer.Text = "TP Spam Mag Player"
+MagTPPlayer.TextColor3 = Color3.fromRGB(255, 255, 255)
+MagTPPlayer.TextScaled = true
+MagTPPlayer.TextSize = 14.000
+MagTPPlayer.TextWrapped = true
+
+rice11.Name = "rice11"
+rice11.Parent = ChubHub
+rice11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+rice11.Position = UDim2.new(0.193989292, 0, 0.101591401, 0)
+rice11.Size = UDim2.new(0, 100, 0, 119)
+
+TextLabel_7.Parent = rice11
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 21, 24)
+TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.Position = UDim2.new(0, 0, -0.0365989208, 0)
+TextLabel_7.Size = UDim2.new(0, 100, 0, 21)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "AutoDrop"
+TextLabel_7.TextColor3 = Color3.fromRGB(65, 65, 65)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 11.000
+TextLabel_7.TextWrapped = true
+
+aof1.Name = "aof1"
+aof1.Parent = rice11
+aof1.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
+aof1.BorderColor3 = Color3.fromRGB(255, 255, 255)
+aof1.Position = UDim2.new(0.159999996, 0, 0.774680018, 0)
+aof1.Size = UDim2.new(0, 64, 0, 19)
+aof1.ZIndex = 2
+aof1.Modal = true
+aof1.Font = Enum.Font.Arial
+aof1.Text = "On/Off"
+aof1.TextColor3 = Color3.fromRGB(72, 72, 72)
+aof1.TextSize = 14.000
+
+d3.Name = "d3"
+d3.Parent = rice11
+d3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+d3.BorderColor3 = Color3.fromRGB(130, 203, 255)
+d3.Position = UDim2.new(0.129999995, 0, 0.470470428, 0)
+d3.Size = UDim2.new(0, 73, 0, 10)
+d3.ZIndex = 2
+d3.Font = Enum.Font.SourceSans
+d3.MultiLine = true
+d3.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
+d3.PlaceholderText = "Item Name(3)"
+d3.Text = ""
+d3.TextColor3 = Color3.fromRGB(0, 0, 0)
+d3.TextSize = 14.000
+
+d2.Name = "d2"
+d2.Parent = rice11
+d2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+d2.BorderColor3 = Color3.fromRGB(130, 203, 255)
+d2.Position = UDim2.new(0.129999995, 0, 0.329517126, 0)
+d2.Size = UDim2.new(0, 73, 0, 10)
+d2.ZIndex = 2
+d2.Font = Enum.Font.SourceSans
+d2.MultiLine = true
+d2.PlaceholderText = "Item Name(2)"
+d2.Text = ""
+d2.TextColor3 = Color3.fromRGB(0, 0, 0)
+d2.TextSize = 14.000
+
+d1.Name = "d1"
+d1.Parent = rice11
+d1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+d1.BorderColor3 = Color3.fromRGB(130, 203, 255)
+d1.Position = UDim2.new(0.129999995, 0, 0.175753877, 0)
+d1.Size = UDim2.new(0, 73, 0, 10)
+d1.ZIndex = 2
+d1.Font = Enum.Font.SourceSans
+d1.MultiLine = true
+d1.PlaceholderText = "Item Name(1)"
+d1.Text = ""
+d1.TextColor3 = Color3.fromRGB(0, 0, 0)
+d1.TextSize = 14.000
+
+Delay.Name = "Delay"
+Delay.Parent = rice11
+Delay.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Delay.Position = UDim2.new(0.12808615, 0, 0.624606252, 0)
+Delay.Size = UDim2.new(0, 73, 0, 10)
+Delay.ClearTextOnFocus = false
+Delay.Font = Enum.Font.SourceSans
+Delay.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
+Delay.PlaceholderText = "Delay (0.05)"
+Delay.Text = ""
+Delay.TextColor3 = Color3.fromRGB(0, 0, 0)
+Delay.TextScaled = true
+Delay.TextSize = 14.000
+Delay.TextWrapped = true
+
+rice10.Name = "rice10"
+rice10.Parent = ChubHub
+rice10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+rice10.Position = UDim2.new(0.193576351, 0, 0.225434899, 0)
+rice10.Size = UDim2.new(0, 100, 0, 130)
+
+Select.Name = "Select"
+Select.Parent = rice10
+Select.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Select.Position = UDim2.new(0.00150054879, 0, 0.99496609, 0)
+Select.Size = UDim2.new(0, 99, 0, 77)
+Select.Visible = false
+
+d.Name = "d"
+d.Parent = Select
+d.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+d.Position = UDim2.new(0, 0, 0.662496209, 0)
+d.Size = UDim2.new(0, 99, 0, 25)
+d.Font = Enum.Font.SourceSans
+d.Text = "Critters"
+d.TextColor3 = Color3.fromRGB(0, 0, 0)
+d.TextSize = 14.000
+
+c.Name = "c"
+c.Parent = Select
+c.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+c.Position = UDim2.new(0, 0, 0.337741613, 0)
+c.Size = UDim2.new(0, 99, 0, 25)
+c.Font = Enum.Font.SourceSans
+c.Text = "Deployables"
+c.TextColor3 = Color3.fromRGB(0, 0, 0)
+c.TextSize = 14.000
+
+b.Name = "b"
+b.Parent = Select
+b.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+b.Size = UDim2.new(0, 99, 0, 25)
+b.Font = Enum.Font.SourceSans
+b.Text = "Resources"
+b.TextColor3 = Color3.fromRGB(0, 0, 0)
+b.TextSize = 14.000
+
+aSelect.Name = "aSelect"
+aSelect.Parent = rice10
+aSelect.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+aSelect.Position = UDim2.new(0, 0, 0.884016633, 0)
+aSelect.Size = UDim2.new(0, 100, 0, 16)
+aSelect.Font = Enum.Font.SourceSans
+aSelect.Text = "Type:"
+aSelect.TextColor3 = Color3.fromRGB(0, 0, 0)
+aSelect.TextSize = 14.000
+
+Title.Name = "Title"
+Title.Parent = rice10
+Title.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.Position = UDim2.new(0, 0, -0.0496462323, 0)
+Title.Size = UDim2.new(0, 100, 0, 21)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "Auto Farm"
+Title.TextColor3 = Color3.fromRGB(65, 65, 65)
+Title.TextScaled = true
+Title.TextSize = 11.000
+Title.TextWrapped = true
+
+AutoFarm.Name = "AutoFarm"
+AutoFarm.Parent = rice10
+AutoFarm.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
+AutoFarm.BorderColor3 = Color3.fromRGB(0, 255, 140)
+AutoFarm.Position = UDim2.new(0.196522117, 0, 0.518136263, 0)
+AutoFarm.Size = UDim2.new(0, 60, 0, 16)
+AutoFarm.Font = Enum.Font.SourceSans
+AutoFarm.Text = "On/Off"
+AutoFarm.TextColor3 = Color3.fromRGB(0, 0, 0)
+AutoFarm.TextSize = 14.000
+
+Delay_2.Name = "Delay"
+Delay_2.Parent = AutoFarm
+Delay_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Delay_2.Position = UDim2.new(-0.111913845, 0, -1.3835969, 0)
+Delay_2.Size = UDim2.new(0, 73, 0, 10)
+Delay_2.ClearTextOnFocus = false
+Delay_2.Font = Enum.Font.SourceSans
+Delay_2.PlaceholderText = "TP Delay (3.5)"
+Delay_2.Text = ""
+Delay_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Delay_2.TextScaled = true
+Delay_2.TextSize = 14.000
+Delay_2.TextWrapped = true
+
+EntityName.Name = "EntityName"
+EntityName.Parent = AutoFarm
+EntityName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EntityName.Position = UDim2.new(-0.111913845, 0, -2.4460969, 0)
+EntityName.Size = UDim2.new(0, 73, 0, 10)
+EntityName.ClearTextOnFocus = false
+EntityName.Font = Enum.Font.SourceSans
+EntityName.PlaceholderText = "Name"
+EntityName.Text = ""
+EntityName.TextColor3 = Color3.fromRGB(0, 0, 0)
+EntityName.TextScaled = true
+EntityName.TextSize = 14.000
+EntityName.TextWrapped = true
+
+QSelect.Name = "QSelect"
+QSelect.Parent = rice10
+QSelect.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+QSelect.Position = UDim2.new(0.0015008545, 0, 0.879581511, 0)
+QSelect.Size = UDim2.new(0, 100, 0, 400)
+QSelect.Visible = false
+
+c_2.Name = "c"
+c_2.Parent = QSelect
+c_2.BackgroundColor3 = Color3.fromRGB(223, 223, 223)
+c_2.Position = UDim2.new(0, 0, 0.0919540226, 0)
+c_2.Size = UDim2.new(0, 100, 0, 25)
+c_2.Font = Enum.Font.SourceSans
+c_2.Text = "Goober"
+c_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+c_2.TextSize = 14.000
+
+e.Name = "e"
+e.Parent = QSelect
+e.BackgroundColor3 = Color3.fromRGB(223, 223, 223)
+e.Position = UDim2.new(0, 0, 0.206896558, 0)
+e.Size = UDim2.new(0, 100, 0, 25)
+e.Font = Enum.Font.SourceSans
+e.Text = "Big Bush"
+e.TextColor3 = Color3.fromRGB(0, 0, 0)
+e.TextSize = 14.000
+
+g.Name = "g"
+g.Parent = QSelect
+g.BackgroundColor3 = Color3.fromRGB(223, 223, 223)
+g.Position = UDim2.new(0, 0, 0.310344815, 0)
+g.Size = UDim2.new(0, 100, 0, 25)
+g.Font = Enum.Font.SourceSans
+g.Text = "Gold Node"
+g.TextColor3 = Color3.fromRGB(0, 0, 0)
+g.TextSize = 14.000
+
+UIListLayout.Parent = QSelect
+
+d_2.Name = "d"
+d_2.Parent = QSelect
+d_2.BackgroundColor3 = Color3.fromRGB(223, 223, 223)
+d_2.Position = UDim2.new(0, 0, 0.149425283, 0)
+d_2.Size = UDim2.new(0, 100, 0, 25)
+d_2.Font = Enum.Font.SourceSans
+d_2.Text = "Bush"
+d_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+d_2.TextSize = 14.000
+
+j.Name = "j"
+j.Parent = QSelect
+j.BackgroundColor3 = Color3.fromRGB(223, 223, 223)
+j.Position = UDim2.new(0, 0, 0.459770113, 0)
+j.Size = UDim2.new(0, 100, 0, 20)
+j.Font = Enum.Font.SourceSans
+j.Text = "Stone Node"
+j.TextColor3 = Color3.fromRGB(0, 0, 0)
+j.TextSize = 14.000
+
+k.Name = "k"
+k.Parent = QSelect
+k.BackgroundColor3 = Color3.fromRGB(223, 223, 223)
+k.Position = UDim2.new(0, 0, 0.505747199, 0)
+k.Size = UDim2.new(0, 100, 0, 20)
+k.Font = Enum.Font.SourceSans
+k.Text = "Silver Node"
+k.TextColor3 = Color3.fromRGB(0, 0, 0)
+k.TextSize = 14.000
+
+i.Name = "i"
+i.Parent = QSelect
+i.BackgroundColor3 = Color3.fromRGB(223, 223, 223)
+i.Position = UDim2.new(0, 0, 0.413793117, 0)
+i.Size = UDim2.new(0, 100, 0, 20)
+i.Font = Enum.Font.SourceSans
+i.Text = "Coal Node"
+i.TextColor3 = Color3.fromRGB(0, 0, 0)
+i.TextSize = 14.000
+
+m.Name = "m"
+m.Parent = QSelect
+m.BackgroundColor3 = Color3.fromRGB(223, 223, 223)
+m.Position = UDim2.new(0, 0, 0.597701192, 0)
+m.Size = UDim2.new(0, 100, 0, 20)
+m.Font = Enum.Font.SourceSans
+m.Text = "Frozen Giant"
+m.TextColor3 = Color3.fromRGB(0, 0, 0)
+m.TextSize = 14.000
+
+b_2.Name = "b"
+b_2.Parent = QSelect
+b_2.BackgroundColor3 = Color3.fromRGB(223, 223, 223)
+b_2.Position = UDim2.new(0, 0, 0.0459770113, 0)
+b_2.Size = UDim2.new(0, 100, 0, 20)
+b_2.Font = Enum.Font.SourceSans
+b_2.Text = "Ancient Feather Tree"
+b_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+b_2.TextScaled = true
+b_2.TextSize = 14.000
+b_2.TextWrapped = true
+
+n.Name = "n"
+n.Parent = QSelect
+n.BackgroundColor3 = Color3.fromRGB(223, 223, 223)
+n.Position = UDim2.new(0, 0, 0.643678248, 0)
+n.Size = UDim2.new(0, 100, 0, 20)
+n.Font = Enum.Font.SourceSans
+n.Text = "Plant Box"
+n.TextColor3 = Color3.fromRGB(0, 0, 0)
+n.TextSize = 14.000
+n.TextWrapped = true
+
+o.Name = "o"
+o.Parent = QSelect
+o.BackgroundColor3 = Color3.fromRGB(223, 223, 223)
+o.Position = UDim2.new(0, 0, 0.689655244, 0)
+o.Size = UDim2.new(0, 100, 0, 20)
+o.Font = Enum.Font.SourceSans
+o.Text = "Plant Box Rubble"
+o.TextColor3 = Color3.fromRGB(0, 0, 0)
+o.TextSize = 14.000
+o.TextWrapped = true
+
+r.Name = "r"
+r.Parent = QSelect
+r.BackgroundColor3 = Color3.fromRGB(223, 223, 223)
+r.Position = UDim2.new(0, 0, 0.781609237, 0)
+r.Size = UDim2.new(0, 100, 0, 20)
+r.Font = Enum.Font.SourceSans
+r.Text = "Beached Boi"
+r.TextColor3 = Color3.fromRGB(0, 0, 0)
+r.TextSize = 14.000
+r.TextWrapped = true
+
+a.Name = "a"
+a.Parent = QSelect
+a.BackgroundColor3 = Color3.fromRGB(223, 223, 223)
+a.Size = UDim2.new(0, 100, 0, 20)
+a.Font = Enum.Font.SourceSans
+a.Text = "Ancient Tree"
+a.TextColor3 = Color3.fromRGB(0, 0, 0)
+a.TextSize = 14.000
+a.TextWrapped = true
+
+h.Name = "h"
+h.Parent = QSelect
+h.BackgroundColor3 = Color3.fromRGB(223, 223, 223)
+h.Position = UDim2.new(0, 0, 0.367816091, 0)
+h.Size = UDim2.new(0, 100, 0, 20)
+h.Font = Enum.Font.SourceSans
+h.Text = "Iron Node"
+h.TextColor3 = Color3.fromRGB(0, 0, 0)
+h.TextSize = 14.000
+
+q.Name = "q"
+q.Parent = QSelect
+q.BackgroundColor3 = Color3.fromRGB(223, 223, 223)
+q.Position = UDim2.new(0, 0, 0.827586293, 0)
+q.Size = UDim2.new(0, 100, 0, 20)
+q.Font = Enum.Font.SourceSans
+q.Text = "Raft"
+q.TextColor3 = Color3.fromRGB(0, 0, 0)
+q.TextSize = 14.000
+q.TextWrapped = true
+
+s.Name = "s"
+s.Parent = QSelect
+s.BackgroundColor3 = Color3.fromRGB(223, 223, 223)
+s.Position = UDim2.new(0, 0, 0.781609237, 0)
+s.Size = UDim2.new(0, 100, 0, 20)
+s.Font = Enum.Font.SourceSans
+s.Text = "Banto"
+s.TextColor3 = Color3.fromRGB(0, 0, 0)
+s.TextSize = 14.000
+s.TextWrapped = true
+
+t.Name = "t"
+t.Parent = QSelect
+t.BackgroundColor3 = Color3.fromRGB(223, 223, 223)
+t.Position = UDim2.new(0, 0, 0.781609237, 0)
+t.Size = UDim2.new(0, 100, 0, 20)
+t.Font = Enum.Font.SourceSans
+t.Text = "Bantae"
+t.TextColor3 = Color3.fromRGB(0, 0, 0)
+t.TextSize = 14.000
+t.TextWrapped = true
+
+u.Name = "u"
+u.Parent = QSelect
+u.BackgroundColor3 = Color3.fromRGB(223, 223, 223)
+u.Position = UDim2.new(0, 0, 0.781609237, 0)
+u.Size = UDim2.new(0, 100, 0, 20)
+u.Font = Enum.Font.SourceSans
+u.Text = "Harvest Banto"
+u.TextColor3 = Color3.fromRGB(0, 0, 0)
+u.TextSize = 14.000
+u.TextWrapped = true
+
+v.Name = "v"
+v.Parent = QSelect
+v.BackgroundColor3 = Color3.fromRGB(223, 223, 223)
+v.Position = UDim2.new(0, 0, 0.781609237, 0)
+v.Size = UDim2.new(0, 100, 0, 20)
+v.Font = Enum.Font.SourceSans
+v.Text = "Harvest Bantae"
+v.TextColor3 = Color3.fromRGB(0, 0, 0)
+v.TextSize = 14.000
+v.TextWrapped = true
+
+w.Name = "w"
+w.Parent = QSelect
+w.BackgroundColor3 = Color3.fromRGB(223, 223, 223)
+w.Position = UDim2.new(0, 0, 0.781609237, 0)
+w.Size = UDim2.new(0, 100, 0, 20)
+w.Font = Enum.Font.SourceSans
+w.Text = "Crystal"
+w.TextColor3 = Color3.fromRGB(0, 0, 0)
+w.TextSize = 14.000
+w.TextWrapped = true
+
+bSelect.Name = "bSelect"
+bSelect.Parent = rice10
+bSelect.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+bSelect.Position = UDim2.new(0, 0, 0.757382989, 0)
+bSelect.Size = UDim2.new(0, 100, 0, 16)
+bSelect.Font = Enum.Font.RobotoCondensed
+bSelect.Text = "Quick Select: "
+bSelect.TextColor3 = Color3.fromRGB(0, 0, 0)
+bSelect.TextScaled = true
+bSelect.TextSize = 14.000
+bSelect.TextWrapped = true
+
+rice1.Name = "rice1"
+rice1.Parent = ChubHub
+rice1.Active = true
+rice1.BackgroundColor3 = Color3.fromRGB(192, 247, 255)
+rice1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+rice1.Position = UDim2.new(0.2563501, 0, 0.0977992713, 0)
+rice1.Size = UDim2.new(0, 252, 0, 107)
+
+TextButton_16.Parent = rice1
+TextButton_16.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
+TextButton_16.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_16.Position = UDim2.new(0.344999999, 0, 0.342186928, 0)
+TextButton_16.Size = UDim2.new(0, 77, 0, 23)
+TextButton_16.ZIndex = 3
+TextButton_16.Font = Enum.Font.Arial
+TextButton_16.Text = "Execute"
+TextButton_16.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_16.TextSize = 14.000
+
+Infoo.Name = "Infoo"
+Infoo.Parent = rice1
+Infoo.BackgroundColor3 = Color3.fromRGB(53, 178, 255)
+Infoo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Infoo.Position = UDim2.new(0.796910822, 0, 0.825007856, 0)
+Infoo.Size = UDim2.new(0, 51, 0, 19)
+Infoo.ZIndex = 3
+Infoo.Font = Enum.Font.SourceSans
+Infoo.Text = "Keybinds"
+Infoo.TextColor3 = Color3.fromRGB(255, 255, 255)
+Infoo.TextSize = 11.000
+
+TextButtonCopy.Name = "TextButtonCopy"
+TextButtonCopy.Parent = rice1
+TextButtonCopy.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
+TextButtonCopy.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButtonCopy.Position = UDim2.new(0.344999999, 0, 0.342000008, 0)
+TextButtonCopy.Size = UDim2.new(0, 77, 0, 23)
+TextButtonCopy.Font = Enum.Font.Arial
+TextButtonCopy.Text = "Execute"
+TextButtonCopy.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButtonCopy.TextSize = 14.000
+
+DefaultPots.Name = "DefaultPots"
+DefaultPots.Parent = rice1
+DefaultPots.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DefaultPots.Size = UDim2.new(0, 200, 0, 50)
+DefaultPots.Visible = false
+DefaultPots.Font = Enum.Font.SourceSans
+DefaultPots.Text = "5"
+DefaultPots.TextColor3 = Color3.fromRGB(0, 0, 0)
+DefaultPots.TextSize = 14.000
+
+DefaultPots_2.Name = "DefaultPots"
+DefaultPots_2.Parent = rice1
+DefaultPots_2.BackgroundColor3 = Color3.fromRGB(12, 223, 255)
+DefaultPots_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DefaultPots_2.Position = UDim2.new(0, 0, -0.00808616821, 0)
+DefaultPots_2.Size = UDim2.new(0, 252, 0, 16)
+DefaultPots_2.Font = Enum.Font.Sarpanch
+DefaultPots_2.Text = "Bloodfruit Farm"
+DefaultPots_2.TextColor3 = Color3.fromRGB(53, 0, 159)
+DefaultPots_2.TextSize = 14.000
+
+TextButton_17.Parent = rice1
+TextButton_17.BackgroundColor3 = Color3.fromRGB(214, 214, 214)
+TextButton_17.BorderColor3 = Color3.fromRGB(166, 166, 166)
+TextButton_17.Position = UDim2.new(0.132034659, 0, 0.604227185, 0)
+TextButton_17.Size = UDim2.new(0, 185, 0, 16)
+TextButton_17.ZIndex = 2
+TextButton_17.Font = Enum.Font.Arial
+TextButton_17.Text = "Create Private Farm Area(Need 2 Logs)"
+TextButton_17.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_17.TextSize = 10.000
+
+TextButton_18.Parent = rice1
+TextButton_18.BackgroundColor3 = Color3.fromRGB(173, 173, 173)
+TextButton_18.BorderColor3 = Color3.fromRGB(166, 166, 166)
+TextButton_18.Position = UDim2.new(0.33589837, 0, 0.800488889, 0)
+TextButton_18.Size = UDim2.new(0, 79, 0, 16)
+TextButton_18.ZIndex = 2
+TextButton_18.Font = Enum.Font.Arial
+TextButton_18.Text = "Teleport Back"
+TextButton_18.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_18.TextSize = 10.000
+
+Info.Name = "Info"
+Info.Parent = rice1
+Info.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Info.Position = UDim2.new(0.128066406, 0, 1.1735599, 0)
+Info.Size = UDim2.new(0, 186, 0, 142)
+
+TextLabel_8.Parent = Info
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.Position = UDim2.new(0.281578809, 0, 0.541546464, 0)
+TextLabel_8.Size = UDim2.new(0, 77, 0, 20)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "Autoplant: ["
+TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.TextSize = 14.000
+
+TextLabel_9.Parent = Info
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.Position = UDim2.new(0.281610906, 0, 0.817775846, 0)
+TextLabel_9.Size = UDim2.new(0, 77, 0, 15)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "Auto Pickup Dropped Bloodfruit: ]"
+TextLabel_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.TextSize = 14.000
+
+TextLabel_10.Parent = Info
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.Position = UDim2.new(0.03763441, 0, 0.14963758, 0)
+TextLabel_10.Size = UDim2.new(0, 172, 0, 12)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "Place Plantbox(15): p "
+TextLabel_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.TextSize = 14.000
+
+TextLabel_11.Parent = Info
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(193, 255, 46)
+TextLabel_11.Position = UDim2.new(-0.0589327253, 0, -0.091256462, 0)
+TextLabel_11.Size = UDim2.new(0, 208, 0, 26)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = "Keybinds "
+TextLabel_11.TextColor3 = Color3.fromRGB(65, 65, 65)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 11.000
+TextLabel_11.TextWrapped = true
+
+Frame.Parent = Info
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.Position = UDim2.new(0.000136835501, 0, 0.758596957, 0)
+Frame.Size = UDim2.new(0, 186, 0, 0)
+
+Frame_2.Parent = Info
+Frame_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.Position = UDim2.new(-0.00523949182, 0, 0.494632244, 0)
+Frame_2.Size = UDim2.new(0, 186, 0, 0)
+
+Planboxa.Name = "Planboxa"
+Planboxa.Parent = Info
+Planboxa.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Planboxa.Position = UDim2.new(0.188172042, 0, 0.308066726, 0)
+Planboxa.Size = UDim2.new(0, 116, 0, 16)
+Planboxa.Font = Enum.Font.SourceSans
+Planboxa.PlaceholderText = "Amount Of Plantbox"
+Planboxa.Text = ""
+Planboxa.TextColor3 = Color3.fromRGB(0, 0, 0)
+Planboxa.TextSize = 14.000
+
+rice.Name = "rice"
+rice.Parent = ChubHub
+rice.Active = true
+rice.BackgroundColor3 = Color3.fromRGB(192, 247, 255)
+rice.BorderColor3 = Color3.fromRGB(0, 0, 0)
+rice.Position = UDim2.new(0.398999989, 0, 0.0979999974, 0)
+rice.Size = UDim2.new(0, 284, 0, 144)
+
+TextButton_19.Parent = rice
+TextButton_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_19.Position = UDim2.new(0.686702669, 0, 0.162943721, 0)
+TextButton_19.Size = UDim2.new(0, 77, 0, 23)
+TextButton_19.Font = Enum.Font.SourceSans
+TextButton_19.Text = "Mag - Axe"
+TextButton_19.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_19.TextSize = 14.000
+
+TextButton_20.Parent = rice
+TextButton_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_20.Position = UDim2.new(0.685847759, 0, 0.378371656, 0)
+TextButton_20.Size = UDim2.new(0, 76, 0, 23)
+TextButton_20.Font = Enum.Font.SourceSans
+TextButton_20.Text = "Mag - Pick"
+TextButton_20.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_20.TextSize = 14.000
+
+TextButton_21.Parent = rice
+TextButton_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_21.Position = UDim2.new(0.0349645466, 0, 0.158326566, 0)
+TextButton_21.Size = UDim2.new(0, 77, 0, 23)
+TextButton_21.Font = Enum.Font.SourceSans
+TextButton_21.Text = "Mag - Bag"
+TextButton_21.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_21.TextSize = 14.000
+
+TextButton_22.Parent = rice
+TextButton_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_22.Position = UDim2.new(0.0352942199, 0, 0.378371656, 0)
+TextButton_22.Size = UDim2.new(0, 77, 0, 23)
+TextButton_22.Font = Enum.Font.SourceSans
+TextButton_22.Text = "Mag - Mask"
+TextButton_22.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_22.TextSize = 14.000
+TextButton_22.TextWrapped = true
+
+TextButton_23.Parent = rice
+TextButton_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_23.Position = UDim2.new(0.0388153456, 0, 0.568311632, 0)
+TextButton_23.Size = UDim2.new(0, 76, 0, 23)
+TextButton_23.Font = Enum.Font.SourceSans
+TextButton_23.Text = "Mag - Chestplate"
+TextButton_23.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_23.TextScaled = true
+TextButton_23.TextSize = 14.000
+TextButton_23.TextWrapped = true
+
+TextLabel_12.Parent = rice
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(12, 223, 255)
+TextLabel_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_12.Position = UDim2.new(0, 0, -0.00808615144, 0)
+TextLabel_12.Size = UDim2.new(0, 284, 0, 16)
+TextLabel_12.Font = Enum.Font.Sarpanch
+TextLabel_12.Text = "Autocraft"
+TextLabel_12.TextColor3 = Color3.fromRGB(53, 0, 159)
+TextLabel_12.TextSize = 14.000
+
+TextButton_24.Parent = rice
+TextButton_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_24.Position = UDim2.new(0.0388153493, 0, 0.771137953, 0)
+TextButton_24.Size = UDim2.new(0, 77, 0, 23)
+TextButton_24.Font = Enum.Font.SourceSans
+TextButton_24.Text = "Mag - Greaves"
+TextButton_24.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_24.TextSize = 14.000
+
+TextButton_25.Parent = rice
+TextButton_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_25.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_25.Position = UDim2.new(0.685847759, 0, 0.772928655, 0)
+TextButton_25.Size = UDim2.new(0, 77, 0, 23)
+TextButton_25.Font = Enum.Font.SourceSans
+TextButton_25.Text = "All Magnetite Armor"
+TextButton_25.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_25.TextScaled = true
+TextButton_25.TextSize = 14.000
+TextButton_25.TextWrapped = true
+
+TextButton_26.Parent = rice
+TextButton_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_26.Position = UDim2.new(0.68584758, 0, 0.579122365, 0)
+TextButton_26.Size = UDim2.new(0, 76, 0, 23)
+TextButton_26.Font = Enum.Font.SourceSans
+TextButton_26.Text = "Mag - Stick"
+TextButton_26.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_26.TextSize = 14.000
+
+AutoCraft.Name = "AutoCraft"
+AutoCraft.Parent = rice
+AutoCraft.BackgroundColor3 = Color3.fromRGB(214, 214, 214)
+AutoCraft.BorderColor3 = Color3.fromRGB(255, 255, 255)
+AutoCraft.Position = UDim2.new(0.35915494, 0, 0.57450527, 0)
+AutoCraft.Size = UDim2.new(0, 80, 0, 22)
+AutoCraft.Font = Enum.Font.SourceSans
+AutoCraft.Text = "Craft"
+AutoCraft.TextColor3 = Color3.fromRGB(0, 0, 0)
+AutoCraft.TextSize = 14.000
+
+ItemName.Name = "Item Name"
+ItemName.Parent = AutoCraft
+ItemName.BackgroundColor3 = Color3.fromRGB(238, 238, 238)
+ItemName.BorderColor3 = Color3.fromRGB(97, 97, 97)
+ItemName.Position = UDim2.new(-0.049999997, 0, -1.66224742, 0)
+ItemName.Size = UDim2.new(0, 87, 0, 28)
+ItemName.ClearTextOnFocus = false
+ItemName.Font = Enum.Font.Sarpanch
+ItemName.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+ItemName.PlaceholderText = "Item Name"
+ItemName.Text = ""
+ItemName.TextColor3 = Color3.fromRGB(0, 0, 0)
+ItemName.TextSize = 14.000
+
+-- Scripts:
+
+local function BCDSJO_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	print("Have a nice day!")
+	
+end
+coroutine.wrap(BCDSJO_fake_script)()
+local function IMQS_fake_script() -- aof.LocalScript 
+	local script = Instance.new('LocalScript', aof)
+
+	local condition = false
+	
+	local player = game:GetService("Players").LocalPlayer.Character
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.healitem.Text == "" then autoitem = "Bloodfruit"
+		end
+		if condition == false then
+			condition = true
+			script.Parent.Text = "On"
+		else
+			condition = false
+			script.Parent.Text = "Off"
+		end
+		spawn(function()
+			while condition == true do wait()
+				--CODE
+				if condition == true and game:GetService("Workspace").Characters[player.Name].Humanoid.Health ~= 100 and game:GetService("Workspace").Characters[player.Name].Humanoid.Health < 70 then
+	
+					repeat
+						game:GetService("ReplicatedStorage").Events.UseBagItem:FireServer(autoitem)
+						wait(0.075)
+					until game:GetService("Workspace").Characters[player.Name].Humanoid.Health == 70 or game:GetService("Workspace").Characters[player.Name].Humanoid.Health >= 70 
+	
+				end
+			end
+	
+		end)
+	end)
+end
+coroutine.wrap(IMQS_fake_script)()
+local function WBYFOL_fake_script() -- healitem.LocalScript 
+	local script = Instance.new('LocalScript', healitem)
+
+	local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+	local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+	script.Parent.Parent.healitem.FocusLost:Connect(function() 
+		if script.Parent.Parent.healitem.Text ~= "" then
+			autoitem = script.Parent.Parent.healitem.Text
+			script.Parent.Parent.FN.Text = "Food: " ..autoitem..""
+			Notification:Notify(
+				{Title = "Notification", Description = "Autoheal item set to: " ..autoitem}, 
+				{OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "image"},
+				{Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)})
+	
+		else
+			autoitem = "Bloodfruit"
+			Notification:Notify(
+				{Title = "Notification", Description = "Auto Heal Item Set To: Default(Bloodfruit)!"},
+				{OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "image"},
+				{Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)})
+	
+		end
+	end)
+	
+end
+coroutine.wrap(WBYFOL_fake_script)()
+local function JTDLXW_fake_script() -- TextLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_2)
+
+	print("Have a nice day!")
+	
+end
+coroutine.wrap(JTDLXW_fake_script)()
+local function FJGNV_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+	local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+	script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.Parent.jumphaxx.Visible = true
+		local Player = game:GetService'Players'.LocalPlayer;
+		local UIS = game:GetService'UserInputService';
+	
+		local function Action(Object, Function) if Object ~= nil then Function(Object); end end
+		UIS.InputBegan:connect(function(UserInput)
+			if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.Space then
+				Action(Player.Character.Humanoid, function(self)
+					if self:GetState() == Enum.HumanoidStateType.Jumping or self:GetState() == Enum.HumanoidStateType.Freefall then
+						Action(self.Parent.HumanoidRootPart, function(self)
+							self.Velocity = Vector3.new(0, jumpy, 0);
+						end)
+					end
+				end)
+			end
+		end)
+	end)
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.jumphaxx.Text == "" then
+			jumpy = script.Parent.Parent.Parent.rice6.DefaultJump.PlaceholderText
+			Notification:Notify(
+				{Title = "Notification", Description = "Jump power set to: Default!"},
+				{OutlineColor = Color3.fromRGB(80, 80, 80),Time = 10, Type = "image"},
+				{Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)})
+		end
+	end)
+end
+coroutine.wrap(FJGNV_fake_script)()
+local function NECNPSK_fake_script() -- jumphaxx.LocalScript 
+	local script = Instance.new('LocalScript', jumphaxx)
+
+	script.Parent.Visible = false
+	local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+	local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+	script.Parent.Parent.jumphaxx.FocusLost:Connect(function() 
+	
+		if script.Parent.Parent.jumphaxx.Text == "" then wait(0.0005)
+	
+			jumpy = script.Parent.Parent.Parent.rice6.DefaultJump.PlaceholderText
+	
+			Notification:Notify(
+				{Title = "Notification", Description = "Jump power set to: Default! "},
+				{OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "image"},
+				{Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)})
+	
+		elseif script.Parent.Parent.jumphaxx.Text ~= "" then
+	
+			jumpy = script.Parent.Parent.Parent.rice6.jumphaxx.Text
+			
+			Notification:Notify(
+				{Title = "Notification", Description = "Jump power set to: "..script.Parent.Parent.jumphaxx.Text.." "},
+				{OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "image"},
+				{Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)})
+			
+	
+	
+		end
+	end)
+end
+coroutine.wrap(NECNPSK_fake_script)()
+local function UEWDSJC_fake_script() -- TextLabel_4.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_4)
+
+	print("Have a nice day!")
+	
+end
+coroutine.wrap(UEWDSJC_fake_script)()
+local function MMQWS_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+	local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.speedhaxx.Visible = true
+		
+		spawn(function()
+			if (""..script.Parent.Parent.speedhaxx.Text.."") == "" then wait(0.005)
+	
+				Notification:Notify(
+					{Title = "Notification", Description = "Speed power set to: Default!"},
+					{OutlineColor = Color3.fromRGB(80, 80, 80),Time = 10, Type = "image"},
+					{Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)})
+			end
+			spawn(function()
+				local char = game.Players.LocalPlayer.Character.HumanoidRootPart
+	
+				game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+					if (""..script.Parent.Parent.speedhaxx.Text.."") == "" and key == "f" then 
+						getgenv().loop = true
+						while loop == true do wait()
+	
+							char.CFrame = char.CFrame + char.CFrame.lookVector * (""..script.Parent.Parent.DefaultSpeed.PlaceholderText.."")
+	
+	
+						end
+	
+						spawn(function()
+							local char = game.Players.LocalPlayer.Character.HumanoidRootPart
+	
+							game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+								if key == "f" and script.Parent.Parent.speedhaxx.Text ~= "" then
+									getgenv().loop = true
+									while wait() and loop == true do 
+										char.CFrame = char.CFrame + char.CFrame.lookVector * speedy
+	
+									end
+								end
+	
+							end)  
+						end)
+					end
+				end)
+			end)
+		end)
+	end)
+end
+coroutine.wrap(MMQWS_fake_script)()
+local function OGIAAG_fake_script() -- speedhaxx.LocalScript 
+	local script = Instance.new('LocalScript', speedhaxx)
+
+	script.Parent.Visible = false
+	local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+	local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+	script.Parent.Parent.speedhaxx.FocusLost:Connect(function() 
+		if script.Parent.Parent.speedhaxx.Text ~= "" then
+		Notification:Notify(
+			{Title = "Notification", Description = "Speed power set to: "..script.Parent.Parent.speedhaxx.Text.." "},
+			{OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "image"},
+			{Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)})
+			speedy = script.Parent.Parent.speedhaxx.Text
+			
+		else
+			Notification:Notify(
+				{Title = "Notification", Description = "Speed power set to: Default!"},
+				{OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "image"},
+				{Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)})
+		end
+	end)
+	
+end
+coroutine.wrap(OGIAAG_fake_script)()
+local function RAWL_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-129.430252, 236.999954, -774.69165, 0.292690486, 0, 0.956207216, 0, 1, 0, -0.956207216, 0, 0.292690486)
+		end)
+	
+end
+coroutine.wrap(RAWL_fake_script)()
+local function IYIL_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	script.Parent.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(866.874268, -3.00000119, 364.762573, -0.296465635, 0, -0.955043495, 0, 1, 0, 0.955043495, 0, -0.296465635)
+	end)
+	
+end
+coroutine.wrap(IYIL_fake_script)()
+local function TNJK_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	script.Parent.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-557.749939, 382.088867, -1198.76611, -0.744088948, 0, 0.668080568, 0, 1, 0, -0.668080568, 0, -0.744088948)
+	end)
+	
+end
+coroutine.wrap(TNJK_fake_script)()
+local function MMTL_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	script.Parent.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1120.70923, 308.999878, -1220.78735, -0.327721924, 0, 0.94477421, 0, 1, 0, -0.94477421, 0, -0.327721924)
+			end)
+	
+	
+end
+coroutine.wrap(MMTL_fake_script)()
+local function ZXBXCQV_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	script.Parent.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-139.342209, -3.00000119, 16991.3945, 0.111919224, 0, 0.993717313, 0, 1, 0, -0.993717313, 0, 0.111919224)
+	end)
+	
+end
+coroutine.wrap(ZXBXCQV_fake_script)()
+local function PHMP_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	script.Parent.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(138.981812, 25.2140656, -876.704346, -0.998482645, 0, -0.0550677143, 0, 1, 0, 0.0550677143, 0, -0.998482645)
+	end)
+	
+end
+coroutine.wrap(PHMP_fake_script)()
+local function YBILWFE_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	script.Parent.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1283.44812, -3.50844264, 1378.06348, -0.117543168, 0, 0.993067801, 0, 1, 0, -0.993067801, 0, -0.117543168)
+	end)
+end
+coroutine.wrap(YBILWFE_fake_script)()
+local function PCTR_fake_script() -- CPlayerTp.LocalScript 
+	local script = Instance.new('LocalScript', CPlayerTp)
+
+	script.Parent.MouseButton1Down:connect(function()
+		local player = game:GetService("Players").LocalPlayer.Character
+	
+		for i,v in pairs(game:GetService("Workspace").Characters:GetChildren()) do
+	
+			if v.Name:lower():find(p4:lower()) then 
+	
+				player.HumanoidRootPart.CFrame = CFrame.new(v.HumanoidRootPart.CFrame.Position.x, v.HumanoidRootPart.CFrame.Position.y, v.HumanoidRootPart.CFrame.Position.z)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(PCTR_fake_script)()
+local function NNMZNWV_fake_script() -- STP.LocalScript 
+	local script = Instance.new('LocalScript', STP)
+
+	script.Parent.Parent.STP.FocusLost:Connect(function() 
+		if script.Parent.Parent.STP.Text ~= "" then
+			p4 = script.Parent.Parent.STP.Text
+		end
+	end)
+end
+coroutine.wrap(NNMZNWV_fake_script)()
+local function LSNRU_fake_script() -- TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_10)
+
+	toggle = false
+	local MoveDirection = nil
+	script.Parent.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if toggle == true then 
+			toggle = false 
+		else
+			toggle = true
+		end
+	
+		if toggle == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+			game:GetService("Workspace").Gravity = 0
+		end
+		if toggle == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+			game:GetService("Workspace").Gravity = 196.2
+		end
+		spawn(function()
+			while script.Parent.BackgroundColor3 == Color3.fromRGB(0, 255, 0) do
+				wait(0.00001)
+				getgenv().pick = true
+				spawn(function()
+					local player = game:GetService("Players").LocalPlayer.Character
+	
+					for i,v in pairs(game:GetService("Workspace").Characters:GetChildren()) do
+	
+						if v.Name:lower():find(p4:lower()) then 
+							MoveDirection = v.Humanoid.MoveDirection
+							player:MoveTo(Vector3.new(v.HumanoidRootPart.CFrame.Position.x + math.random(-10.5, 10.5) + MoveDirection.x , v.HumanoidRootPart.CFrame.Position.y + math.random(6, 6) + MoveDirection.y, v.HumanoidRootPart.CFrame.Position.z + math.random(-10.5, 10.5) + MoveDirection.z)) 
+						end
+					end
+				end)
+	
+			end
+		end)
+		spawn(function()
+			while script.Parent.BackgroundColor3 == Color3.fromRGB(0, 255, 0) do 
+				wait(0.000001)
+				getgenv().pick = true
+				spawn(function()
+					local player = game:GetService("Players").LocalPlayer.Character
+	
+					for i,v in pairs(game:GetService("Workspace").Characters:GetChildren()) do
+	
+						if v.Name:lower():find(p4:lower()) then 
+							player:MoveTo(Vector3.new(v.HumanoidRootPart.CFrame.Position.x + MoveDirection.x, v.HumanoidRootPart.CFrame.Position.y + math.random(-9.3, -9.3), v.HumanoidRootPart.CFrame.Position.z))
+						end
+					end
+				end)
+	
+			end
+			spawn(function()
+				while script.Parent.BackgroundColor3 == Color3.fromRGB(0, 255, 0) do
+					wait(0.0000001)
+					getgenv().pick = true
+					spawn(function()
+						local player = game:GetService("Players").LocalPlayer.Character
+	
+						for i,v in pairs(game:GetService("Workspace").Characters:GetChildren()) do
+	
+							if v.Name:lower():find(p4:lower()) then 
+								player:MoveTo(Vector3.new(v.HumanoidRootPart.CFrame.Position.x + MoveDirection.x), v.HumanoidRootPart.CFrame.Position.y + MoveDirection.y, v.HumanoidRootPart.CFrame.Position.z + math.random(-6.5, 6.5) ) 
+							end
+						end
+					end)
+	
+				end
+				spawn(function()
+					if toggle == false then 
+						getgenv().pick = false
+					end
+				end)
+			end)
+		end)
+	end)
+	
+end
+coroutine.wrap(LSNRU_fake_script)()
+local function ZPJA_fake_script() -- TextButton_11.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_11)
+
+	script.Parent.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(355.434387, 64.9999771, -1518.46533, 0.994095743, 0, 0.108506724, 0, 1, 0, -0.108506724, 0, 0.994095743)
+	end)
+	
+end
+coroutine.wrap(ZPJA_fake_script)()
+local function WOVB_fake_script() -- TextButton_12.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_12)
+
+	script.Parent.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(39.3500061, -3.00000119, -122.116287, 0.999781132, 0, -0.0209210142, 0, 1, 0, 0.0209210142, 0, 0.999781132)
+	end)
+	
+end
+coroutine.wrap(WOVB_fake_script)()
+local function TVYNM_fake_script() -- TextButton_13.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_13)
+
+	script.Parent.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1142.24194, -139.118118, 1193.65442, -0.0529636592, 0, 0.99859643, 0, 1, 0, -0.99859643, 0, -0.0529636592)
+	end)
+end
+coroutine.wrap(TVYNM_fake_script)()
+local function ATHT_fake_script() -- TextButton_14.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_14)
+
+	script.Parent.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1173.3656, 287.249634, -1203.422, -0.553933024, 0, 0.832561195, 0, 1, 0, -0.832561195, 0, -0.553933024)
+	end)
+end
+coroutine.wrap(ATHT_fake_script)()
+local function YAGUTA_fake_script() -- TextButton_15.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_15)
+
+	script.Parent.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1102.76624, -182.730789, -797.96991, -0.874058008, 0, 0.485821605, 0, 1, 0, -0.485821605, 0, -0.874058008)
+	end)
+end
+coroutine.wrap(YAGUTA_fake_script)()
+local function JDJACDR_fake_script() -- MagTPPlayer.LocalScript 
+	local script = Instance.new('LocalScript', MagTPPlayer)
+
+	toggle = false
+	local MoveDirection = nil
+	script.Parent.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if toggle == true then 
+			toggle = false 
+		else
+			toggle = true
+		end
+	
+		if toggle == true then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+			game:GetService("Workspace").Gravity = 0
+		end
+		if toggle == false then 
+			script.Parent.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+			game:GetService("Workspace").Gravity = 196.2
+		end
+		coroutine.resume(coroutine.create(function()
+			while script.Parent.BackgroundColor3 == Color3.fromRGB(0, 255, 0) do
+				wait(0.0005)
+				local player = game:GetService("Players").LocalPlayer.Character
+	
+				for a,b in pairs(game:GetService("Workspace").Characters:GetChildren()) do
+	
+					for i,v in pairs(game:GetService("Workspace").Characters[b.Name]:GetChildren()) do
+	
+						if v.Name == "Magnetite Chestplate" or v.Name == "Magnetite Greaves" or v.Name == "Magnetite Mask" or v.Name == "Magnetite Stick" then
+							print("On1")
+							MoveDirection = b.Humanoid.MoveDirection
+							player:MoveTo(Vector3.new(b.HumanoidRootPart.CFrame.Position.x + math.random(-10.5, 10.5) + MoveDirection.x , b.HumanoidRootPart.CFrame.Position.y + math.random(6, 6) + MoveDirection.y, b.HumanoidRootPart.CFrame.Position.z + math.random(-10.5, 10.5) + MoveDirection.z)) 
+						end
+					end
+				end
+	
+			end
+		end))
+	
+		coroutine.resume(coroutine.create(function()
+			while script.Parent.BackgroundColor3 == Color3.fromRGB(0, 255, 0) do
+				wait(0.009)
+				local player = game:GetService("Players").LocalPlayer.Character
+	
+				for a,b in pairs(game:GetService("Workspace").Characters:GetChildren()) do
+					for i,v in pairs(game:GetService("Workspace").Characters[b.Name]:GetChildren()) do
+	
+						if v.Name == "Magnetite Chestplate" or v.Name == "Magnetite Greaves" or v.Name == "Magnetite Mask" or v.Name == "Magnetite Stick" then
+							player:MoveTo(Vector3.new(b.HumanoidRootPart.CFrame.Position.x + MoveDirection.x, b.HumanoidRootPart.CFrame.Position.y + math.random(-9.3, -9.3), b.HumanoidRootPart.CFrame.Position.z))
+						end
+					end
+				end
+	
+			end
+		end))
+		coroutine.resume(coroutine.create(function()
+			while script.Parent.BackgroundColor3 == Color3.fromRGB(0, 255, 0) do
+				wait(0.05)
+				local player = game:GetService("Players").LocalPlayer.Character
+	
+				for a,b in pairs(game:GetService("Workspace").Characters:GetChildren()) do
+	
+					for i,v in pairs(game:GetService("Workspace").Characters[b.Name]:GetChildren()) do
+	
+						if v.Name == "Magnetite Chestplate" or v.Name == "Magnetite Greaves" or v.Name == "Magnetite Mask" or v.Name == "Magnetite Stick" then
+							player:MoveTo(Vector3.new(b.HumanoidRootPart.CFrame.Position.x + MoveDirection.x), b.HumanoidRootPart.CFrame.Position.y + MoveDirection.y, b.HumanoidRootPart.CFrame.Position.z + math.random(-6.5, 6.5) ) 
+						end
+					end
+				end
+	
+			end
+		end))
+	end)
+end
+coroutine.wrap(JDJACDR_fake_script)()
+local function EATFWX_fake_script() -- aof1.LocalScript 
+	local script = Instance.new('LocalScript', aof1)
+
+	local condition = false
+	
+	local player = game:GetService("Players").LocalPlayer.Character
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent["Delay"].Text ~= "" then
+			Delayyy = script.Parent.Parent["Delay"].Text
+		else
+			Delayyy = 0.05
+		end
+		if condition == false then
+			condition = true
+			script.Parent.Text = "On"
+		else
+			condition = false
+			script.Parent.Text = "Off"
+		end
+		while condition == true do wait(Delayyy)
+			spawn(function()
+				--CODE
+				if game:GetService("Workspace").Characters[player.Name].Humanoid.Health > 0 then
+					game:GetService("ReplicatedStorage").Events.DropBagItem:FireServer(""..d1.."")
+					game:GetService("ReplicatedStorage").Events.DropBagItem:FireServer(""..d2.."")
+					game:GetService("ReplicatedStorage").Events.DropBagItem:FireServer(""..d3.."")
+						wait()
+				end
+			end)
+		end
+	end)
+	
+	
+end
+coroutine.wrap(EATFWX_fake_script)()
+local function YRJXW_fake_script() -- d3.LocalScript 
+	local script = Instance.new('LocalScript', d3)
+
+	script.Parent.Parent.d3.FocusLost:Connect(function() 
+		if script.Parent.Parent.d3.Text ~= "" then
+			d3 = script.Parent.Parent.d3.Text
+			game.StarterGui:SetCore("SendNotification",  {
+				Title = "DropItem3: ";
+				Text = ""..d3.."";
+				Duration = 5;
+			})
+		else
+			d3 = ""
+		end
+	end)
+	
+end
+coroutine.wrap(YRJXW_fake_script)()
+local function LAETZY_fake_script() -- d2.LocalScript 
+	local script = Instance.new('LocalScript', d2)
+
+	script.Parent.Parent.d2.FocusLost:Connect(function() 
+		if script.Parent.Parent.d2.Text ~= "" then
+			d2 = script.Parent.Parent.d2.Text
+			game.StarterGui:SetCore("SendNotification",  {
+				Title = "DropItem2: ";
+				Text = ""..d2.."";
+				Duration = 5;
+			})
+			else
+			d2 = ""
+		end
+	end)
+	
+end
+coroutine.wrap(LAETZY_fake_script)()
+local function VFBOA_fake_script() -- d1.LocalScript 
+	local script = Instance.new('LocalScript', d1)
+
+	script.Parent.Parent.d1.FocusLost:Connect(function() 
+		if script.Parent.Parent.d1.Text ~= "" then
+			d1 = script.Parent.Parent.d1.Text
+			game.StarterGui:SetCore("SendNotification",  {
+				Title = "DropItem1:";
+				Text = ""..d1.."";
+				Duration = 5;
+			})
+		else 
+			d1 = ""
+		end
+	end)
+end
+coroutine.wrap(VFBOA_fake_script)()
+local function LSQZZQX_fake_script() -- Delay.LocalScript 
+	local script = Instance.new('LocalScript', Delay)
+
+	script.Parent.Parent["Delay"].FocusLost:Connect(function() 
+		if script.Parent.Parent["Delay"].Text ~= "" then
+			Delayyy = script.Parent.Parent["Delay"].Text
+		else
+			Delayyy = 0.05
+		end
+	end)
+end
+coroutine.wrap(LSQZZQX_fake_script)()
+local function EEIU_fake_script() -- d.LocalScript 
+	local script = Instance.new('LocalScript', d)
+
+	script.Parent.MouseButton1Down:Connect(function(c)
+		Typo = "Critters"
+	end)
+	script.Parent.MouseButton1Down:Connect(function(c)
+		script.Parent.Parent.Parent.Parent.rice10.Select.Visible = false
+		script.Parent.Parent.Parent.Parent.rice10.a.Text = "Critters"
+	end)
+end
+coroutine.wrap(EEIU_fake_script)()
+local function ARMP_fake_script() -- c.LocalScript 
+	local script = Instance.new('LocalScript', c)
+
+	script.Parent.MouseButton1Down:Connect(function(b)
+		Typo = "Deployables"
+	end)
+	script.Parent.MouseButton1Down:Connect(function(b)
+		script.Parent.Parent.Parent.Parent.rice10.Select.Visible = false
+		script.Parent.Parent.Parent.Parent.rice10.a.Text = "Deployables"
+	end)
+end
+coroutine.wrap(ARMP_fake_script)()
+local function CIDUXUR_fake_script() -- b.LocalScript 
+	local script = Instance.new('LocalScript', b)
+
+	script.Parent.MouseButton1Down:Connect(function(a)
+		Typo = "Resources"
+	end)
+	script.Parent.MouseButton1Down:Connect(function(a)
+		script.Parent.Parent.Parent.Parent.rice10.Select.Visible = false
+		script.Parent.Parent.Parent.Parent.rice10.a.Text = "Resources"
+	end)
+end
+coroutine.wrap(CIDUXUR_fake_script)()
+local function YGLWEFE_fake_script() -- aSelect.LocalScript 
+	local script = Instance.new('LocalScript', aSelect)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		if script.Parent.Parent.Select.Visible == false then
+			script.Parent.Parent.Select.Visible = true
+		else
+			script.Parent.Parent.Select.Visible = false
+		end
+	end)
+end
+coroutine.wrap(YGLWEFE_fake_script)()
+local function JGURIGF_fake_script() -- Title.LocalScript 
+	local script = Instance.new('LocalScript', Title)
+
+	print("Have a nice day!")
+	
+end
+coroutine.wrap(JGURIGF_fake_script)()
+local function PMZQK_fake_script() -- Delay_2.LocalScript 
+	local script = Instance.new('LocalScript', Delay_2)
+
+	script.Parent.Parent["Delay"].FocusLost:Connect(function() 
+		if script.Parent.Parent["Delay"].Text ~= "" then
+			Delayy = script.Parent.Parent["Delay"].Text
+		else
+			Delayy = 3.5
+		end
+	end)
+end
+coroutine.wrap(PMZQK_fake_script)()
+local function GBLIAO_fake_script() -- EntityName.LocalScript 
+	local script = Instance.new('LocalScript', EntityName)
+
+	script.Parent.Parent["EntityName"].FocusLost:Connect(function() 
+		if script.Parent.Parent["EntityName"].Text ~= "" then
+			RN = script.Parent.Parent["EntityName"].Text
+			else
+		end
+		if script.Parent.EntityName.Text == "Goober" then
+			Gooberfarm = true
+		else
+			Gooberfarm = false
+		end
+		if script.Parent.EntityName.Text == "Goober" then
+			Delayy = 1.35
+		end
+	end)
+end
+coroutine.wrap(GBLIAO_fake_script)()
+local function YPFOB_fake_script() -- AutoFarm.LocalScript 
+	local script = Instance.new('LocalScript', AutoFarm)
+
+	local condition = false
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Delay.Text == "" then
+			Delayy = 3.5
+		else
+			Delayy = script.Parent.Delay.Text
+		end
+	
+		if condition == false then
+			condition = true
+			game:GetService("Workspace").Gravity = 0
+			script.Parent.Text = "On"
+		else
+			condition = false
+			script.Parent.Text = "Off"
+			game:GetService("Workspace").Gravity = 196.2
+		end
+		if script.Parent.EntityName.Text == "Goober" then
+			Delayy = 1.35
+			Gooberfarm = true
+		else
+			Gooberfarm = false
+		end
+		if script.Parent.EntityName.Text == "Plant Box Rubble" then
+			PlantBoxRubbleFarm = true
+		else
+			PlantBoxRubbleFarm = false
+		end
+		if script.Parent.EntityName.Text == "Poor Bantae" then
+			PoorBantaeFarm = true
+		else
+			PoorBantaeFarm = false
+		end
+		if script.Parent.EntityName.Text == "Poor Banto" then
+			PoorBantoFarm = true
+		else
+			PoorBantoFarm = false
+		end
+		if script.Parent.EntityName.Text == "Crystal Meteor Core" then
+			CMRFarm = true
+		else
+			CMRFarm = false
+		end
+		if RN == "" and Gooberfarm == false and PlantBoxRubbleFarm == false and PlantBoxRubbleFarm == false and PoorBantaeFarm == false and PoorBantoFarm == false and CMRFarm == false then
+			return
+		else
+		end
+		---------------Custom
+		spawn(function()
+			while condition == true and RN ~= "" and Gooberfarm == false and PlantBoxRubbleFarm == false and PoorBantaeFarm == false and CMRFarm == false do wait()
+				--CODE
+				for i, v in pairs(game:GetService("Workspace")[Typo]:GetChildren()) do
+					if script.Parent.Text == "On" then
+						if v.Name ~= nil and v.PrimaryPart ~= nil and v.Name== RN then 
+							game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Workspace")[Typo][RN].PrimaryPart.Position.x, game:GetService("Workspace")[Typo][RN].PrimaryPart.Position.y, game:GetService("Workspace")[Typo][RN].PrimaryPart.Position.z) wait(Delayy) 
+						end
+					end
+	
+				end
+			end
+		end)
+		spawn(function()
+			while condition == true and RN ~= "" and Gooberfarm == false and PlantBoxRubbleFarm == false and PoorBantaeFarm == false and CMRFarm == false do wait()
+				if script.Parent.Text == "On" then 
+					getgenv().Target = game:GetService("Workspace")[Typo][RN].PrimaryPart
+	
+					local A1  = {
+						[1] = getgenv().Target
+					}
+					local A2 = game:GetService("ReplicatedStorage").RelativeTime.Value
+					game:GetService("ReplicatedStorage").Events.SwingTool:FireServer(A2, A1) 
+				end
+			end
+	
+		end)
+		---------------Gooberfarm
+	
+		spawn(function()
+			while condition == true and Gooberfarm == true and PlantBoxRubbleFarm == false and PoorBantaeFarm == false and RN ~= "" and CMRFarm == false do wait() 
+				--CODE
+				for i, v in pairs(game:GetService("Workspace")[Typo]:GetChildren()) do
+					if script.Parent.Text == "On" then
+						if v.Name ~= nil and v.PrimaryPart == nil and v.Name== RN then 
+							getgenv().Target = game:GetService("Workspace")[Typo][RN].Leaves
+	
+							local A1  = {
+								[1] = getgenv().Target
+							}
+							local A2 = game:GetService("ReplicatedStorage").RelativeTime.Value
+							game:GetService("ReplicatedStorage").Events.SwingTool:FireServer(A2, A1)
+						end
+					end
+	
+				end
+			end
+		end)
+		spawn(function()
+			while condition == true and Gooberfarm == true and PlantBoxRubbleFarm == false and PoorBantaeFarm == false and RN ~= "" and CMRFarm == false do wait() 
+	
+				for i, v in pairs(game:GetService("Workspace")[Typo]:GetChildren()) do
+					if v.Name ~= nil and v.PrimaryPart == nil and v.Name== RN then
+						if script.Parent.Text == "On" then wait()
+							game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Workspace")[Typo][RN].Leaves.Position.x, game:GetService("Workspace")[Typo][RN].Leaves.Position.y, game:GetService("Workspace")[Typo][RN].Leaves.Position.z) wait(Delayy)
+	
+						end
+					end
+	
+				end
+			end
+		end)
+		---------------PlantBoxRubbleFarm
+	
+		spawn(function()
+			while condition == true and RN ~= "" and PlantBoxRubbleFarm == true and PoorBantaeFarm == false and Gooberfarm == false and CMRFarm == false do wait() 
+	
+				if script.Parent.Text == "On" then 
+					getgenv().Target = game:GetService("Workspace")[RN].PrimaryPart
+	
+					local A1  = {
+						[1] = getgenv().Target
+					}
+					local A2 = game:GetService("ReplicatedStorage").RelativeTime.Value
+					game:GetService("ReplicatedStorage").Events.SwingTool:FireServer(A2, A1) 
+				end
+			end
+	
+		end)
+		spawn(function()
+			while condition == true and RN ~= "" and PlantBoxRubbleFarm == true and PoorBantaeFarm == false and Gooberfarm == false and CMRFarm == false do wait() 
+	
+	
+				for i, v in pairs(game:GetService("Workspace"):GetChildren()) do
+					if script.Parent.Text == "On" then
+						if v.Name == RN then 
+							game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Workspace")[RN].PrimaryPart.Position.x, game:GetService("Workspace")[RN].PrimaryPart.Position.y, game:GetService("Workspace")[RN].PrimaryPart.Position.z) wait(Delayy) 
+						end
+					end
+	
+				end
+			end
+		end)
+		---------------PoorBantaeFarm
+		spawn(function()
+			while condition == true and RN ~= "" and PoorBantaeFarm == true and Gooberfarm == false and PlantBoxRubbleFarm == false and CMRFarm == false do wait()
+	
+				--CODE
+				for i, v in pairs(game:GetService("Workspace"):GetChildren()) do
+					if script.Parent.Text == "On" then
+						if v.Name == RN then 
+							game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Workspace")[RN].PrimaryPart.Position.x, game:GetService("Workspace")[RN].PrimaryPart.Position.y, game:GetService("Workspace")[RN].PrimaryPart.Position.z) wait(Delayy) 
+						end
+					end
+	
+				end
+			end
+		end)
+		spawn(function()
+			while condition == true and RN ~= "" and PoorBantaeFarm == true and Gooberfarm == false and PlantBoxRubbleFarm == false and CMRFarm == false do wait()
+	
+				if script.Parent.Text == "On" then 
+					getgenv().Target = game:GetService("Workspace")[RN].PrimaryPart
+	
+					local A1  = {
+						[1] = getgenv().Target
+					}
+					local A2 = game:GetService("ReplicatedStorage").RelativeTime.Value
+					game:GetService("ReplicatedStorage").Events.SwingTool:FireServer(A2, A1) 
+				end
+			end
+	
+		end)
+		---------------PoorBantoFarm
+		spawn(function()
+			while condition == true and RN ~= "" and PoorBantoFarm == true and PoorBantaeFarm == false  and Gooberfarm == false and PlantBoxRubbleFarm == false and CMRFarm == false do wait()
+	
+				--CODE
+				for i, v in pairs(game:GetService("Workspace"):GetChildren()) do
+					if script.Parent.Text == "On" then
+						if v.Name == RN then 
+							game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Workspace")[RN].PrimaryPart.Position.x, game:GetService("Workspace")[RN].PrimaryPart.Position.y, game:GetService("Workspace")[RN].PrimaryPart.Position.z) wait(Delayy) 
+						end
+					end
+	
+				end
+			end
+		end)
+		spawn(function()
+			while condition == true and RN ~= "" and PoorBantoFarm == true and PoorBantaeFarm == false  and Gooberfarm == false and PlantBoxRubbleFarm == false and CMRFarm == false do wait()
+	
+				if script.Parent.Text == "On" then 
+					getgenv().Target = game:GetService("Workspace")[RN].PrimaryPart
+	
+					local A1  = {
+						[1] = getgenv().Target
+					}
+					local A2 = game:GetService("ReplicatedStorage").RelativeTime.Value
+					game:GetService("ReplicatedStorage").Events.SwingTool:FireServer(A2, A1) 
+				end
+			end
+	
+		end)
+	
+		---------------CMRFarm (Core)
+		spawn(function()
+			while condition == true and RN ~= "" and CMRFarm == true and PoorBantoFarm == false and PoorBantaeFarm == false  and Gooberfarm == false and PlantBoxRubbleFarm == false do wait(0.00000000000000000000000000000000000001)
+	
+				--CODE
+				for i, v in pairs(game:GetService("Workspace")[Typo]:GetChildren()) do
+					if script.Parent.Text == "On" then
+						if v.Name == "Crystal Meteor Core" then
+							RN = "Crystal Meteor Core"
+							game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Workspace")[Typo][RN].PrimaryPart.Position.x, game:GetService("Workspace")[Typo][RN].PrimaryPart.Position.y, game:GetService("Workspace")[Typo][RN].PrimaryPart.Position.z)  wait(Delayy)
+						end
+					end
+	
+				end
+			end
+		end)
+		spawn(function()
+			while condition == true and RN ~= "" and CMRFarm == true and PoorBantoFarm == false and PoorBantaeFarm == false  and Gooberfarm == false and PlantBoxRubbleFarm == false do wait()
+	
+				if script.Parent.Text == "On" then 
+					getgenv().Target = game:GetService("Workspace")[Typo][RN].PrimaryPart
+	
+					local A1  = {
+						[1] = getgenv().Target
+					}
+					local A2 = game:GetService("ReplicatedStorage").RelativeTime.Value
+					game:GetService("ReplicatedStorage").Events.SwingTool:FireServer(A2, A1) 
+				end
+			end
+	
+		end)
+		---------------CMRFarm (Rock)
+		spawn(function()
+			for i, v in pairs(game:GetService("Workspace")["Resources"]:GetChildren()) do
+	
+				if v.Name ~= "Crystal Meteor Core" and v.Name == "Crystal Meteor Rock" then
+					RN = "Crystal Meteor Rock"
+					while condition == true and RN ~= "" and CMRFarm == true and PoorBantoFarm == false and PoorBantaeFarm == false  and Gooberfarm == false and PlantBoxRubbleFarm == false do wait(0.00000000000000000000000000000000000001)
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Workspace")[Typo][RN].PrimaryPart.Position.x, game:GetService("Workspace")[Typo][RN].PrimaryPart.Position.y, game:GetService("Workspace")[Typo][RN].PrimaryPart.Position.z)  wait(Delayy)
+					end
+				end
+			end
+		end)
+		spawn(function()
+			while condition == true and RN ~= "" and CMRFarm == true and PoorBantoFarm == false and PoorBantaeFarm == false  and Gooberfarm == false and PlantBoxRubbleFarm == false do wait()
+	
+				if script.Parent.Text == "On" then 
+					if RN == "Crystal Meteor Rock" then
+	
+						getgenv().Target = game:GetService("Workspace")[Typo][RN].PrimaryPart
+	
+						local A1  = {
+							[1] = getgenv().Target
+						}
+						local A2 = game:GetService("ReplicatedStorage").RelativeTime.Value
+						game:GetService("ReplicatedStorage").Events.SwingTool:FireServer(A2, A1) 
+					end
+				end
+	
+			end
+		end)
+		---------------CMRFarm (Shelly)
+	
+		spawn(function()
+			for i, v in pairs(game:GetService("Workspace")[Typo]:GetChildren()) do
+				if v.Name ~= "Crystal Meteor Rock" and v.Name ~= "Crystal Meteor Core" then
+	
+					for i, v in pairs(game:GetService("Workspace")["Critters"]:GetChildren()) do
+	
+						if v.Name == "Crystal Shelly" then
+							while condition == true and RN ~= "" and CMRFarm == true and PoorBantoFarm == false and PoorBantaeFarm == false  and Gooberfarm == false and PlantBoxRubbleFarm == false do wait(0.00000000000000000000000000000000000001)
+	
+								RN = "Crystal Shelly"
+								Typo = "Critters"
+								script.Parent.Parent.Parent.aSelect.Text = "Type: " ..Typo..""
+								script.Parent.Parent.Parent.AutoFarm.EntityName.Text = "Crystal Shelly"
+	
+								game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Workspace")["Crystal Meteor Rock"].PrimaryPart.Position.x, game:GetService("Workspace")["Crystal Meteor Rock"].PrimaryPart.Position.y, game:GetService("Workspace")["Crystal Meteor Rock"].PrimaryPart.Position.z) wait(Delayy)
+							end
+						end
+					end
+				end
+			end
+		end)
+		spawn(function()
+			while condition == true and RN ~= "" and CMRFarm == true and PoorBantoFarm == false and PoorBantaeFarm == false  and Gooberfarm == false and PlantBoxRubbleFarm == false do wait()
+				if script.Parent.Text == "On" then 
+					if RN == "Crystal Shelly" then
+						getgenv().Target = game:GetService("Workspace")[Typo][RN].PrimaryPart
+	
+						local A1  = {
+							[1] = getgenv().Target
+						}
+						local A2 = game:GetService("ReplicatedStorage").RelativeTime.Value
+						game:GetService("ReplicatedStorage").Events.SwingTool:FireServer(A2, A1) 
+					end
+				end
+	
+			end
+		end)
+	end)
+end
+coroutine.wrap(YPFOB_fake_script)()
+local function JUWM_fake_script() -- c_2.LocalScript 
+	local script = Instance.new('LocalScript', c_2)
+
+	script.Parent.MouseButton1Down:Connect(function(a)
+		script.Parent.Parent.Parent.bSelect.Text = "Quick Select: Goober"
+		script.Parent.Parent.Parent.AutoFarm.EntityName.Text = "Goober"
+		RN = "Goober"
+		Typo = "Resources"
+		script.Parent.Parent.Parent.Parent.rice10.QSelect.Visible = false
+		script.Parent.Parent.Parent.aSelect.Text = "Type: " ..Typo..""
+	end)
+end
+coroutine.wrap(JUWM_fake_script)()
+local function HRPJO_fake_script() -- e.LocalScript 
+	local script = Instance.new('LocalScript', e)
+
+	script.Parent.MouseButton1Down:Connect(function(a)
+		script.Parent.Parent.Parent.bSelect.Text = "Quick Select: Big Bush"
+		script.Parent.Parent.Parent.AutoFarm.EntityName.Text = "Big Bush"
+		RN = "Big Bush"
+		Typo = "Resources"
+		script.Parent.Parent.Parent.Parent.rice10.QSelect.Visible = false
+		script.Parent.Parent.Parent.aSelect.Text = "Type: " ..Typo..""
+	end)
+end
+coroutine.wrap(HRPJO_fake_script)()
+local function TVJVI_fake_script() -- g.LocalScript 
+	local script = Instance.new('LocalScript', g)
+
+	script.Parent.MouseButton1Down:Connect(function(a)
+		script.Parent.Parent.Parent.bSelect.Text = "Quick Select: Gold Node"
+		script.Parent.Parent.Parent.AutoFarm.EntityName.Text = "Gold Node"
+		RN = "Gold Node"
+		Typo = "Resources"
+		script.Parent.Parent.Parent.Parent.rice10.QSelect.Visible = false
+		script.Parent.Parent.Parent.aSelect.Text = "Type: " ..Typo..""
+	end)
+end
+coroutine.wrap(TVJVI_fake_script)()
+local function KSAHRF_fake_script() -- d_2.LocalScript 
+	local script = Instance.new('LocalScript', d_2)
+
+	script.Parent.MouseButton1Down:Connect(function(a)
+		script.Parent.Parent.Parent.bSelect.Text = "Quick Select: Bush"
+		script.Parent.Parent.Parent.AutoFarm.EntityName.Text = "Bush"
+		RN = "Bush"
+		Typo = "Resources"
+		script.Parent.Parent.Parent.Parent.rice10.QSelect.Visible = false
+		script.Parent.Parent.Parent.aSelect.Text = "Type: " ..Typo..""
+	end)
+end
+coroutine.wrap(KSAHRF_fake_script)()
+local function BOWVL_fake_script() -- j.LocalScript 
+	local script = Instance.new('LocalScript', j)
+
+	script.Parent.MouseButton1Down:Connect(function(a)
+		script.Parent.Parent.Parent.bSelect.Text = "Quick Select: Stone Node"
+		script.Parent.Parent.Parent.AutoFarm.EntityName.Text = "Stone Node"
+		RN = "Stone Node"
+		Typo = "Resources"
+		script.Parent.Parent.Parent.Parent.rice10.QSelect.Visible = false
+		script.Parent.Parent.Parent.aSelect.Text = "Type: " ..Typo..""
+	end)
+end
+coroutine.wrap(BOWVL_fake_script)()
+local function XNMG_fake_script() -- k.LocalScript 
+	local script = Instance.new('LocalScript', k)
+
+	script.Parent.MouseButton1Down:Connect(function(a)
+		script.Parent.Parent.Parent.bSelect.Text = "Quick Select: Silver Node"
+		script.Parent.Parent.Parent.AutoFarm.EntityName.Text = "Silver Node"
+		RN = "Silver Node"
+		Typo = "Resources"
+		script.Parent.Parent.Parent.Parent.rice10.QSelect.Visible = false
+		script.Parent.Parent.Parent.aSelect.Text = "Type: " ..Typo..""
+	end)
+end
+coroutine.wrap(XNMG_fake_script)()
+local function IWYZ_fake_script() -- i.LocalScript 
+	local script = Instance.new('LocalScript', i)
+
+	script.Parent.MouseButton1Down:Connect(function(a)
+		script.Parent.Parent.Parent.bSelect.Text = "Quick Select: Coal Node"
+		script.Parent.Parent.Parent.AutoFarm.EntityName.Text = "Coal Node"
+		RN = "Coal Node"
+		Typo = "Resources"
+		script.Parent.Parent.Parent.Parent.rice10.QSelect.Visible = false
+		script.Parent.Parent.Parent.aSelect.Text = "Type: " ..Typo..""
+	end)
+end
+coroutine.wrap(IWYZ_fake_script)()
+local function CHLFLTM_fake_script() -- m.LocalScript 
+	local script = Instance.new('LocalScript', m)
+
+	script.Parent.MouseButton1Down:Connect(function(a)
+		script.Parent.Parent.Parent.bSelect.Text = "Quick Select: Frozen Giant"
+		script.Parent.Parent.Parent.AutoFarm.EntityName.Text = "Frozen Giant"
+		RN = "Frozen Giant"
+		Typo = "Resources"
+		script.Parent.Parent.Parent.Parent.rice10.QSelect.Visible = false
+		script.Parent.Parent.Parent.aSelect.Text = "Type: " ..Typo..""
+	end)
+end
+coroutine.wrap(CHLFLTM_fake_script)()
+local function MFBKYV_fake_script() -- b_2.LocalScript 
+	local script = Instance.new('LocalScript', b_2)
+
+	script.Parent.MouseButton1Down:Connect(function(a)
+		script.Parent.Parent.Parent.bSelect.Text = "Quick Select: Ancient Feather Tree"
+		script.Parent.Parent.Parent.AutoFarm.EntityName.Text = "Ancient Feather Tree"
+		RN = "Ancient Feather Tree"
+		Typo = "Resources"
+		script.Parent.Parent.Parent.Parent.rice10.QSelect.Visible = false
+		script.Parent.Parent.Parent.aSelect.Text = "Type: " ..Typo..""
+	end)
+end
+coroutine.wrap(MFBKYV_fake_script)()
+local function HBHGZEW_fake_script() -- n.LocalScript 
+	local script = Instance.new('LocalScript', n)
+
+	script.Parent.MouseButton1Down:Connect(function(a)
+		script.Parent.Parent.Parent.bSelect.Text = "Quick Select: Plant Box"
+		script.Parent.Parent.Parent.AutoFarm.EntityName.Text = "Plant Box"
+		RN = "Plant Box"
+		Typo = "Deployables"
+		script.Parent.Parent.Parent.Parent.rice10.QSelect.Visible = false
+		script.Parent.Parent.Parent.aSelect.Text = "Type: " ..Typo..""
+	end)
+end
+coroutine.wrap(HBHGZEW_fake_script)()
+local function JJHZU_fake_script() -- o.LocalScript 
+	local script = Instance.new('LocalScript', o)
+
+	script.Parent.MouseButton1Down:Connect(function(a)
+		script.Parent.Parent.Parent.bSelect.Text = "Quick Select: Plant Box Rubble"
+		script.Parent.Parent.Parent.AutoFarm.EntityName.Text = "Plant Box Rubble"
+		RN = "Plant Box Rubble"
+		Typo = "Workspace"
+		script.Parent.Parent.Parent.Parent.rice10.QSelect.Visible = false
+		script.Parent.Parent.Parent.aSelect.Text = "Type: " ..Typo..""
+	end)
+end
+coroutine.wrap(JJHZU_fake_script)()
+local function KSMO_fake_script() -- r.LocalScript 
+	local script = Instance.new('LocalScript', r)
+
+	script.Parent.MouseButton1Down:Connect(function(a)
+		script.Parent.Parent.Parent.bSelect.Text = "Quick Select: Beached Boi"
+		script.Parent.Parent.Parent.AutoFarm.EntityName.Text = "Beached Boi"
+		RN = "Beached Boi"
+		Typo = "Resources"
+		script.Parent.Parent.Parent.Parent.rice10.QSelect.Visible = false
+		script.Parent.Parent.Parent.aSelect.Text = "Type: " ..Typo..""
+	end)
+end
+coroutine.wrap(KSMO_fake_script)()
+local function RUBERVH_fake_script() -- a.LocalScript 
+	local script = Instance.new('LocalScript', a)
+
+	script.Parent.MouseButton1Down:Connect(function(a)
+		script.Parent.Parent.Parent.bSelect.Text = "Quick Select: Ancient Tree"
+		script.Parent.Parent.Parent.AutoFarm.EntityName.Text = "Ancient Tree"
+		RN = "Ancient Tree"
+		Typo = "Resources"
+		script.Parent.Parent.Parent.Parent.rice10.QSelect.Visible = false
+		script.Parent.Parent.Parent.aSelect.Text = "Type: " ..Typo..""
+	end)
+end
+coroutine.wrap(RUBERVH_fake_script)()
+local function XJYWUH_fake_script() -- h.LocalScript 
+	local script = Instance.new('LocalScript', h)
+
+	script.Parent.MouseButton1Down:Connect(function(a)
+		script.Parent.Parent.Parent.bSelect.Text = "Quick Select: Iron Node"
+		script.Parent.Parent.Parent.AutoFarm.EntityName.Text = "Iron Node"
+		RN = "Iron Node"
+		Typo = "Resources"
+		script.Parent.Parent.Parent.Parent.rice10.QSelect.Visible = false
+		script.Parent.Parent.Parent.aSelect.Text = "Type: " ..Typo..""
+	end)
+end
+coroutine.wrap(XJYWUH_fake_script)()
+local function JIYFW_fake_script() -- q.LocalScript 
+	local script = Instance.new('LocalScript', q)
+
+	script.Parent.MouseButton1Down:Connect(function(a)
+		script.Parent.Parent.Parent.bSelect.Text = "Quick Select: Raft"
+		script.Parent.Parent.Parent.AutoFarm.EntityName.Text = "Raft"
+		RN = "Raft"
+		Typo = "Deployables"
+		script.Parent.Parent.Parent.Parent.rice10.QSelect.Visible = false
+		script.Parent.Parent.Parent.aSelect.Text = "Type: " ..Typo..""
+	end)
+end
+coroutine.wrap(JIYFW_fake_script)()
+local function ADGF_fake_script() -- s.LocalScript 
+	local script = Instance.new('LocalScript', s)
+
+	script.Parent.MouseButton1Down:Connect(function(a)
+		script.Parent.Parent.Parent.bSelect.Text = "Quick Select: Banto"
+		script.Parent.Parent.Parent.AutoFarm.EntityName.Text = "Banto"
+		RN = "Banto"
+		Typo = "Critters"
+		script.Parent.Parent.Parent.Parent.rice10.QSelect.Visible = false
+		script.Parent.Parent.Parent.aSelect.Text = "Type: " ..Typo..""
+	end)
+end
+coroutine.wrap(ADGF_fake_script)()
+local function QBMDHW_fake_script() -- t.LocalScript 
+	local script = Instance.new('LocalScript', t)
+
+	script.Parent.MouseButton1Down:Connect(function(a)
+		script.Parent.Parent.Parent.bSelect.Text = "Quick Select: Bantae"
+		script.Parent.Parent.Parent.AutoFarm.EntityName.Text = "Bantae"
+		RN = "Bantae"
+		Typo = "Critters"
+		script.Parent.Parent.Parent.Parent.rice10.QSelect.Visible = false
+		script.Parent.Parent.Parent.aSelect.Text = "Type: " ..Typo..""
+	end)
+end
+coroutine.wrap(QBMDHW_fake_script)()
+local function CIMVC_fake_script() -- u.LocalScript 
+	local script = Instance.new('LocalScript', u)
+
+	script.Parent.MouseButton1Down:Connect(function(a)
+		script.Parent.Parent.Parent.bSelect.Text = "Quick Select: Poor Banto"
+		script.Parent.Parent.Parent.AutoFarm.EntityName.Text = "Poor Banto"
+		RN = "Poor Banto"
+		Typo = "Workspace"
+		script.Parent.Parent.Parent.Parent.rice10.QSelect.Visible = false
+		script.Parent.Parent.Parent.aSelect.Text = "Type: " ..Typo..""
+	end)
+end
+coroutine.wrap(CIMVC_fake_script)()
+local function LWWWE_fake_script() -- v.LocalScript 
+	local script = Instance.new('LocalScript', v)
+
+	script.Parent.MouseButton1Down:Connect(function(a)
+		script.Parent.Parent.Parent.bSelect.Text = "Quick Select: Poor Bantae"
+		script.Parent.Parent.Parent.AutoFarm.EntityName.Text = "Poor Bantae"
+		RN = "Poor Bantae"
+		Typo = "Workspace"
+		script.Parent.Parent.Parent.Parent.rice10.QSelect.Visible = false
+		script.Parent.Parent.Parent.aSelect.Text = "Type: " ..Typo..""
+	end)
+end
+coroutine.wrap(LWWWE_fake_script)()
+local function LKUUOZ_fake_script() -- w.LocalScript 
+	local script = Instance.new('LocalScript', w)
+
+	script.Parent.MouseButton1Down:Connect(function(a)
+		script.Parent.Parent.Parent.bSelect.Text = "Quick Select: Crystal Meteor Core"
+		script.Parent.Parent.Parent.AutoFarm.EntityName.Text = "Crystal Meteor Core"
+		RN = "Crystal Meteor Core"
+		Typo = "Resources"
+		script.Parent.Parent.Parent.Parent.rice10.QSelect.Visible = false
+		script.Parent.Parent.Parent.aSelect.Text = "Type: " ..Typo..""
+	end)
+	
+end
+coroutine.wrap(LKUUOZ_fake_script)()
+local function IICTRQ_fake_script() -- bSelect.LocalScript 
+	local script = Instance.new('LocalScript', bSelect)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		if script.Parent.Parent.QSelect.Visible == false then
+			script.Parent.Parent.QSelect.Visible = true
+		else
+			script.Parent.Parent.QSelect.Visible = false
+		end
+	end)
+end
+coroutine.wrap(IICTRQ_fake_script)()
+local function YMLV_fake_script() -- TextButton_16.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_16)
+
+	
+	local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+	
+	local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+	
+	local path = script.Parent.Parent.Parent.rice1.Info.Planboxa.Text
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.rice1.TextButton.Visible = false
+		script.Parent.Parent.Parent.rice1.TextButtonCopy.Visible = true
+		
+		Notification:Notify(
+			{Title = "Bloodfruit Farm: Activated", Description = "Check Keybinds for info/setting!"},
+			{OutlineColor = Color3.fromRGB(80, 80, 80),Time = 10, Type = "image"},
+			{Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)})
+		
+		if path ~= "" then
+			amountofpots = script.Parent.Parent.Info.Planboxa.Text
+		else 
+			amountofpots = "15"
+		end
+		spawn(function()
+			local placekey = "p"
+			local plantkey = "["
+			local collectkey = "]" 
+			local Player = game:GetService("Players").LocalPlayer
+			local Mouse = Player:GetMouse()
+	
+			spawn(function()
+				getgenv().plant = function()
+					for _, v in pairs(workspace.Deployables:GetChildren()) do
+						if v.Name == "Plant Box" and (Player.Character.Head.Position - v.PrimaryPart.Position).magnitude < 85 then
+							game.ReplicatedStorage.Events.InteractStructure:FireServer(v, "Bloodfruit")
+						end
+					end
+				end
+	
+				spawn(function()
+					getgenv().collect = function()
+						for _, v in pairs(workspace.Items:GetChildren()) do
+							if v.Name == "Bloodfruit" or v.Name == "Bloodfruit Bush" and (Player.Character.Head.Position - v.PrimaryPart.Position).magnitude < 65 then
+								game:GetService("ReplicatedStorage").Events.PickupItem:InvokeServer(v)
+							end
+						end
+					end
+	
+	
+					spawn(function()
+						Mouse.KeyUp:connect(function(k)
+							if k == placekey then
+								for i = 1, amountofpots do
+									game.ReplicatedStorage.Events.PlaceStructure:FireServer("Plant Box", Mouse.Hit, 0)
+								end
+							elseif k == collectkey then
+								getgenv().collect()
+							elseif k == plantkey then
+								getgenv().plant()
+							end
+						end)
+					end)
+				end)
+			end)
+		end)
+	end)
+	
+end
+coroutine.wrap(YMLV_fake_script)()
+local function YBRTY_fake_script() -- Infoo.LocalScript 
+	local script = Instance.new('LocalScript', Infoo)
+
+	-- Open/close
+	local frame = script.Parent.Parent.Info
+	
+	script.Parent.MouseButton1Down:connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		else
+			frame.Visible = false
+		end
+	end)
+	
+	
+end
+coroutine.wrap(YBRTY_fake_script)()
+local function ACAZUF_fake_script() -- TextButtonCopy.LocalScript 
+	local script = Instance.new('LocalScript', TextButtonCopy)
+
+	script.Parent.Visible = false
+end
+coroutine.wrap(ACAZUF_fake_script)()
+local function LXXLI_fake_script() -- TextButton_17.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_17)
+
+	script.Parent.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(602.956238, -47.1666183, -272.799988, 0.0835363939, 0, -0.996504724, 0, 1, 0, 0.996504724, 0, 0.0835363939) * CFrame.Angles(-0, -1.501023769378662, -0)
+	wait(1.1)
+		local args = {
+			[1] = "Wood Wall",
+			[2] = CFrame.new(611.5869750976562, -50.73725128173828, -280.4454345703125) * CFrame.Angles(1.5517799545339273e-10, -1.3822062015533447, 7.706394966611185e-10),
+			[3] = -79.19456910341978
+		}
+	
+		game:GetService("ReplicatedStorage").Events.PlaceStructure:FireServer(unpack(args))
+	end)
+	
+	
+end
+coroutine.wrap(LXXLI_fake_script)()
+local function QMISU_fake_script() -- TextButton_18.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_18)
+
+	script.Parent.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(602.956238, -47.1666183, -272.799988, 0.0835363939, 0, -0.996504724, 0, 1, 0, 0.996504724, 0, 0.0835363939) * CFrame.Angles(-0, -1.501023769378662, -0)
+	end)
+end
+coroutine.wrap(QMISU_fake_script)()
+local function QHPSYZK_fake_script() -- Info.LocalScript 
+	local script = Instance.new('LocalScript', Info)
+
+	script.Parent.Visible = false
+	
+end
+coroutine.wrap(QHPSYZK_fake_script)()
+local function NXLYSDW_fake_script() -- Planboxa.LocalScript 
+	local script = Instance.new('LocalScript', Planboxa)
+
+	script.Parent.Parent.Planboxa.FocusLost:Connect(function() 
+		if script.Parent.Parent.Planboxa.Text ~= "" then
+			amountofpots = script.Parent.Parent.Planboxa.Text
+		end
+	end)
+end
+coroutine.wrap(NXLYSDW_fake_script)()
+local function JVOIAG_fake_script() -- TextButton_19.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_19)
+
+	script.Parent.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "Magnetite Axe"
+		}
+	
+		game:GetService("ReplicatedStorage").Events.CraftItem:FireServer(unpack(args))
+	
+	end)
+	
+end
+coroutine.wrap(JVOIAG_fake_script)()
+local function VHIKNZP_fake_script() -- TextButton_20.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_20)
+
+	script.Parent.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "Magnetite Pick"
+		}
+	
+		game:GetService("ReplicatedStorage").Events.CraftItem:FireServer(unpack(args))
+	
+	end)
+	
+end
+coroutine.wrap(VHIKNZP_fake_script)()
+local function ZHZUJ_fake_script() -- TextButton_21.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_21)
+
+	script.Parent.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "Magnetite Bag"
+		}
+	
+		game:GetService("ReplicatedStorage").Events.CraftItem:FireServer(unpack(args))
+	
+	end)
+	
+end
+coroutine.wrap(ZHZUJ_fake_script)()
+local function WVXFH_fake_script() -- TextButton_22.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_22)
+
+	script.Parent.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "Magnetite Mask"
+		}
+	
+		game:GetService("ReplicatedStorage").Events.CraftItem:FireServer(unpack(args))
+	
+	end)
+	
+end
+coroutine.wrap(WVXFH_fake_script)()
+local function VGLKA_fake_script() -- TextButton_23.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_23)
+
+	script.Parent.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "Magnetite Chestplate"
+		}
+	
+		game:GetService("ReplicatedStorage").Events.CraftItem:FireServer(unpack(args))
+	
+	end)
+	
+end
+coroutine.wrap(VGLKA_fake_script)()
+local function PTGMN_fake_script() -- TextButton_24.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_24)
+
+	script.Parent.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "Magnetite Greaves"
+		}
+	
+		game:GetService("ReplicatedStorage").Events.CraftItem:FireServer(unpack(args))
+	
+	end)
+	
+end
+coroutine.wrap(PTGMN_fake_script)()
+local function HFTR_fake_script() -- TextButton_25.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_25)
+
+	script.Parent.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "Magnetite Mask"
+		}
+	
+		game:GetService("ReplicatedStorage").Events.CraftItem:FireServer(unpack(args))
+		
+		local args = {
+			[1] = "Magnetite Chestplate"
+		}
+	
+		game:GetService("ReplicatedStorage").Events.CraftItem:FireServer(unpack(args))
+		
+		local args = {
+			[1] = "Magnetite Greaves"
+		}
+	
+		game:GetService("ReplicatedStorage").Events.CraftItem:FireServer(unpack(args))
+		
+	end)
+	
+end
+coroutine.wrap(HFTR_fake_script)()
+local function YJJUIFW_fake_script() -- TextButton_26.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_26)
+
+	script.Parent.MouseButton1Down:connect(function()
+		local args = {
+			[1] = "Magnetite Stick"
+		}
+	
+		game:GetService("ReplicatedStorage").Events.CraftItem:FireServer(unpack(args))
+	
+	end)
+	
+end
+coroutine.wrap(YJJUIFW_fake_script)()
+local function MHUPTOI_fake_script() -- AutoCraft.LocalScript 
+	local script = Instance.new('LocalScript', AutoCraft)
+
+	script.Parent.MouseButton1Down:connect(function()
+		local args = {
+			[1] = (""..script.Parent["Item Name"].Text.."")
+		}
+	
+		game:GetService("ReplicatedStorage").Events.CraftItem:FireServer(unpack(args))
+	end)
+	
+end
+coroutine.wrap(MHUPTOI_fake_script)()
+local function MGERJ_fake_script() -- ChubHub.LocalScript 
+	local script = Instance.new('LocalScript', ChubHub)
+
+	local Typo = nil
+	local p3 = nil
+	local p4 = nil
+	local RN = nil
+	local speedy = nil
+	local jumpy = nil
+	local amountofpots = nil
+	local plr = game:GetService("Players").LocalPlayer
+	local char = plr.Character
+	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
+	local hum = char:FindFirstChild("HumanoidRootPart")
+	local checkselected = nil
+	local Delayy = nil
+	local Delayyy = nil
+	local Delayyyy = nil
+	local d1 = nil
+	local d2 = nil
+	local d3 = nil
+	local Target = nil
+	local Gooberfarm = nil
+	local RN = nil
+	
+	getgenv().NotificationColour = nil
+	
+	--Copper
+	spawn(function()
+		game.StarterGui:SetCore("SendNotification",  {
+			Title = "Safezone Keybind";
+			Text = "Press g";
+			Duration = 5;
+		})
+	end)
+	spawn(function()
+		game.Players.LocalPlayer:GetMouse().KeyUp:Connect(function(key)
+			if key == "f" then
+				getgenv().loop = false
+			end
+		end)
+		spawn(function()
+			game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+				if key == "g" then
+					script.Parent.rice4.MagTPPlayer.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+					script.Parent.rice4.CPlayerTp.TextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+					game:GetService("Workspace").Gravity = 196.2
+					wait(0.1)
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1682.27722, -3.60361338, -4133.91211, -0.866007447, 0, -0.500031412, 0, 1, 0, 0.500031412, 0, -0.866007447)
+				end
+			end)
+		end)
+	end)
+	
+end
+coroutine.wrap(MGERJ_fake_script)()
