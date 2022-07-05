@@ -3,38 +3,6 @@
 
 -- Instances:
 
-local rice2 = Instance.new("Frame")
-local nH = Instance.new("TextButton")
-local ObjectName = Instance.new("TextBox")
-local TextLabel = Instance.new("TextLabel")
-local Av = Instance.new("TextButton")
-local TextLabel_2 = Instance.new("TextLabel")
-local TextLabel_3 = Instance.new("TextLabel")
-local TextButton = Instance.new("TextButton")
-local Target = Instance.new("TextButton")
-local TextButton_2 = Instance.new("TextButton")
-local TextButton_3 = Instance.new("TextButton")
-local TextLabel_4 = Instance.new("TextLabel")
-local TextButton_4 = Instance.new("TextButton")
-local TextLabel_5 = Instance.new("TextLabel")
-local Enchance = Instance.new("TextButton")
-local TextButton_5 = Instance.new("TextButton")
-local Hitbox = Instance.new("TextButton")
-local Autohit = Instance.new("TextButton")
-local TextButton_6 = Instance.new("TextButton")
-local TextLabel_6 = Instance.new("TextLabel")
-local Esp = Instance.new("TextButton")
-local ItemName = Instance.new("TextBox")
-local TextLabel_7 = Instance.new("TextLabel")
-local PlayerName = Instance.new("TextBox")
-local TextLabel_8 = Instance.new("TextLabel")
-local TextButton_7 = Instance.new("TextButton")
-local TextButton_8 = Instance.new("TextButton")
-local pvpc = Instance.new("TextButton")
-local LH = Instance.new("TextButton")
-local Delayyyy = Instance.new("TextBox")
-local TextButton_9 = Instance.new("TextButton")
-local AutoPick = Instance.new("TextButton")
 local OpenClose = Instance.new("TextButton")
 local bselect = Instance.new("TextButton")
 local options = Instance.new("Frame")
@@ -52,24 +20,24 @@ local M = Instance.new("TextLabel")
 local options_2 = Instance.new("Frame")
 local UIListLayout_2 = Instance.new("UIListLayout")
 local _0 = Instance.new("TextButton")
-local TextButton_10 = Instance.new("TextButton")
+local TextButton = Instance.new("TextButton")
 local _1_2 = Instance.new("TextButton")
-local TextButton_11 = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
 local _2_2 = Instance.new("TextButton")
-local TextButton_12 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
 local _29 = Instance.new("TextButton")
-local TextButton_13 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
 local _5_2 = Instance.new("TextButton")
-local TextButton_14 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
 local _6_2 = Instance.new("TextButton")
-local TextButton_15 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
 local _7_2 = Instance.new("TextButton")
-local TextButton_16 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
 local M1 = Instance.new("TextLabel")
 local _8 = Instance.new("TextButton")
-local TextButton_17 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
 local tselect = Instance.new("TextButton")
-local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
 local options_3 = Instance.new("Frame")
 local s = Instance.new("TextButton")
 local t = Instance.new("TextButton")
@@ -92,389 +60,40 @@ local c = Instance.new("TextButton")
 local b = Instance.new("TextButton")
 local a = Instance.new("TextButton")
 local UIListLayout_3 = Instance.new("UIListLayout")
+local rice2 = Instance.new("Frame")
+local nH = Instance.new("TextButton")
+local ObjectName = Instance.new("TextBox")
+local TextLabel_2 = Instance.new("TextLabel")
+local Av = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextButton_9 = Instance.new("TextButton")
+local Target = Instance.new("TextButton")
+local TextButton_10 = Instance.new("TextButton")
+local TextButton_11 = Instance.new("TextButton")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextButton_12 = Instance.new("TextButton")
+local TextLabel_6 = Instance.new("TextLabel")
+local Enchance = Instance.new("TextButton")
+local TextButton_13 = Instance.new("TextButton")
+local Hitbox = Instance.new("TextButton")
+local Autohit = Instance.new("TextButton")
+local TextButton_14 = Instance.new("TextButton")
+local TextLabel_7 = Instance.new("TextLabel")
+local Esp = Instance.new("TextButton")
+local ItemName = Instance.new("TextBox")
+local TextLabel_8 = Instance.new("TextLabel")
+local PlayerName = Instance.new("TextBox")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextButton_15 = Instance.new("TextButton")
+local TextButton_16 = Instance.new("TextButton")
+local pvpc = Instance.new("TextButton")
+local LH = Instance.new("TextButton")
+local Delayyyy = Instance.new("TextBox")
+local TextButton_17 = Instance.new("TextButton")
+local AutoPick = Instance.new("TextButton")
 
 --Properties:
-
-rice2.Name = "rice2"
-rice2.Parent = game.CoreGui.ChubHub
-rice2.Active = true
-rice2.BackgroundColor3 = Color3.fromRGB(192, 247, 255)
-rice2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-rice2.Position = UDim2.new(0.56400001, 0, 0.0989999995, 0)
-rice2.Size = UDim2.new(0, 267, 0, 277)
-
-nH.Name = "nH"
-nH.Parent = rice2
-nH.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-nH.BorderColor3 = Color3.fromRGB(0, 25, 255)
-nH.Position = UDim2.new(0.520058632, 0, 0.179714128, 0)
-nH.Size = UDim2.new(0, 112, 0, 13)
-nH.Font = Enum.Font.RobotoCondensed
-nH.Text = "Secure Name And Health"
-nH.TextColor3 = Color3.fromRGB(0, 184, 225)
-nH.TextScaled = true
-nH.TextSize = 14.000
-nH.TextWrapped = true
-
-ObjectName.Name = "ObjectName"
-ObjectName.Parent = rice2
-ObjectName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ObjectName.Position = UDim2.new(0.593269706, 0, 0.58411628, 0)
-ObjectName.Size = UDim2.new(0, 73, 0, 9)
-ObjectName.ZIndex = 5
-ObjectName.ClearTextOnFocus = false
-ObjectName.Font = Enum.Font.SourceSans
-ObjectName.PlaceholderText = "Object Name"
-ObjectName.Text = ""
-ObjectName.TextColor3 = Color3.fromRGB(0, 0, 0)
-ObjectName.TextSize = 14.000
-ObjectName.TextWrapped = true
-
-TextLabel.Parent = rice2
-TextLabel.BackgroundColor3 = Color3.fromRGB(12, 223, 255)
-TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.Position = UDim2.new(0, 0, -0.0080861114, 0)
-TextLabel.Size = UDim2.new(0, 267, 0, 16)
-TextLabel.Font = Enum.Font.Sarpanch
-TextLabel.Text = "Misc"
-TextLabel.TextColor3 = Color3.fromRGB(53, 0, 159)
-TextLabel.TextSize = 14.000
-
-Av.Name = "Av"
-Av.Parent = rice2
-Av.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Av.BorderColor3 = Color3.fromRGB(0, 25, 255)
-Av.Position = UDim2.new(0.0335944816, 0, 0.251916319, 0)
-Av.Size = UDim2.new(0, 120, 0, 13)
-Av.Font = Enum.Font.RobotoCondensed
-Av.Text = "Anti-Void (On/Off)"
-Av.TextColor3 = Color3.fromRGB(0, 184, 225)
-Av.TextScaled = true
-Av.TextSize = 14.000
-Av.TextWrapped = true
-
-TextLabel_2.Parent = rice2
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_2.Position = UDim2.new(0.588803411, 0, 0.335241884, 0)
-TextLabel_2.Size = UDim2.new(0, 85, 0, 11)
-TextLabel_2.ZIndex = 5
-TextLabel_2.Font = Enum.Font.Sarpanch
-TextLabel_2.Text = "Auto Pickup All"
-TextLabel_2.TextColor3 = Color3.fromRGB(53, 0, 159)
-TextLabel_2.TextSize = 14.000
-
-TextLabel_3.Parent = rice2
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_3.Position = UDim2.new(0.0701897442, 0, 0.335241884, 0)
-TextLabel_3.Size = UDim2.new(0, 95, 0, 11)
-TextLabel_3.ZIndex = 5
-TextLabel_3.Font = Enum.Font.Sarpanch
-TextLabel_3.Text = "Auto Pickup Mag"
-TextLabel_3.TextColor3 = Color3.fromRGB(53, 0, 159)
-TextLabel_3.TextSize = 14.000
-
-TextButton.Parent = rice2
-TextButton.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
-TextButton.BorderColor3 = Color3.fromRGB(0, 255, 140)
-TextButton.Position = UDim2.new(0.134662524, 0, 0.418570131, 0)
-TextButton.Size = UDim2.new(0, 60, 0, 13)
-TextButton.ZIndex = 5
-TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "On/Off"
-TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.TextScaled = true
-TextButton.TextSize = 14.000
-TextButton.TextWrapped = true
-
-Target.Name = "Target"
-Target.Parent = rice2
-Target.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
-Target.BorderColor3 = Color3.fromRGB(0, 255, 140)
-Target.Position = UDim2.new(0.496103585, 0, 0.88558501, 0)
-Target.Size = UDim2.new(0, 60, 0, 14)
-Target.ZIndex = 5
-Target.Font = Enum.Font.SourceSans
-Target.Text = "Target(On/Off)"
-Target.TextColor3 = Color3.fromRGB(0, 0, 0)
-Target.TextScaled = true
-Target.TextSize = 14.000
-Target.TextWrapped = true
-
-TextButton_2.Parent = rice2
-TextButton_2.BackgroundColor3 = Color3.fromRGB(6, 255, 247)
-TextButton_2.Position = UDim2.new(0.94239676, 0, 0.179714128, 0)
-TextButton_2.Size = UDim2.new(0, 8, 0, 13)
-TextButton_2.Font = Enum.Font.SourceSans
-TextButton_2.Text = "?"
-TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_2.TextSize = 14.000
-
-TextButton_3.Parent = rice2
-TextButton_3.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
-TextButton_3.BorderColor3 = Color3.fromRGB(0, 255, 140)
-TextButton_3.Position = UDim2.new(0.13868925, 0, 0.697046101, 0)
-TextButton_3.Size = UDim2.new(0, 60, 0, 13)
-TextButton_3.ZIndex = 5
-TextButton_3.Font = Enum.Font.SourceSans
-TextButton_3.Text = "On/Off"
-TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_3.TextSize = 14.000
-
-TextLabel_4.Parent = rice2
-TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_4.Position = UDim2.new(0.553136468, 0, 0.489356071, 0)
-TextLabel_4.Size = UDim2.new(0, 101, 0, 14)
-TextLabel_4.ZIndex = 5
-TextLabel_4.Font = Enum.Font.Sarpanch
-TextLabel_4.Text = "Place Object"
-TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_4.TextSize = 14.000
-TextLabel_4.TextWrapped = true
-
-TextButton_4.Parent = rice2
-TextButton_4.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
-TextButton_4.BorderColor3 = Color3.fromRGB(0, 255, 140)
-TextButton_4.Position = UDim2.new(0.622663081, 0, 0.646504581, 0)
-TextButton_4.Size = UDim2.new(0, 60, 0, 13)
-TextButton_4.ZIndex = 5
-TextButton_4.Font = Enum.Font.SourceSans
-TextButton_4.Text = "Place"
-TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_4.TextScaled = true
-TextButton_4.TextSize = 14.000
-TextButton_4.TextWrapped = true
-
-TextLabel_5.Parent = rice2
-TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_5.Position = UDim2.new(0.617946208, 0, 0.744679034, 0)
-TextLabel_5.Size = UDim2.new(0, 63, 0, 14)
-TextLabel_5.ZIndex = 5
-TextLabel_5.Font = Enum.Font.Sarpanch
-TextLabel_5.Text = "Autohit"
-TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_5.TextSize = 14.000
-TextLabel_5.TextWrapped = true
-
-Enchance.Name = "Enchance"
-Enchance.Parent = rice2
-Enchance.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Enchance.BorderColor3 = Color3.fromRGB(0, 25, 255)
-Enchance.Position = UDim2.new(0.0515769906, 0, 0.0879688337, 0)
-Enchance.Size = UDim2.new(0, 116, 0, 12)
-Enchance.Font = Enum.Font.RobotoCondensed
-Enchance.Text = "Enchance Game"
-Enchance.TextColor3 = Color3.fromRGB(0, 184, 225)
-Enchance.TextSize = 14.000
-Enchance.TextWrapped = true
-
-TextButton_5.Parent = rice2
-TextButton_5.BackgroundColor3 = Color3.fromRGB(6, 255, 247)
-TextButton_5.Position = UDim2.new(0.0210484415, 0, 0.179714128, 0)
-TextButton_5.Size = UDim2.new(0, 8, 0, 13)
-TextButton_5.ZIndex = 2
-TextButton_5.Font = Enum.Font.SourceSans
-TextButton_5.Text = "?"
-TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_5.TextSize = 14.000
-
-Hitbox.Name = "Hitbox"
-Hitbox.Parent = rice2
-Hitbox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Hitbox.BorderColor3 = Color3.fromRGB(0, 25, 255)
-Hitbox.Position = UDim2.new(0.520058632, 0, 0.0879688337, 0)
-Hitbox.Size = UDim2.new(0, 112, 0, 12)
-Hitbox.Font = Enum.Font.RobotoCondensed
-Hitbox.Text = "Increased Hitbox"
-Hitbox.TextColor3 = Color3.fromRGB(0, 184, 225)
-Hitbox.TextSize = 14.000
-Hitbox.TextWrapped = true
-
-Autohit.Name = "Autohit"
-Autohit.Parent = rice2
-Autohit.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
-Autohit.BorderColor3 = Color3.fromRGB(0, 255, 140)
-Autohit.Position = UDim2.new(0.7470541, 0, 0.88558501, 0)
-Autohit.Size = UDim2.new(0, 60, 0, 14)
-Autohit.ZIndex = 5
-Autohit.Font = Enum.Font.SourceSans
-Autohit.Text = "All(On/Off)"
-Autohit.TextColor3 = Color3.fromRGB(0, 0, 0)
-Autohit.TextScaled = true
-Autohit.TextSize = 14.000
-Autohit.TextWrapped = true
-
-TextButton_6.Parent = rice2
-TextButton_6.BackgroundColor3 = Color3.fromRGB(6, 255, 247)
-TextButton_6.Position = UDim2.new(0.942367733, 0, 0.255526394, 0)
-TextButton_6.Size = UDim2.new(0, 8, 0, 13)
-TextButton_6.Font = Enum.Font.SourceSans
-TextButton_6.Text = "?"
-TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_6.TextSize = 14.000
-
-TextLabel_6.Parent = rice2
-TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_6.Position = UDim2.new(0.131311089, 0, 0.805737793, 0)
-TextLabel_6.Size = UDim2.new(0, 63, 0, 14)
-TextLabel_6.ZIndex = 5
-TextLabel_6.Font = Enum.Font.Sarpanch
-TextLabel_6.Text = "Less Hitbox"
-TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_6.TextScaled = true
-TextLabel_6.TextSize = 14.000
-TextLabel_6.TextWrapped = true
-
-Esp.Name = "Esp"
-Esp.Parent = rice2
-Esp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Esp.BorderColor3 = Color3.fromRGB(0, 25, 255)
-Esp.Position = UDim2.new(0.0335944816, 0, 0.179714158, 0)
-Esp.Size = UDim2.new(0, 120, 0, 13)
-Esp.Font = Enum.Font.RobotoCondensed
-Esp.Text = "Esp (On/Off)"
-Esp.TextColor3 = Color3.fromRGB(0, 184, 225)
-Esp.TextScaled = true
-Esp.TextSize = 14.000
-Esp.TextWrapped = true
-
-ItemName.Name = "ItemName"
-ItemName.Parent = rice2
-ItemName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ItemName.Position = UDim2.new(0.114478864, 0, 0.584046304, 0)
-ItemName.Size = UDim2.new(0, 73, 0, 9)
-ItemName.ZIndex = 5
-ItemName.ClearTextOnFocus = false
-ItemName.Font = Enum.Font.SourceSans
-ItemName.PlaceholderText = "Item Name"
-ItemName.Text = ""
-ItemName.TextColor3 = Color3.fromRGB(0, 0, 0)
-ItemName.TextSize = 14.000
-ItemName.TextWrapped = true
-
-TextLabel_7.Parent = rice2
-TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_7.Position = UDim2.new(0.0590676293, 0, 0.514626801, 0)
-TextLabel_7.Size = UDim2.new(0, 101, 0, 14)
-TextLabel_7.ZIndex = 5
-TextLabel_7.Font = Enum.Font.Sarpanch
-TextLabel_7.Text = " Tp + Pick Up Item"
-TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_7.TextSize = 14.000
-TextLabel_7.TextWrapped = true
-
-PlayerName.Name = "PlayerName"
-PlayerName.Parent = rice2
-PlayerName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-PlayerName.Position = UDim2.new(0.597072184, 0, 0.827409923, 0)
-PlayerName.Size = UDim2.new(0, 73, 0, 9)
-PlayerName.ZIndex = 5
-PlayerName.ClearTextOnFocus = false
-PlayerName.Font = Enum.Font.SourceSans
-PlayerName.PlaceholderText = "Player Name"
-PlayerName.Text = ""
-PlayerName.TextColor3 = Color3.fromRGB(0, 0, 0)
-PlayerName.TextSize = 14.000
-PlayerName.TextWrapped = true
-
-TextLabel_8.Parent = rice2
-TextLabel_8.BackgroundColor3 = Color3.fromRGB(12, 223, 255)
-TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_8.Position = UDim2.new(0, 0, 0.971807599, 0)
-TextLabel_8.Size = UDim2.new(0, 267, 0, 9)
-TextLabel_8.Font = Enum.Font.TitilliumWeb
-TextLabel_8.Text = "|      Click (?) for information      |        Printed In Chat       |"
-TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_8.TextSize = 14.000
-TextLabel_8.TextWrapped = true
-
-TextButton_7.Parent = rice2
-TextButton_7.BackgroundColor3 = Color3.fromRGB(6, 255, 247)
-TextButton_7.Position = UDim2.new(0.94239676, 0, 0.0879688337, 0)
-TextButton_7.Size = UDim2.new(0, 8, 0, 12)
-TextButton_7.Font = Enum.Font.SourceSans
-TextButton_7.Text = "?"
-TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_7.TextSize = 14.000
-
-TextButton_8.Parent = rice2
-TextButton_8.BackgroundColor3 = Color3.fromRGB(6, 255, 247)
-TextButton_8.BorderColor3 = Color3.fromRGB(27, 42, 536)
-TextButton_8.Position = UDim2.new(0.0210484415, 0, 0.0879688337, 0)
-TextButton_8.Size = UDim2.new(0, 8, 0, 12)
-TextButton_8.Font = Enum.Font.SourceSans
-TextButton_8.Text = "?"
-TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_8.TextSize = 14.000
-
-pvpc.Name = "pvpc"
-pvpc.Parent = rice2
-pvpc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-pvpc.BorderColor3 = Color3.fromRGB(0, 25, 255)
-pvpc.Position = UDim2.new(0.520485878, 0, 0.255526394, 0)
-pvpc.Size = UDim2.new(0, 112, 0, 13)
-pvpc.ZIndex = 5
-pvpc.Font = Enum.Font.RobotoCondensed
-pvpc.Text = "PvP Combo"
-pvpc.TextColor3 = Color3.fromRGB(0, 184, 225)
-pvpc.TextScaled = true
-pvpc.TextSize = 14.000
-pvpc.TextWrapped = true
-
-LH.Name = "LH"
-LH.Parent = rice2
-LH.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
-LH.BorderColor3 = Color3.fromRGB(0, 255, 140)
-LH.Position = UDim2.new(0.134673506, 0, 0.890485287, 0)
-LH.Size = UDim2.new(0, 60, 0, 12)
-LH.ZIndex = 5
-LH.Font = Enum.Font.SourceSans
-LH.Text = "Execute"
-LH.TextColor3 = Color3.fromRGB(0, 0, 0)
-LH.TextSize = 14.000
-
-Delayyyy.Name = "Delayyyy"
-Delayyyy.Parent = rice2
-Delayyyy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Delayyyy.Position = UDim2.new(0.13868925, 0, 0.645418108, 0)
-Delayyyy.Size = UDim2.new(0, 61, 0, 9)
-Delayyyy.ZIndex = 5
-Delayyyy.ClearTextOnFocus = false
-Delayyyy.Font = Enum.Font.SourceSans
-Delayyyy.PlaceholderText = "Delay (0.4)"
-Delayyyy.Text = ""
-Delayyyy.TextColor3 = Color3.fromRGB(0, 0, 0)
-Delayyyy.TextSize = 14.000
-Delayyyy.TextWrapped = true
-
-TextButton_9.Parent = rice2
-TextButton_9.BackgroundColor3 = Color3.fromRGB(6, 255, 247)
-TextButton_9.Position = UDim2.new(0.0210484415, 0, 0.251916289, 0)
-TextButton_9.Size = UDim2.new(0, 8, 0, 13)
-TextButton_9.ZIndex = 2
-TextButton_9.Font = Enum.Font.SourceSans
-TextButton_9.Text = "?"
-TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_9.TextSize = 14.000
-
-AutoPick.Name = "AutoPick"
-AutoPick.Parent = rice2
-AutoPick.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
-AutoPick.BorderColor3 = Color3.fromRGB(0, 255, 140)
-AutoPick.Position = UDim2.new(0.643020928, 0, 0.414982826, 0)
-AutoPick.Size = UDim2.new(0, 60, 0, 13)
-AutoPick.ZIndex = 5
-AutoPick.Font = Enum.Font.SourceSans
-AutoPick.Text = "On/Off"
-AutoPick.TextColor3 = Color3.fromRGB(0, 0, 0)
-AutoPick.TextScaled = true
-AutoPick.TextSize = 14.000
-AutoPick.TextWrapped = true
 
 OpenClose.Name = "Open/Close"
 OpenClose.Parent = game.CoreGui.ChubHub
@@ -635,14 +254,14 @@ _0.TextColor3 = Color3.fromRGB(0, 0, 0)
 _0.TextSize = 14.000
 _0.TextWrapped = true
 
-TextButton_10.Parent = _0
-TextButton_10.BackgroundColor3 = Color3.fromRGB(255, 149, 107)
-TextButton_10.Position = UDim2.new(1.0089159, 0, 0, 0)
-TextButton_10.Size = UDim2.new(0, 12, 0, 25)
-TextButton_10.Font = Enum.Font.SourceSans
-TextButton_10.Text = "?"
-TextButton_10.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_10.TextSize = 14.000
+TextButton.Parent = _0
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 149, 107)
+TextButton.Position = UDim2.new(1.0089159, 0, 0, 0)
+TextButton.Size = UDim2.new(0, 12, 0, 25)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "?"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
 
 _1_2.Name = "1"
 _1_2.Parent = options_2
@@ -655,14 +274,14 @@ _1_2.TextScaled = true
 _1_2.TextSize = 14.000
 _1_2.TextWrapped = true
 
-TextButton_11.Parent = _1_2
-TextButton_11.BackgroundColor3 = Color3.fromRGB(255, 149, 107)
-TextButton_11.Position = UDim2.new(1.0089159, 0, 0, 0)
-TextButton_11.Size = UDim2.new(0, 12, 0, 25)
-TextButton_11.Font = Enum.Font.SourceSans
-TextButton_11.Text = "?"
-TextButton_11.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_11.TextSize = 14.000
+TextButton_2.Parent = _1_2
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 149, 107)
+TextButton_2.Position = UDim2.new(1.0089159, 0, 0, 0)
+TextButton_2.Size = UDim2.new(0, 12, 0, 25)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "?"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
 
 _2_2.Name = "2"
 _2_2.Parent = options_2
@@ -674,15 +293,15 @@ _2_2.Text = "Invisible"
 _2_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 _2_2.TextSize = 14.000
 
-TextButton_12.Parent = _2_2
-TextButton_12.BackgroundColor3 = Color3.fromRGB(255, 149, 107)
-TextButton_12.BorderColor3 = Color3.fromRGB(27, 42, 53168)
-TextButton_12.Position = UDim2.new(0.995402396, 0, 0, 0)
-TextButton_12.Size = UDim2.new(0, 12, 0, 25)
-TextButton_12.Font = Enum.Font.SourceSans
-TextButton_12.Text = "?"
-TextButton_12.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_12.TextSize = 14.000
+TextButton_3.Parent = _2_2
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 149, 107)
+TextButton_3.BorderColor3 = Color3.fromRGB(27, 42, 53168)
+TextButton_3.Position = UDim2.new(0.995402396, 0, 0, 0)
+TextButton_3.Size = UDim2.new(0, 12, 0, 25)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "?"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
 
 _29.Name = "2.9"
 _29.Parent = options_2
@@ -696,15 +315,15 @@ _29.TextScaled = true
 _29.TextSize = 14.000
 _29.TextWrapped = true
 
-TextButton_13.Parent = _29
-TextButton_13.BackgroundColor3 = Color3.fromRGB(255, 149, 107)
-TextButton_13.BorderColor3 = Color3.fromRGB(27, 42, 53168)
-TextButton_13.Position = UDim2.new(0.995402396, 0, 0, 0)
-TextButton_13.Size = UDim2.new(0, 12, 0, 25)
-TextButton_13.Font = Enum.Font.SourceSans
-TextButton_13.Text = "?"
-TextButton_13.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_13.TextSize = 14.000
+TextButton_4.Parent = _29
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 149, 107)
+TextButton_4.BorderColor3 = Color3.fromRGB(27, 42, 53168)
+TextButton_4.Position = UDim2.new(0.995402396, 0, 0, 0)
+TextButton_4.Size = UDim2.new(0, 12, 0, 25)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "?"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
 
 _5_2.Name = "5"
 _5_2.Parent = options_2
@@ -718,14 +337,14 @@ _5_2.TextScaled = true
 _5_2.TextSize = 14.000
 _5_2.TextWrapped = true
 
-TextButton_14.Parent = _5_2
-TextButton_14.BackgroundColor3 = Color3.fromRGB(255, 149, 107)
-TextButton_14.Position = UDim2.new(0.995402396, 0, 0, 0)
-TextButton_14.Size = UDim2.new(0, 12, 0, 25)
-TextButton_14.Font = Enum.Font.SourceSans
-TextButton_14.Text = "?"
-TextButton_14.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_14.TextSize = 14.000
+TextButton_5.Parent = _5_2
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 149, 107)
+TextButton_5.Position = UDim2.new(0.995402396, 0, 0, 0)
+TextButton_5.Size = UDim2.new(0, 12, 0, 25)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "?"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextSize = 14.000
 
 _6_2.Name = "6"
 _6_2.Parent = options_2
@@ -738,14 +357,14 @@ _6_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 _6_2.TextSize = 14.000
 _6_2.TextWrapped = true
 
-TextButton_15.Parent = _6_2
-TextButton_15.BackgroundColor3 = Color3.fromRGB(255, 149, 107)
-TextButton_15.Position = UDim2.new(0.995402396, 0, 0, 0)
-TextButton_15.Size = UDim2.new(0, 12, 0, 25)
-TextButton_15.Font = Enum.Font.SourceSans
-TextButton_15.Text = "?"
-TextButton_15.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_15.TextSize = 14.000
+TextButton_6.Parent = _6_2
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 149, 107)
+TextButton_6.Position = UDim2.new(0.995402396, 0, 0, 0)
+TextButton_6.Size = UDim2.new(0, 12, 0, 25)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "?"
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextSize = 14.000
 
 _7_2.Name = "7"
 _7_2.Parent = options_2
@@ -758,14 +377,14 @@ _7_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 _7_2.TextSize = 14.000
 _7_2.TextWrapped = true
 
-TextButton_16.Parent = _7_2
-TextButton_16.BackgroundColor3 = Color3.fromRGB(255, 149, 107)
-TextButton_16.Position = UDim2.new(0.995402396, 0, 0, 0)
-TextButton_16.Size = UDim2.new(0, 12, 0, 25)
-TextButton_16.Font = Enum.Font.SourceSans
-TextButton_16.Text = "?"
-TextButton_16.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_16.TextSize = 14.000
+TextButton_7.Parent = _7_2
+TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 149, 107)
+TextButton_7.Position = UDim2.new(0.995402396, 0, 0, 0)
+TextButton_7.Size = UDim2.new(0, 12, 0, 25)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "?"
+TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.TextSize = 14.000
 
 M1.Name = "M1"
 M1.Parent = options_2
@@ -793,14 +412,14 @@ _8.TextScaled = true
 _8.TextSize = 14.000
 _8.TextWrapped = true
 
-TextButton_17.Parent = _8
-TextButton_17.BackgroundColor3 = Color3.fromRGB(255, 149, 107)
-TextButton_17.Position = UDim2.new(0.995402396, 0, 0, 0)
-TextButton_17.Size = UDim2.new(0, 12, 0, 25)
-TextButton_17.Font = Enum.Font.SourceSans
-TextButton_17.Text = "?"
-TextButton_17.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_17.TextSize = 14.000
+TextButton_8.Parent = _8
+TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 149, 107)
+TextButton_8.Position = UDim2.new(0.995402396, 0, 0, 0)
+TextButton_8.Size = UDim2.new(0, 12, 0, 25)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "?"
+TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.TextSize = 14.000
 
 tselect.Name = "tselect"
 tselect.Parent = game.CoreGui.ChubHub
@@ -815,18 +434,18 @@ tselect.TextScaled = true
 tselect.TextSize = 14.000
 tselect.TextWrapped = true
 
-TextLabel_9.Parent = tselect
-TextLabel_9.BackgroundColor3 = Color3.fromRGB(208, 139, 78)
-TextLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_9.Position = UDim2.new(0.00700000022, 0, -1.45000005, 0)
-TextLabel_9.Size = UDim2.new(0, 100, 0, 24)
-TextLabel_9.ZIndex = 3
-TextLabel_9.Font = Enum.Font.SourceSans
-TextLabel_9.Text = "Tribe TP"
-TextLabel_9.TextColor3 = Color3.fromRGB(65, 65, 65)
-TextLabel_9.TextScaled = true
-TextLabel_9.TextSize = 11.000
-TextLabel_9.TextWrapped = true
+TextLabel.Parent = tselect
+TextLabel.BackgroundColor3 = Color3.fromRGB(208, 139, 78)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.Position = UDim2.new(0.00700000022, 0, -1.45000005, 0)
+TextLabel.Size = UDim2.new(0, 100, 0, 24)
+TextLabel.ZIndex = 3
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Tribe TP"
+TextLabel.TextColor3 = Color3.fromRGB(65, 65, 65)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 11.000
+TextLabel.TextWrapped = true
 
 options_3.Name = "options"
 options_3.Parent = tselect
@@ -1116,740 +735,390 @@ a.TextSize = 14.000
 
 UIListLayout_3.Parent = options_3
 
+rice2.Name = "rice2"
+rice2.Parent = game.CoreGui.ChubHub
+rice2.Active = true
+rice2.BackgroundColor3 = Color3.fromRGB(192, 247, 255)
+rice2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+rice2.Position = UDim2.new(0.56400001, 0, 0.0989999995, 0)
+rice2.Size = UDim2.new(0, 267, 0, 277)
+
+nH.Name = "nH"
+nH.Parent = rice2
+nH.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+nH.BorderColor3 = Color3.fromRGB(0, 25, 255)
+nH.Position = UDim2.new(0.520058632, 0, 0.179714128, 0)
+nH.Size = UDim2.new(0, 112, 0, 13)
+nH.Font = Enum.Font.RobotoCondensed
+nH.Text = "Secure Name And Health"
+nH.TextColor3 = Color3.fromRGB(0, 184, 225)
+nH.TextScaled = true
+nH.TextSize = 14.000
+nH.TextWrapped = true
+
+ObjectName.Name = "ObjectName"
+ObjectName.Parent = rice2
+ObjectName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ObjectName.Position = UDim2.new(0.593269706, 0, 0.58411628, 0)
+ObjectName.Size = UDim2.new(0, 73, 0, 9)
+ObjectName.ZIndex = 5
+ObjectName.ClearTextOnFocus = false
+ObjectName.Font = Enum.Font.SourceSans
+ObjectName.PlaceholderText = "Object Name"
+ObjectName.Text = ""
+ObjectName.TextColor3 = Color3.fromRGB(0, 0, 0)
+ObjectName.TextSize = 14.000
+ObjectName.TextWrapped = true
+
+TextLabel_2.Parent = rice2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(12, 223, 255)
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.Position = UDim2.new(0, 0, -0.0080861114, 0)
+TextLabel_2.Size = UDim2.new(0, 267, 0, 16)
+TextLabel_2.Font = Enum.Font.Sarpanch
+TextLabel_2.Text = "Misc"
+TextLabel_2.TextColor3 = Color3.fromRGB(53, 0, 159)
+TextLabel_2.TextSize = 14.000
+
+Av.Name = "Av"
+Av.Parent = rice2
+Av.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Av.BorderColor3 = Color3.fromRGB(0, 25, 255)
+Av.Position = UDim2.new(0.0335944816, 0, 0.251916319, 0)
+Av.Size = UDim2.new(0, 120, 0, 13)
+Av.Font = Enum.Font.RobotoCondensed
+Av.Text = "Anti-Void (On/Off)"
+Av.TextColor3 = Color3.fromRGB(0, 184, 225)
+Av.TextScaled = true
+Av.TextSize = 14.000
+Av.TextWrapped = true
+
+TextLabel_3.Parent = rice2
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.Position = UDim2.new(0.588803411, 0, 0.335241884, 0)
+TextLabel_3.Size = UDim2.new(0, 85, 0, 11)
+TextLabel_3.ZIndex = 5
+TextLabel_3.Font = Enum.Font.Sarpanch
+TextLabel_3.Text = "Auto Pickup All"
+TextLabel_3.TextColor3 = Color3.fromRGB(53, 0, 159)
+TextLabel_3.TextSize = 14.000
+
+TextLabel_4.Parent = rice2
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.Position = UDim2.new(0.0701897442, 0, 0.335241884, 0)
+TextLabel_4.Size = UDim2.new(0, 95, 0, 11)
+TextLabel_4.ZIndex = 5
+TextLabel_4.Font = Enum.Font.Sarpanch
+TextLabel_4.Text = "Auto Pickup Mag"
+TextLabel_4.TextColor3 = Color3.fromRGB(53, 0, 159)
+TextLabel_4.TextSize = 14.000
+
+TextButton_9.Parent = rice2
+TextButton_9.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
+TextButton_9.BorderColor3 = Color3.fromRGB(0, 255, 140)
+TextButton_9.Position = UDim2.new(0.134662524, 0, 0.418570131, 0)
+TextButton_9.Size = UDim2.new(0, 60, 0, 13)
+TextButton_9.ZIndex = 5
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "On/Off"
+TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.TextScaled = true
+TextButton_9.TextSize = 14.000
+TextButton_9.TextWrapped = true
+
+Target.Name = "Target"
+Target.Parent = rice2
+Target.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
+Target.BorderColor3 = Color3.fromRGB(0, 255, 140)
+Target.Position = UDim2.new(0.496103585, 0, 0.88558501, 0)
+Target.Size = UDim2.new(0, 60, 0, 14)
+Target.ZIndex = 5
+Target.Font = Enum.Font.SourceSans
+Target.Text = "Target(On/Off)"
+Target.TextColor3 = Color3.fromRGB(0, 0, 0)
+Target.TextScaled = true
+Target.TextSize = 14.000
+Target.TextWrapped = true
+
+TextButton_10.Parent = rice2
+TextButton_10.BackgroundColor3 = Color3.fromRGB(6, 255, 247)
+TextButton_10.Position = UDim2.new(0.94239676, 0, 0.179714128, 0)
+TextButton_10.Size = UDim2.new(0, 8, 0, 13)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "?"
+TextButton_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.TextSize = 14.000
+
+TextButton_11.Parent = rice2
+TextButton_11.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
+TextButton_11.BorderColor3 = Color3.fromRGB(0, 255, 140)
+TextButton_11.Position = UDim2.new(0.13868925, 0, 0.697046101, 0)
+TextButton_11.Size = UDim2.new(0, 60, 0, 13)
+TextButton_11.ZIndex = 5
+TextButton_11.Font = Enum.Font.SourceSans
+TextButton_11.Text = "On/Off"
+TextButton_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.TextSize = 14.000
+
+TextLabel_5.Parent = rice2
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.Position = UDim2.new(0.553136468, 0, 0.489356071, 0)
+TextLabel_5.Size = UDim2.new(0, 101, 0, 14)
+TextLabel_5.ZIndex = 5
+TextLabel_5.Font = Enum.Font.Sarpanch
+TextLabel_5.Text = "Place Object"
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+TextButton_12.Parent = rice2
+TextButton_12.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
+TextButton_12.BorderColor3 = Color3.fromRGB(0, 255, 140)
+TextButton_12.Position = UDim2.new(0.622663081, 0, 0.646504581, 0)
+TextButton_12.Size = UDim2.new(0, 60, 0, 13)
+TextButton_12.ZIndex = 5
+TextButton_12.Font = Enum.Font.SourceSans
+TextButton_12.Text = "Place"
+TextButton_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.TextScaled = true
+TextButton_12.TextSize = 14.000
+TextButton_12.TextWrapped = true
+
+TextLabel_6.Parent = rice2
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.Position = UDim2.new(0.617946208, 0, 0.744679034, 0)
+TextLabel_6.Size = UDim2.new(0, 63, 0, 14)
+TextLabel_6.ZIndex = 5
+TextLabel_6.Font = Enum.Font.Sarpanch
+TextLabel_6.Text = "Autohit"
+TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+Enchance.Name = "Enchance"
+Enchance.Parent = rice2
+Enchance.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Enchance.BorderColor3 = Color3.fromRGB(0, 25, 255)
+Enchance.Position = UDim2.new(0.0515769906, 0, 0.0879688337, 0)
+Enchance.Size = UDim2.new(0, 116, 0, 12)
+Enchance.Font = Enum.Font.RobotoCondensed
+Enchance.Text = "Enchance Game"
+Enchance.TextColor3 = Color3.fromRGB(0, 184, 225)
+Enchance.TextSize = 14.000
+Enchance.TextWrapped = true
+
+TextButton_13.Parent = rice2
+TextButton_13.BackgroundColor3 = Color3.fromRGB(6, 255, 247)
+TextButton_13.Position = UDim2.new(0.0210484415, 0, 0.179714128, 0)
+TextButton_13.Size = UDim2.new(0, 8, 0, 13)
+TextButton_13.ZIndex = 2
+TextButton_13.Font = Enum.Font.SourceSans
+TextButton_13.Text = "?"
+TextButton_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_13.TextSize = 14.000
+
+Hitbox.Name = "Hitbox"
+Hitbox.Parent = rice2
+Hitbox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Hitbox.BorderColor3 = Color3.fromRGB(0, 25, 255)
+Hitbox.Position = UDim2.new(0.520058632, 0, 0.0879688337, 0)
+Hitbox.Size = UDim2.new(0, 112, 0, 12)
+Hitbox.Font = Enum.Font.RobotoCondensed
+Hitbox.Text = "Increased Hitbox"
+Hitbox.TextColor3 = Color3.fromRGB(0, 184, 225)
+Hitbox.TextSize = 14.000
+Hitbox.TextWrapped = true
+
+Autohit.Name = "Autohit"
+Autohit.Parent = rice2
+Autohit.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
+Autohit.BorderColor3 = Color3.fromRGB(0, 255, 140)
+Autohit.Position = UDim2.new(0.7470541, 0, 0.88558501, 0)
+Autohit.Size = UDim2.new(0, 60, 0, 14)
+Autohit.ZIndex = 5
+Autohit.Font = Enum.Font.SourceSans
+Autohit.Text = "All(On/Off)"
+Autohit.TextColor3 = Color3.fromRGB(0, 0, 0)
+Autohit.TextScaled = true
+Autohit.TextSize = 14.000
+Autohit.TextWrapped = true
+
+TextButton_14.Parent = rice2
+TextButton_14.BackgroundColor3 = Color3.fromRGB(6, 255, 247)
+TextButton_14.Position = UDim2.new(0.942367733, 0, 0.255526394, 0)
+TextButton_14.Size = UDim2.new(0, 8, 0, 13)
+TextButton_14.Font = Enum.Font.SourceSans
+TextButton_14.Text = "?"
+TextButton_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_14.TextSize = 14.000
+
+TextLabel_7.Parent = rice2
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.Position = UDim2.new(0.131311089, 0, 0.805737793, 0)
+TextLabel_7.Size = UDim2.new(0, 63, 0, 14)
+TextLabel_7.ZIndex = 5
+TextLabel_7.Font = Enum.Font.Sarpanch
+TextLabel_7.Text = "Less Hitbox"
+TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+Esp.Name = "Esp"
+Esp.Parent = rice2
+Esp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Esp.BorderColor3 = Color3.fromRGB(0, 25, 255)
+Esp.Position = UDim2.new(0.0335944816, 0, 0.179714158, 0)
+Esp.Size = UDim2.new(0, 120, 0, 13)
+Esp.Font = Enum.Font.RobotoCondensed
+Esp.Text = "Esp (On/Off)"
+Esp.TextColor3 = Color3.fromRGB(0, 184, 225)
+Esp.TextScaled = true
+Esp.TextSize = 14.000
+Esp.TextWrapped = true
+
+ItemName.Name = "ItemName"
+ItemName.Parent = rice2
+ItemName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ItemName.Position = UDim2.new(0.114478864, 0, 0.584046304, 0)
+ItemName.Size = UDim2.new(0, 73, 0, 9)
+ItemName.ZIndex = 5
+ItemName.ClearTextOnFocus = false
+ItemName.Font = Enum.Font.SourceSans
+ItemName.PlaceholderText = "Item Name"
+ItemName.Text = ""
+ItemName.TextColor3 = Color3.fromRGB(0, 0, 0)
+ItemName.TextSize = 14.000
+ItemName.TextWrapped = true
+
+TextLabel_8.Parent = rice2
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.Position = UDim2.new(0.0590676293, 0, 0.514626801, 0)
+TextLabel_8.Size = UDim2.new(0, 101, 0, 14)
+TextLabel_8.ZIndex = 5
+TextLabel_8.Font = Enum.Font.Sarpanch
+TextLabel_8.Text = " Tp + Pick Up Item"
+TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+PlayerName.Name = "PlayerName"
+PlayerName.Parent = rice2
+PlayerName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerName.Position = UDim2.new(0.597072184, 0, 0.827409923, 0)
+PlayerName.Size = UDim2.new(0, 73, 0, 9)
+PlayerName.ZIndex = 5
+PlayerName.ClearTextOnFocus = false
+PlayerName.Font = Enum.Font.SourceSans
+PlayerName.PlaceholderText = "Player Name"
+PlayerName.Text = ""
+PlayerName.TextColor3 = Color3.fromRGB(0, 0, 0)
+PlayerName.TextSize = 14.000
+PlayerName.TextWrapped = true
+
+TextLabel_9.Parent = rice2
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(12, 223, 255)
+TextLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.Position = UDim2.new(0, 0, 0.971807599, 0)
+TextLabel_9.Size = UDim2.new(0, 267, 0, 9)
+TextLabel_9.Font = Enum.Font.TitilliumWeb
+TextLabel_9.Text = "|      Click (?) for information      |        Printed In Chat       |"
+TextLabel_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+TextButton_15.Parent = rice2
+TextButton_15.BackgroundColor3 = Color3.fromRGB(6, 255, 247)
+TextButton_15.Position = UDim2.new(0.94239676, 0, 0.0879688337, 0)
+TextButton_15.Size = UDim2.new(0, 8, 0, 12)
+TextButton_15.Font = Enum.Font.SourceSans
+TextButton_15.Text = "?"
+TextButton_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_15.TextSize = 14.000
+
+TextButton_16.Parent = rice2
+TextButton_16.BackgroundColor3 = Color3.fromRGB(6, 255, 247)
+TextButton_16.BorderColor3 = Color3.fromRGB(27, 42, 536)
+TextButton_16.Position = UDim2.new(0.0210484415, 0, 0.0879688337, 0)
+TextButton_16.Size = UDim2.new(0, 8, 0, 12)
+TextButton_16.Font = Enum.Font.SourceSans
+TextButton_16.Text = "?"
+TextButton_16.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_16.TextSize = 14.000
+
+pvpc.Name = "pvpc"
+pvpc.Parent = rice2
+pvpc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+pvpc.BorderColor3 = Color3.fromRGB(0, 25, 255)
+pvpc.Position = UDim2.new(0.520485878, 0, 0.255526394, 0)
+pvpc.Size = UDim2.new(0, 112, 0, 13)
+pvpc.ZIndex = 5
+pvpc.Font = Enum.Font.RobotoCondensed
+pvpc.Text = "PvP Combo"
+pvpc.TextColor3 = Color3.fromRGB(0, 184, 225)
+pvpc.TextScaled = true
+pvpc.TextSize = 14.000
+pvpc.TextWrapped = true
+
+LH.Name = "LH"
+LH.Parent = rice2
+LH.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
+LH.BorderColor3 = Color3.fromRGB(0, 255, 140)
+LH.Position = UDim2.new(0.134673506, 0, 0.890485287, 0)
+LH.Size = UDim2.new(0, 60, 0, 12)
+LH.ZIndex = 5
+LH.Font = Enum.Font.SourceSans
+LH.Text = "Execute"
+LH.TextColor3 = Color3.fromRGB(0, 0, 0)
+LH.TextSize = 14.000
+
+Delayyyy.Name = "Delayyyy"
+Delayyyy.Parent = rice2
+Delayyyy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Delayyyy.Position = UDim2.new(0.13868925, 0, 0.645418108, 0)
+Delayyyy.Size = UDim2.new(0, 61, 0, 9)
+Delayyyy.ZIndex = 5
+Delayyyy.ClearTextOnFocus = false
+Delayyyy.Font = Enum.Font.SourceSans
+Delayyyy.PlaceholderText = "Delay (0.4)"
+Delayyyy.Text = ""
+Delayyyy.TextColor3 = Color3.fromRGB(0, 0, 0)
+Delayyyy.TextSize = 14.000
+Delayyyy.TextWrapped = true
+
+TextButton_17.Parent = rice2
+TextButton_17.BackgroundColor3 = Color3.fromRGB(6, 255, 247)
+TextButton_17.Position = UDim2.new(0.0210484415, 0, 0.251916289, 0)
+TextButton_17.Size = UDim2.new(0, 8, 0, 13)
+TextButton_17.ZIndex = 2
+TextButton_17.Font = Enum.Font.SourceSans
+TextButton_17.Text = "?"
+TextButton_17.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_17.TextSize = 14.000
+
+AutoPick.Name = "AutoPick"
+AutoPick.Parent = rice2
+AutoPick.BackgroundColor3 = Color3.fromRGB(0, 255, 140)
+AutoPick.BorderColor3 = Color3.fromRGB(0, 255, 140)
+AutoPick.Position = UDim2.new(0.643020928, 0, 0.414982826, 0)
+AutoPick.Size = UDim2.new(0, 60, 0, 13)
+AutoPick.ZIndex = 5
+AutoPick.Font = Enum.Font.SourceSans
+AutoPick.Text = "On/Off"
+AutoPick.TextColor3 = Color3.fromRGB(0, 0, 0)
+AutoPick.TextScaled = true
+AutoPick.TextSize = 14.000
+AutoPick.TextWrapped = true
+
 -- Scripts:
 
-local function OZNUB_fake_script() -- nH.LocalScript 
-	local script = Instance.new('LocalScript', nH)
-
-	local player = game:GetService("Players").LocalPlayer.Character
-	
-	script.Parent.MouseButton1Down:Connect(function()
-		spawn(function()
-			for _, a in pairs(game:GetService("Workspace").Characters:GetChildren()) do
-				if a.Name == player.Name then
-					for _, b in pairs(game:GetService("Workspace").Characters[a.Name]:GetDescendants()) do
-						if b.Name == "NameGui" then
-							b:Destroy()
-						end 
-					end
-				end
-			end
-		end)
-		spawn(function()
-			for _, a in pairs(game:GetService("Workspace").Characters:GetChildren()) do
-				if a.Name == player.Name then
-					for _, b in pairs(game:GetService("Workspace").Characters[a.Name]:GetDescendants()) do
-						if b.Name == "HealthGui" then
-							b:Destroy()
-						end 
-					end
-				end
-			end
-		end)
-	end)
-end
-coroutine.wrap(OZNUB_fake_script)()
-local function KDDO_fake_script() -- ObjectName.LocalScript 
-	local script = Instance.new('LocalScript', ObjectName)
-
-	script.Parent.Parent.Parent.rice2.ObjectName.FocusLost:Connect(function() 
-		if script.Parent.Parent.Parent.rice2.ObjectName.Text ~= "" then
-			ObjectPlace = script.Parent.Parent.Parent.rice2.ObjectName.Text
-		end
-	end)
-end
-coroutine.wrap(KDDO_fake_script)()
-local function WHER_fake_script() -- Av.LocalScript 
-	local script = Instance.new('LocalScript', Av)
-
-	local condition = false
-	local char = game.Players.LocalPlayer.Character.HumanoidRootPart
-	local player = game:GetService("Players").LocalPlayer.Character
-	
-	script.Parent.MouseButton1Click:Connect(function()
-	
-		if condition == false then
-			condition = true
-			script.Parent.Text = "Anti-Void (On)"
-		else
-			condition = false
-			script.Parent.Text = "Anti-Void (Off)"
-	
-		end
-		if condition == true then wait()
-			game:GetService("RunService").RenderStepped:Connect(function() 
-				if condition ~= false then
-					spawn(function()
-						if game:GetService("Workspace").Characters[player.Name].HumanoidRootPart.Position.y < -450 then
-							print("Ok1")
-							game:GetService("Workspace").Gravity = 0
-							char.CFrame = char.CFrame + char.CFrame.upVector * 50 
-						end
-					end)
-					spawn(function()
-						if game:GetService("Workspace").Characters[player.Name].HumanoidRootPart.Position.y > 0 and game:GetService("Workspace").Gravity == 0 then 
-							if game:GetService("Workspace").Characters[player.Name].Humanoid.FloorMaterial == Enum.Material.Air then
-								game:GetService("Workspace").Gravity = 196.2
-							end
-						end
-					end)
-				end
-			end)
-		end
-	end)
-end
-coroutine.wrap(WHER_fake_script)()
-local function HQDKHQT_fake_script() -- TextButton.LocalScript 
-	local script = Instance.new('LocalScript', TextButton)
-
-	local On1 = false
-	
-	function mp()
-		if On1 == false then
-			On1 = true
-			game:GetService("Workspace").Gravity = 0
-			script.Parent.Text = "On"
-		else
-			On1 = false
-			game:GetService("Workspace").Gravity = 196.2
-			script.Parent.Text = "Off"
-		end
-		spawn(function()
-			while On1 == true do wait(0.00000000000000000000000000000000000001)
-				--CODE
-				if script.Parent.Text == "On" then
-					local args = {
-						[1] = workspace.Items:FindFirstChild("Magnetite Bar")
-					}
-	
-					game:GetService("ReplicatedStorage").Events.PickupItem:InvokeServer(unpack(args))
-	
-				end
-			end
-		end)
-	end
-	
-	script.Parent.MouseButton1Click:Connect(mp)
-		
-	
-	
-	
-end
-coroutine.wrap(HQDKHQT_fake_script)()
-local function FMCD_fake_script() -- Target.LocalScript 
-	local script = Instance.new('LocalScript', Target)
-
-	local player = game:GetService("Players").LocalPlayer.Character
-	
-	local plr = game:GetService("Players").LocalPlayer
-	
-	local on3 = false
-	
-	getgenv().on = false
-	
-	getgenv().on1 = false
-	
-	script.Parent.MouseEnter:Connect(function()
-		tc1 = game:GetService("Workspace").Characters[Target].BodyColors.TorsoColor
-	end)
-	script.Parent.MouseButton1Click:Connect(function()
-		if on3 == false then
-			on3 = true
-			script.Parent.Text = "Target(On)"
-		else
-			on3 = false
-			script.Parent.Text = "Target(Off)"
-		end
-		while on3 == true do wait()
-			coroutine.resume(coroutine.create(function()
-				tc = game:GetService("Workspace").Characters[player.Name].BodyColors.TorsoColor
-				for i, v in pairs(game:GetService("Players"):GetChildren()) do
-					if v.Name:lower():find(Target:lower()) and v.Name ~= player.Name then
-						if (game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).magnitude < 21 and  
-							game:GetService("Workspace").Characters[v.Name].BodyColors.TorsoColor3 ~= tc1 and game:GetService("Workspace").Characters[v.Name].Humanoid.Health > 0 then
-							local rTV = game:GetService("ReplicatedStorage").RelativeTime.Value
-							local attackTable = {
-								[1] = game:GetService("Workspace").Characters[v.Name].RightUpperLeg,
-								[2] = game:GetService("Workspace").Characters[v.Name].LeftUpperLeg
-							}
-							game:GetService("ReplicatedStorage").Events.SwingTool:FireServer(rTV, attackTable)
-						end
-					end
-				end
-			end))
-		end
-	end)
-	
-	
-	
-end
-coroutine.wrap(FMCD_fake_script)()
-local function QMUAXZ_fake_script() -- TextButton_2.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_2)
-
-	script.Parent.MouseButton1Down:Connect(function()
-		game.StarterGui:SetCore( "ChatMakeSystemMessage", 
-			{ Text = "[ChubHub]: Secure Name And Health: Keeps your health and name anonymous unless you've been hit(DOESN'T WORK AFTER DEATH)", 
-				Color = Color3.fromRGB(6, 255, 247), 
-				Font = Enum.Font.Ubuntu, 
-				FontSize = Enum.FontSize.Size18 } )
-	end)
-end
-coroutine.wrap(QMUAXZ_fake_script)()
-local function VRCEWFG_fake_script() -- TextButton_3.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_3)
-
-	local Player = game:GetService("Players").LocalPlayer
-	local On = false
-	
-	function tpp()
-		if On == false then
-			On = true
-			script.Parent.Text = "On"
-		else
-			On = false
-			script.Parent.Text = "Off"
-		end
-		if script.Parent.Parent.Parent.rice2.Delayyyy.Text ~= "" then
-			Delayyyy = script.Parent.Parent.Parent.rice2.Delayyyy.Text
-		else
-			Delayyyy = 0.4
-		end
-		spawn(function()
-			while On == true and p3 ~= "" do wait(Delayyyy)
-				--CODE
-				local player = game:GetService("Players").LocalPlayer.Character
-	
-				for i,p in pairs(game:GetService("Workspace").Items:GetChildren()) do
-	
-					if p.Name:lower():find(p3:lower()) and p.Name ~= nil then
-	
-						player.HumanoidRootPart.CFrame = CFrame.new(p.PrimaryPart.CFrame.Position.x + 2.5, p.PrimaryPart.CFrame.Position.y, p.PrimaryPart.CFrame.Position.z)
-	
-					end
-	
-					spawn(function()
-						while On == true and p3 ~= "" do wait(0.1)
-							for _, v in pairs(game:GetService("Workspace").Items:GetChildren()) do
-								if v ~= nil and v.Name:lower():find(p3:lower()) and (game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position - v.PrimaryPart.Position).magnitude < 20 then
-									game:GetService("ReplicatedStorage").Events.PickupItem:InvokeServer(v)
-								end
-							end
-						end
-					end)
-				end
-			end
-		end)
-	end
-	
-	script.Parent.MouseButton1Down:connect(tpp)
-end
-coroutine.wrap(VRCEWFG_fake_script)()
-local function FQMNWTD_fake_script() -- TextButton_4.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_4)
-
-	script.Parent.MouseButton1Down:Connect(function()
-		local a1 = ObjectPlace
-		local a2 = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0, -3, 0) 
-		local a3 = 0
-	
-		local events = game:GetService("ReplicatedStorage").Events.PlaceStructure:FireServer(a1,a2,a3)
-	end)
-	
-end
-coroutine.wrap(FQMNWTD_fake_script)()
-local function TQQUW_fake_script() -- Enchance.LocalScript 
-	local script = Instance.new('LocalScript', Enchance)
-
-	local s = Instance.new("PointLight", game.Players.LocalPlayer.Character.Head)
-	script.Parent.MouseButton1Down:Connect(function(a)
-		local decalsyeeted = true -- Made by someone else (NOT ME AND IDK WHO)
-		local g = game
-		local w = g.Workspace
-		local l = g.Lighting
-		local t = w.Terrain
-		t.WaterWaveSize = 0
-		t.WaterWaveSpeed = 0
-		t.WaterReflectance = 0
-		t.WaterTransparency = 0
-		l.GlobalShadows = false
-		l.FogEnd = 9e9
-		l.Brightness = 3.2
-		for i, v in pairs(g:GetDescendants()) do
-			if v:IsA("Part") or v:IsA("Union") or v:IsA("CornerWedgePart") or v:IsA("TrussPart") then
-				v.Material = "Plastic"
-				v.Reflectance = 0
-			elseif v:IsA("Decal") or v:IsA("Texture") and decalsyeeted then
-				v.Transparency = 1
-			elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
-				v.Lifetime = NumberRange.new(0)
-			elseif v:IsA("Explosion") then
-				v.BlastPressure = 1
-				v.BlastRadius = 1
-			elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") then
-				v.Enabled = false
-			elseif v:IsA("MeshPart") then
-				v.Material = "Plastic"
-				v.Reflectance = 0
-				v.TextureID = 10385902758728957
-			end
-		end
-		for i, e in pairs(l:GetChildren()) do
-			if e:IsA("BlurEffect") or e:IsA("SunRaysEffect") or e:IsA("ColorCorrectionEffect") or e:IsA("BloomEffect") or e:IsA("DepthOfFieldEffect") then
-				e.Enabled = false
-			end
-		end
-	end)
-	--
-	script.Parent.MouseButton1Down:Connect(function(a)
-		print("Works")
-		game:GetService("Workspace").RainPart:Destroy()
-	end)
-end
-coroutine.wrap(TQQUW_fake_script)()
-local function IFQK_fake_script() -- TextButton_5.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_5)
-
-	script.Parent.MouseButton1Down:Connect(function()
-		game.StarterGui:SetCore( "ChatMakeSystemMessage", 
-			{ Text = "[ChubHub]: ESP: Detects players, their health, and their team color", 
-				Color = Color3.fromRGB(6, 255, 247), 
-				Font = Enum.Font.Ubuntu, 
-				FontSize = Enum.FontSize.Size18 } )
-	end)
-end
-coroutine.wrap(IFQK_fake_script)()
-local function FKZFNY_fake_script() -- Hitbox.LocalScript 
-	local script = Instance.new('LocalScript', Hitbox)
-
-	local player = game:GetService("Players").LocalPlayer.Character
-	
-	script.Parent.MouseButton1Down:Connect(function()
-		for _, a in pairs(game:GetService("Workspace").Characters:GetChildren()) do
-			if a.Name ~= player.Name then
-				for _, b in pairs(game:GetService("Workspace").Characters[a.Name]:GetDescendants()) do
-					if b.Name == "HumanoidRootPart" then
-						if game:GetService("Workspace").Characters[a.Name].HumanoidRootPart.Size == Vector3.new(2, 2, 1) then
-							game:GetService("Workspace").Characters[a.Name].HumanoidRootPart.Size = Vector3.new(10, 10, 20)
-						end 
-					end
-	
-				end
-			end
-		end
-	end)
-	
-end
-coroutine.wrap(FKZFNY_fake_script)()
-local function THZWMKP_fake_script() -- Autohit.LocalScript 
-	local script = Instance.new('LocalScript', Autohit)
-
-	local player = game:GetService("Players").LocalPlayer.Character
-	
-	local plr = game:GetService("Players").LocalPlayer
-	
-	local on4 = false
-	
-	getgenv().on = false
-	
-	getgenv().on1 = false
-	
-	script.Parent.MouseEnter:Connect(function()
-		tc = game:GetService("Workspace").Characters[player.Name].BodyColors.TorsoColor
-	end)
-	script.Parent.MouseButton1Click:Connect(function()
-		if on4 == false then
-			on4 = true
-			script.Parent.Text = "All(On)"
-		else
-			on4 = false
-			getgenv().on = false
-			getgenv().on1 = false
-			script.Parent.Text = "All(Off)"
-		end
-		while on4 == true do wait()
-			coroutine.resume(coroutine.create(function()
-				--CODE
-	
-				for i, v in pairs(game:GetService("Players"):GetPlayers()) do
-					if (game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).magnitude < 21 and v.Name ~= player.Name and  
-						game:GetService("Workspace").Characters[v.Name].BodyColors.TorsoColor == tc and game:GetService("Workspace").Characters[v.Name].Humanoid.Health > 0 then
-						getgenv().on = false
-						getgenv().on1 = true
-					else
-	
-						getgenv().on = true
-						getgenv().on1 = false
-	
-					end
-	
-					for i, v in pairs(game:GetService("Players"):GetPlayers()) do
-						if (game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).magnitude < 21 and v.Name ~= player.Name and  
-							game:GetService("Workspace").Characters[v.Name].BodyColors.TorsoColor3 == Color3.fromRGB(124, 92, 70) and game:GetService("Workspace").Characters[v.Name].Humanoid.Health > 0 then
-							getgenv().on = false
-							getgenv().on1 = false
-							getgenv().on2 = true
-						end
-					end
-				end
-				coroutine.resume(coroutine.create(function()
-	
-					if getgenv().on == true then wait() 
-						tc = game:GetService("Workspace").Characters[player.Name].BodyColors.TorsoColor
-						for i, v in pairs(game:GetService("Players"):GetPlayers()) do
-							if (game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).magnitude < 21 and v.Name ~= player.Name and  
-								game:GetService("Workspace").Characters[v.Name].BodyColors.TorsoColor ~= tc and game:GetService("Workspace").Characters[v.Name].Humanoid.Health > 0 then
-								local rTV = game:GetService("ReplicatedStorage").RelativeTime.Value
-								local attackTable = {
-									[1] = game:GetService("Workspace").Characters[v.Name].RightUpperLeg,
-									[2] = game:GetService("Workspace").Characters[v.Name].LeftUpperLeg
-								}
-								game:GetService("ReplicatedStorage").Events.SwingTool:FireServer(rTV, attackTable)
-							end
-						end
-					end
-					coroutine.resume(coroutine.create(function()
-						tc = game:GetService("Workspace").Characters[player.Name].BodyColors.TorsoColor
-						if getgenv().on1 == true then wait()
-							for i, v in pairs(game:GetService("Players"):GetPlayers()) do
-								if (game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).magnitude < 21 and v.Name ~= player.Name and game:GetService("Workspace").Characters[v.Name].Humanoid.Health > 0 then
-									local rTV = game:GetService("ReplicatedStorage").RelativeTime.Value
-									local attackTable = {
-										[1] = game:GetService("Workspace").Characters[v.Name].RightUpperLeg,
-										[2] = game:GetService("Workspace").Characters[v.Name].LeftUpperLeg
-									}
-									game:GetService("ReplicatedStorage").Events.SwingTool:FireServer(rTV, attackTable)
-								end
-							end
-						end
-						coroutine.resume(coroutine.create(function()
-							tc = game:GetService("Workspace").Characters[player.Name].BodyColors.TorsoColor
-							if getgenv().on2 == true then wait()
-								for i, v in pairs(game:GetService("Players"):GetPlayers()) do
-									if (game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).magnitude < 21 and v.Name ~= player.Name and  
-										game:GetService("Workspace").Characters[v.Name].BodyColors.TorsoColor3 == Color3.fromRGB(124, 92, 70) and game:GetService("Workspace").Characters[v.Name].Humanoid.Health > 0 then
-										local rTV = game:GetService("ReplicatedStorage").RelativeTime.Value
-										local attackTable = {
-											[1] = game:GetService("Workspace").Characters[v.Name].RightUpperLeg,
-											[2] = game:GetService("Workspace").Characters[v.Name].LeftUpperLeg
-										}
-										game:GetService("ReplicatedStorage").Events.SwingTool:FireServer(rTV, attackTable)
-									end
-								end
-							end
-						end))
-					end))
-				end))
-			end))
-		end
-	end)
-	
-	
-end
-coroutine.wrap(THZWMKP_fake_script)()
-local function FXERAYK_fake_script() -- TextButton_6.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_6)
-
-	script.Parent.MouseButton1Down:Connect(function()
-		game.StarterGui:SetCore( "ChatMakeSystemMessage", 
-			{ Text = "[ChubHub]: PvP Combo: Enables (Secure Name And Health), (Enchance Game), (Less Hitbox) and (Increased Hitbox) - DOESN'T WORK AFTER DYING", 
-				Color = Color3.fromRGB(6, 255, 247), 
-				Font = Enum.Font.Ubuntu, 
-				FontSize = Enum.FontSize.Size18 } )
-	end)
-end
-coroutine.wrap(FXERAYK_fake_script)()
-local function LNOE_fake_script() -- Esp.LocalScript 
-	local script = Instance.new('LocalScript', Esp)
-
-	local condition = false
-	local health = nil
-	
-	script.Parent.MouseButton1Click:Connect(function()
-	
-		if condition == false then
-			condition = true
-			script.Parent.Text = "ESP (On)"
-		else
-			condition = false
-			script.Parent.Text = "ESP (Off)"
-			for i,v in pairs (game:GetService("Players"):GetPlayers()) do
-				v.Character.Head:FindFirstChild("Esp"):Destroy()
-			end
-		end
-		while condition == true do wait()
-			print("gat")
-			spawn(function()
-	
-				local esp_settings = { 
-					textsize = 14.5,
-					colour = 255,255,255
-				}
-	
-				local gui = Instance.new("BillboardGui")
-				local esp = Instance.new("TextLabel",gui) 
-	
-	
-				gui.Name = "Esp"; 
-				gui.ResetOnSpawn = false
-				gui.AlwaysOnTop = true;
-				gui.ExtentsOffset = Vector3.new(0, 1, 0)
-				gui.LightInfluence = 0;
-				gui.Size = UDim2.new(0, 5, 0, 5)
-				gui.StudsOffset = Vector3.new(0, 3, 0)
-	
-				esp.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
-				esp.Text = ""
-				esp.Size = UDim2.new(1,0,10,0);
-				esp.BorderSizePixel = 4;
-				esp.BorderColor3 = Color3.new(esp_settings.colour)
-				esp.BorderSizePixel = 0
-				esp.Font = "SourceSansBold" 
-				esp.TextSize = esp_settings.textsize
-				esp.BackgroundTransparency = 1
-				esp.TextStrokeTransparency = 1
-				esp.TextColor3 = Color3.fromRGB(esp_settings.colour)
-				esp.Visible = true
-				esp.ZIndex = 3
-	
-	
-	
-				for i,v in pairs (game:GetService("Players"):GetPlayers()) do
-					if v ~= game:GetService("Players").LocalPlayer and v.Character.Head:FindFirstChild("Esp") == nil then 
-						health = game:GetService("Workspace").Characters[v.Name].Humanoid.Health
-						esp.TextColor3 = game:GetService("Workspace").Characters[v.Name].BodyColors.TorsoColor3
-						esp.Text = ' '..v.Name..' |  '..(health)..'%'
-						gui:Clone().Parent = v.Character.Head
-						wait(2)
-						v.Character.Head["Esp"]:Destroy()
-					end			
-				end
-			end)
-		end
-	end)
-end
-coroutine.wrap(LNOE_fake_script)()
-local function HKIPIY_fake_script() -- ItemName.LocalScript 
-	local script = Instance.new('LocalScript', ItemName)
-
-	script.Parent.Parent.Parent.rice2.ItemName.FocusLost:Connect(function() 
-		if script.Parent.Parent.Parent.rice2.ItemName.Text ~= "" then
-			p3 = script.Parent.Parent.Parent.rice2.ItemName.Text
-		end
-	end)
-end
-coroutine.wrap(HKIPIY_fake_script)()
-local function YULKRUF_fake_script() -- PlayerName.LocalScript 
-	local script = Instance.new('LocalScript', PlayerName)
-
-	script.Parent.Parent.Parent.rice2.PlayerName.FocusLost:Connect(function() 
-		if script.Parent.Parent.Parent.rice2.PlayerName.Text ~= "" then
-			Target = script.Parent.Parent.Parent.rice2.PlayerName.Text
-		end
-	end)
-end
-coroutine.wrap(YULKRUF_fake_script)()
-local function YBJJ_fake_script() -- TextButton_7.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_7)
-
-	script.Parent.MouseButton1Down:Connect(function()
-		game.StarterGui:SetCore( "ChatMakeSystemMessage", 
-			{ Text = "[ChubHub]: Increased Hitbox: Makes the hitting range farther(ENABLE AGAIN WHEN THE PLAYER DIES)", 
-				Color = Color3.fromRGB(6, 255, 247), 
-				Font = Enum.Font.Ubuntu, 
-				FontSize = Enum.FontSize.Size18 } )
-	end)
-end
-coroutine.wrap(YBJJ_fake_script)()
-local function TQXQO_fake_script() -- TextButton_8.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_8)
-
-	script.Parent.MouseButton1Down:Connect(function()
-		game.StarterGui:SetCore( "ChatMakeSystemMessage", 
-			{ Text = "[ChubHub]: Enchance Game: Makes the game less realistic for more FPS(REMOVES SHADOW)", 
-				Color = Color3.fromRGB(6, 255, 247), 
-				Font = Enum.Font.Ubuntu, 
-				FontSize = Enum.FontSize.Size18 } )
-	end)
-end
-coroutine.wrap(TQXQO_fake_script)()
-local function JJPJUR_fake_script() -- pvpc.LocalScript 
-	local script = Instance.new('LocalScript', pvpc)
-
-	local player = game:GetService("Players").LocalPlayer.Character
-	
-	script.Parent.MouseButton1Down:Connect(function()
-		for _, a in pairs(game:GetService("Workspace").Characters:GetChildren()) do
-			if a.Name ~= player.Name then
-				for _, b in pairs(game:GetService("Workspace").Characters[a.Name]:GetDescendants()) do
-					if b.Name == "HumanoidRootPart" then
-						if game:GetService("Workspace").Characters[a.Name].HumanoidRootPart.Size == Vector3.new(2, 2, 1) then
-							game:GetService("Workspace").Characters[a.Name].HumanoidRootPart.Size = Vector3.new(10, 10, 20)
-						end 
-					end
-	
-				end
-			end
-		end
-	end)
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		game:GetService("Workspace").Characters[player.Name].LeftUpperArm:Destroy()
-		game:GetService("Workspace").Characters[player.Name].RightUpperArm:Destroy()
-		game:GetService("Workspace").Characters[player.Name].LeftHand:Destroy()
-		game:GetService("Workspace").Characters[player.Name].LeftLowerArm:Destroy()
-		game:GetService("Workspace").Characters[player.Name].RightHand:Destroy()
-		game:GetService("Workspace").Characters[player.Name].RightLowerArm:Destroy()
-	
-		game:GetService("Workspace").Characters[player.Name].LeftFoot:Destroy()
-		game:GetService("Workspace").Characters[player.Name].LeftLowerLeg:Destroy()
-		game:GetService("Workspace").Characters[player.Name].LeftUpperLeg:Destroy()
-		game:GetService("Workspace").Characters[player.Name].RightFoot:Destroy()
-		game:GetService("Workspace").Characters[player.Name].RightLowerLeg:Destroy()
-		game:GetService("Workspace").Characters[player.Name].RightUpperLeg:Destroy()
-	
-	end)
-	script.Parent.MouseButton1Down:Connect(function()
-		spawn(function()
-			for _, a in pairs(game:GetService("Workspace").Characters:GetChildren()) do
-				if a.Name == player.Name then
-					for _, b in pairs(game:GetService("Workspace").Characters[a.Name]:GetDescendants()) do
-						if b.Name == "NameGui" then
-							b:Destroy()
-						end 
-					end
-				end
-			end
-		end)
-		spawn(function()
-			for _, a in pairs(game:GetService("Workspace").Characters:GetChildren()) do
-				if a.Name == player.Name then
-					for _, b in pairs(game:GetService("Workspace").Characters[a.Name]:GetDescendants()) do
-						if b.Name == "HealthGui" then
-							b:Destroy()
-						end 
-					end
-				end
-			end
-		end)
-	end)
-	local player = game:GetService("Players").LocalPlayer.Character
-	local mag = "Magnetite"
-	local adu = "Adurite"
-	local cry = "Crystal"
-	local iro = "Iron"
-	local hid = "Hide"
-	local lea = "Leaf"
-	
-	script.Parent.MouseButton1Down:Connect(function()
-		spawn(function()
-			for _, a in pairs(game:GetService("Workspace").Characters:GetChildren()) do
-				if a.Name == player.Name then
-					for _, b in pairs(game:GetService("Workspace").Characters[a.Name]:GetDescendants()) do
-						if b.ClassName == "Model" then
-							b.PrimaryPart:Destroy()
-						end 
-					end
-					spawn(function()
-						for a,b in pairs(game:GetService("Workspace").Characters:GetChildren()) do
-							for c,d in pairs(game:GetService("Workspace").Characters[player.Name]:GetDescendants()) do
-								if d.Name:lower():find(mag:lower()) or d.Name:lower():find(adu:lower()) or d.Name:lower():find(cry:lower()) or d.Name:lower():find(iro:lower()) or d.Name:lower():find(hid:lower()) or d.Name:lower():find(lea:lower()) or d.Name == "Goober Bag" and d.ClassName == "Accessory" then
-									d.Handle:Destroy()
-								end
-							end
-						end
-					end)
-				end
-			end
-		end)
-	end)
-	
-	
-	
-	
-end
-coroutine.wrap(JJPJUR_fake_script)()
-local function KGWY_fake_script() -- LH.LocalScript 
-	local script = Instance.new('LocalScript', LH)
-
-	local player = game:GetService("Players").LocalPlayer.Character
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		game:GetService("Workspace").Characters[player.Name].LeftUpperArm:Destroy()
-		game:GetService("Workspace").Characters[player.Name].RightUpperArm:Destroy()
-		game:GetService("Workspace").Characters[player.Name].LeftHand:Destroy()
-		game:GetService("Workspace").Characters[player.Name].LeftLowerArm:Destroy()
-		game:GetService("Workspace").Characters[player.Name].RightHand:Destroy()
-		game:GetService("Workspace").Characters[player.Name].RightLowerArm:Destroy()
-		
-		game:GetService("Workspace").Characters[player.Name].LeftFoot:Destroy()
-		game:GetService("Workspace").Characters[player.Name].LeftLowerLeg:Destroy()
-		game:GetService("Workspace").Characters[player.Name].LeftUpperLeg:Destroy()
-		game:GetService("Workspace").Characters[player.Name].RightFoot:Destroy()
-		game:GetService("Workspace").Characters[player.Name].RightLowerLeg:Destroy()
-		game:GetService("Workspace").Characters[player.Name].RightUpperLeg:Destroy()
-	
-	end)
-	
-	
-	
-	
-end
-coroutine.wrap(KGWY_fake_script)()
-local function BLSA_fake_script() -- Delayyyy.LocalScript 
-	local script = Instance.new('LocalScript', Delayyyy)
-
-	script.Parent.Parent.Parent.rice2.Delayyyy.FocusLost:Connect(function() 
-		if script.Parent.Parent.Parent.rice2.Delayyyy.Text ~= "" then
-			Delayyyy = script.Parent.Parent.Parent.rice2.Delayyyy.Text
-		else
-			Delayyyy = 0.4
-		end
-	end)
-end
-coroutine.wrap(BLSA_fake_script)()
-local function LNHKEE_fake_script() -- TextButton_9.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_9)
-
-	script.Parent.MouseButton1Down:Connect(function()
-		game.StarterGui:SetCore( "ChatMakeSystemMessage", 
-			{ Text = "[ChubHub]: Anti-Void: Prevents You From Dying By The Void", 
-				Color = Color3.fromRGB(6, 255, 247), 
-				Font = Enum.Font.Ubuntu, 
-				FontSize = Enum.FontSize.Size18 } )
-	end)
-end
-coroutine.wrap(LNHKEE_fake_script)()
-local function UBDROCJ_fake_script() -- AutoPick.LocalScript 
-	local script = Instance.new('LocalScript', AutoPick)
-
-	local on2 = false
-	
-	function ap()
-		if on2 == false then
-			on2 = true
-			script.Parent.Text = "On"
-		else
-			on2 = false
-			script.Parent.Text = "Off"
-		end
-		spawn(function()
-			while on2 == true do wait()
-				--CODE
-				for i, v in pairs(game:GetService("Workspace").Items:GetChildren()) do
-					if v ~= nil and v.PrimaryPart ~= nil and (game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position - v.PrimaryPart.Position).magnitude < 20 then
-						game:GetService("ReplicatedStorage").Events.PickupItem:InvokeServer(v)
-					end
-				end
-			end
-		end)
-	end
-	
-	script.Parent.MouseButton1Click:Connect(ap)
-	
-end
-coroutine.wrap(UBDROCJ_fake_script)()
-local function RRPZY_fake_script() -- OpenClose.LocalScript 
+local function VOHMW_fake_script() -- OpenClose.LocalScript 
 	local script = Instance.new('LocalScript', OpenClose)
 
 	script.Parent.Draggable = true
@@ -2015,8 +1284,8 @@ local function RRPZY_fake_script() -- OpenClose.LocalScript
 	
 	
 end
-coroutine.wrap(RRPZY_fake_script)()
-local function FHDVRKF_fake_script() -- bselect.LocalScript 
+coroutine.wrap(VOHMW_fake_script)()
+local function XFZLQGR_fake_script() -- bselect.LocalScript 
 	local script = Instance.new('LocalScript', bselect)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -2029,8 +1298,8 @@ local function FHDVRKF_fake_script() -- bselect.LocalScript
 		
 		
 end
-coroutine.wrap(FHDVRKF_fake_script)()
-local function XKJGBJB_fake_script() -- _7.LocalScript 
+coroutine.wrap(XFZLQGR_fake_script)()
+local function GQTIOEL_fake_script() -- _7.LocalScript 
 	local script = Instance.new('LocalScript', _7)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -2061,8 +1330,8 @@ local function XKJGBJB_fake_script() -- _7.LocalScript
 		script.Parent.Parent.Parent.options.Visible = false
 	end)
 end
-coroutine.wrap(XKJGBJB_fake_script)()
-local function FFQBU_fake_script() -- _6.LocalScript 
+coroutine.wrap(GQTIOEL_fake_script)()
+local function MOVT_fake_script() -- _6.LocalScript 
 	local script = Instance.new('LocalScript', _6)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -2093,8 +1362,8 @@ local function FFQBU_fake_script() -- _6.LocalScript
 		script.Parent.Parent.Parent.options.Visible = false
 	end)
 end
-coroutine.wrap(FFQBU_fake_script)()
-local function YAGZGVL_fake_script() -- _5.LocalScript 
+coroutine.wrap(MOVT_fake_script)()
+local function TSRCCY_fake_script() -- _5.LocalScript 
 	local script = Instance.new('LocalScript', _5)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -2125,8 +1394,8 @@ local function YAGZGVL_fake_script() -- _5.LocalScript
 		script.Parent.Parent.Parent.options.Visible = false
 	end)
 end
-coroutine.wrap(YAGZGVL_fake_script)()
-local function EYFKQU_fake_script() -- _4.LocalScript 
+coroutine.wrap(TSRCCY_fake_script)()
+local function ZIZT_fake_script() -- _4.LocalScript 
 	local script = Instance.new('LocalScript', _4)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -2157,8 +1426,8 @@ local function EYFKQU_fake_script() -- _4.LocalScript
 		script.Parent.Parent.Parent.options.Visible = false
 	end)
 end
-coroutine.wrap(EYFKQU_fake_script)()
-local function HOZO_fake_script() -- _3.LocalScript 
+coroutine.wrap(ZIZT_fake_script)()
+local function XCJTZM_fake_script() -- _3.LocalScript 
 	local script = Instance.new('LocalScript', _3)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -2189,8 +1458,8 @@ local function HOZO_fake_script() -- _3.LocalScript
 		script.Parent.Parent.Parent.options.Visible = false
 	end)
 end
-coroutine.wrap(HOZO_fake_script)()
-local function MTRZDWV_fake_script() -- _2.LocalScript 
+coroutine.wrap(XCJTZM_fake_script)()
+local function OIEKWNW_fake_script() -- _2.LocalScript 
 	local script = Instance.new('LocalScript', _2)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -2221,8 +1490,8 @@ local function MTRZDWV_fake_script() -- _2.LocalScript
 		script.Parent.Parent.Parent.options.Visible = false
 	end)
 end
-coroutine.wrap(MTRZDWV_fake_script)()
-local function EKAMB_fake_script() -- _1.LocalScript 
+coroutine.wrap(OIEKWNW_fake_script)()
+local function CHXVRU_fake_script() -- _1.LocalScript 
 	local script = Instance.new('LocalScript', _1)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -2253,8 +1522,8 @@ local function EKAMB_fake_script() -- _1.LocalScript
 		script.Parent.Parent.Parent.options.Visible = false
 	end)
 end
-coroutine.wrap(EKAMB_fake_script)()
-local function PRHMDD_fake_script() -- oselect.LocalScript 
+coroutine.wrap(CHXVRU_fake_script)()
+local function CTIXGYF_fake_script() -- oselect.LocalScript 
 	local script = Instance.new('LocalScript', oselect)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -2267,8 +1536,8 @@ local function PRHMDD_fake_script() -- oselect.LocalScript
 		
 		
 end
-coroutine.wrap(PRHMDD_fake_script)()
-local function IJCLWX_fake_script() -- _0.LocalScript 
+coroutine.wrap(CTIXGYF_fake_script)()
+local function HIARBBH_fake_script() -- _0.LocalScript 
 	local script = Instance.new('LocalScript', _0)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -2295,9 +1564,9 @@ local function IJCLWX_fake_script() -- _0.LocalScript
 		end)
 	
 end
-coroutine.wrap(IJCLWX_fake_script)()
-local function CHHSXC_fake_script() -- TextButton_10.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_10)
+coroutine.wrap(HIARBBH_fake_script)()
+local function QDVJPJK_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.StarterGui:SetCore( "ChatMakeSystemMessage", 
@@ -2307,8 +1576,8 @@ local function CHHSXC_fake_script() -- TextButton_10.LocalScript
 				FontSize = Enum.FontSize.Size12 } )
 	end)
 end
-coroutine.wrap(CHHSXC_fake_script)()
-local function LEZH_fake_script() -- _1_2.LocalScript 
+coroutine.wrap(QDVJPJK_fake_script)()
+local function KWHPNYT_fake_script() -- _1_2.LocalScript 
 	local script = Instance.new('LocalScript', _1_2)
 
 	local player = game:GetService("Players").LocalPlayer.Character
@@ -2344,9 +1613,9 @@ local function LEZH_fake_script() -- _1_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(LEZH_fake_script)()
-local function VHOQE_fake_script() -- TextButton_11.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_11)
+coroutine.wrap(KWHPNYT_fake_script)()
+local function DBLRYC_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.StarterGui:SetCore( "ChatMakeSystemMessage", 
@@ -2356,8 +1625,8 @@ local function VHOQE_fake_script() -- TextButton_11.LocalScript
 				FontSize = Enum.FontSize.Size12 } )
 	end)
 end
-coroutine.wrap(VHOQE_fake_script)()
-local function UYOKE_fake_script() -- _2_2.LocalScript 
+coroutine.wrap(DBLRYC_fake_script)()
+local function ARWLWZ_fake_script() -- _2_2.LocalScript 
 	local script = Instance.new('LocalScript', _2_2)
 
 	local player = game:GetService("Players").LocalPlayer.Character
@@ -2389,9 +1658,9 @@ local function UYOKE_fake_script() -- _2_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(UYOKE_fake_script)()
-local function LKJW_fake_script() -- TextButton_12.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_12)
+coroutine.wrap(ARWLWZ_fake_script)()
+local function MNUXA_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.StarterGui:SetCore( "ChatMakeSystemMessage", 
@@ -2401,8 +1670,8 @@ local function LKJW_fake_script() -- TextButton_12.LocalScript
 				FontSize = Enum.FontSize.Size12 } )
 	end)
 end
-coroutine.wrap(LKJW_fake_script)()
-local function EABHPI_fake_script() -- _29.LocalScript 
+coroutine.wrap(MNUXA_fake_script)()
+local function GYWPAH_fake_script() -- _29.LocalScript 
 	local script = Instance.new('LocalScript', _29)
 
 	local player = game:GetService("Players").LocalPlayer.Character
@@ -2423,9 +1692,9 @@ local function EABHPI_fake_script() -- _29.LocalScript
 	end)
 	
 end
-coroutine.wrap(EABHPI_fake_script)()
-local function FSAO_fake_script() -- TextButton_13.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_13)
+coroutine.wrap(GYWPAH_fake_script)()
+local function FEKG_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.StarterGui:SetCore( "ChatMakeSystemMessage", 
@@ -2435,8 +1704,8 @@ local function FSAO_fake_script() -- TextButton_13.LocalScript
 				FontSize = Enum.FontSize.Size12 } )
 	end)
 end
-coroutine.wrap(FSAO_fake_script)()
-local function CVKWZ_fake_script() -- _5_2.LocalScript 
+coroutine.wrap(FEKG_fake_script)()
+local function TXUPSSB_fake_script() -- _5_2.LocalScript 
 	local script = Instance.new('LocalScript', _5_2)
 
 	local player = game:GetService("Players").LocalPlayer.Character
@@ -2457,9 +1726,9 @@ local function CVKWZ_fake_script() -- _5_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(CVKWZ_fake_script)()
-local function BTUOVV_fake_script() -- TextButton_14.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_14)
+coroutine.wrap(TXUPSSB_fake_script)()
+local function HVYBKE_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.StarterGui:SetCore( "ChatMakeSystemMessage", 
@@ -2469,8 +1738,8 @@ local function BTUOVV_fake_script() -- TextButton_14.LocalScript
 				FontSize = Enum.FontSize.Size12 } )
 	end)
 end
-coroutine.wrap(BTUOVV_fake_script)()
-local function ZCIGVR_fake_script() -- _6_2.LocalScript 
+coroutine.wrap(HVYBKE_fake_script)()
+local function OHSIK_fake_script() -- _6_2.LocalScript 
 	local script = Instance.new('LocalScript', _6_2)
 
 	local player = game:GetService("Players").LocalPlayer.Character
@@ -2491,9 +1760,9 @@ local function ZCIGVR_fake_script() -- _6_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(ZCIGVR_fake_script)()
-local function ERIUXG_fake_script() -- TextButton_15.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_15)
+coroutine.wrap(OHSIK_fake_script)()
+local function CQEMWN_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.StarterGui:SetCore( "ChatMakeSystemMessage", 
@@ -2503,8 +1772,8 @@ local function ERIUXG_fake_script() -- TextButton_15.LocalScript
 				FontSize = Enum.FontSize.Size12 } )
 	end)
 end
-coroutine.wrap(ERIUXG_fake_script)()
-local function FHTUJUT_fake_script() -- _7_2.LocalScript 
+coroutine.wrap(CQEMWN_fake_script)()
+local function QJNRR_fake_script() -- _7_2.LocalScript 
 	local script = Instance.new('LocalScript', _7_2)
 
 	local player = game:GetService("Players").LocalPlayer.Character
@@ -2525,9 +1794,9 @@ local function FHTUJUT_fake_script() -- _7_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(FHTUJUT_fake_script)()
-local function HNAZV_fake_script() -- TextButton_16.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_16)
+coroutine.wrap(QJNRR_fake_script)()
+local function RCROGB_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.StarterGui:SetCore( "ChatMakeSystemMessage", 
@@ -2537,8 +1806,8 @@ local function HNAZV_fake_script() -- TextButton_16.LocalScript
 				FontSize = Enum.FontSize.Size12 } )
 	end)
 end
-coroutine.wrap(HNAZV_fake_script)()
-local function PLYMMTJ_fake_script() -- _8.LocalScript 
+coroutine.wrap(RCROGB_fake_script)()
+local function OBOOUB_fake_script() -- _8.LocalScript 
 	local script = Instance.new('LocalScript', _8)
 
 	local player = game:GetService("Players").LocalPlayer.Character
@@ -2562,9 +1831,9 @@ local function PLYMMTJ_fake_script() -- _8.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(PLYMMTJ_fake_script)()
-local function OXONOV_fake_script() -- TextButton_17.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_17)
+coroutine.wrap(OBOOUB_fake_script)()
+local function KUPDDC_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.StarterGui:SetCore( "ChatMakeSystemMessage", 
@@ -2574,8 +1843,8 @@ local function OXONOV_fake_script() -- TextButton_17.LocalScript
 				FontSize = Enum.FontSize.Size12 } )
 	end)
 end
-coroutine.wrap(OXONOV_fake_script)()
-local function QPDSNR_fake_script() -- tselect.LocalScript 
+coroutine.wrap(KUPDDC_fake_script)()
+local function NNROAXZ_fake_script() -- tselect.LocalScript 
 	local script = Instance.new('LocalScript', tselect)
 
 	
@@ -2863,8 +2132,8 @@ local function QPDSNR_fake_script() -- tselect.LocalScript
 		script.Parent.options.t.Active = false
 	end)
 end
-coroutine.wrap(QPDSNR_fake_script)()
-local function RTMRA_fake_script() -- s.LocalScript 
+coroutine.wrap(NNROAXZ_fake_script)()
+local function MIGU_fake_script() -- s.LocalScript 
 	local script = Instance.new('LocalScript', s)
 
 	
@@ -2883,8 +2152,8 @@ local function RTMRA_fake_script() -- s.LocalScript
 		script.Parent.Parent.Parent.Parent.tselect.options.Visible = false
 	end)
 end
-coroutine.wrap(RTMRA_fake_script)()
-local function VNNEJJK_fake_script() -- t.LocalScript 
+coroutine.wrap(MIGU_fake_script)()
+local function DRDHLTV_fake_script() -- t.LocalScript 
 	local script = Instance.new('LocalScript', t)
 
 	
@@ -2903,8 +2172,8 @@ local function VNNEJJK_fake_script() -- t.LocalScript
 		script.Parent.Parent.Parent.Parent.tselect.options.Visible = false
 	end)
 end
-coroutine.wrap(VNNEJJK_fake_script)()
-local function JRKDQ_fake_script() -- r.LocalScript 
+coroutine.wrap(DRDHLTV_fake_script)()
+local function MHAQNL_fake_script() -- r.LocalScript 
 	local script = Instance.new('LocalScript', r)
 
 	
@@ -2923,8 +2192,8 @@ local function JRKDQ_fake_script() -- r.LocalScript
 		script.Parent.Parent.Parent.Parent.tselect.options.Visible = false
 	end)
 end
-coroutine.wrap(JRKDQ_fake_script)()
-local function MUAP_fake_script() -- q.LocalScript 
+coroutine.wrap(MHAQNL_fake_script)()
+local function SSMY_fake_script() -- q.LocalScript 
 	local script = Instance.new('LocalScript', q)
 
 	
@@ -2943,8 +2212,8 @@ local function MUAP_fake_script() -- q.LocalScript
 		script.Parent.Parent.Parent.Parent.tselect.options.Visible = false
 	end)
 end
-coroutine.wrap(MUAP_fake_script)()
-local function LSYWO_fake_script() -- p.LocalScript 
+coroutine.wrap(SSMY_fake_script)()
+local function MUWNZXF_fake_script() -- p.LocalScript 
 	local script = Instance.new('LocalScript', p)
 
 	
@@ -2963,8 +2232,8 @@ local function LSYWO_fake_script() -- p.LocalScript
 		script.Parent.Parent.Parent.Parent.tselect.options.Visible = false
 	end)
 end
-coroutine.wrap(LSYWO_fake_script)()
-local function FNEAA_fake_script() -- o.LocalScript 
+coroutine.wrap(MUWNZXF_fake_script)()
+local function JRLZ_fake_script() -- o.LocalScript 
 	local script = Instance.new('LocalScript', o)
 
 	
@@ -2983,8 +2252,8 @@ local function FNEAA_fake_script() -- o.LocalScript
 		script.Parent.Parent.Parent.Parent.tselect.options.Visible = false
 	end)
 end
-coroutine.wrap(FNEAA_fake_script)()
-local function MFXKDAW_fake_script() -- n.LocalScript 
+coroutine.wrap(JRLZ_fake_script)()
+local function ANBCDKF_fake_script() -- n.LocalScript 
 	local script = Instance.new('LocalScript', n)
 
 	
@@ -3003,8 +2272,8 @@ local function MFXKDAW_fake_script() -- n.LocalScript
 		script.Parent.Parent.Parent.Parent.tselect.options.Visible = false
 	end)
 end
-coroutine.wrap(MFXKDAW_fake_script)()
-local function CTYTP_fake_script() -- m.LocalScript 
+coroutine.wrap(ANBCDKF_fake_script)()
+local function BCAPPB_fake_script() -- m.LocalScript 
 	local script = Instance.new('LocalScript', m)
 
 	
@@ -3023,8 +2292,8 @@ local function CTYTP_fake_script() -- m.LocalScript
 		script.Parent.Parent.Parent.Parent.tselect.options.Visible = false
 	end)
 end
-coroutine.wrap(CTYTP_fake_script)()
-local function NIXFUMP_fake_script() -- l.LocalScript 
+coroutine.wrap(BCAPPB_fake_script)()
+local function KRVOH_fake_script() -- l.LocalScript 
 	local script = Instance.new('LocalScript', l)
 
 	
@@ -3043,8 +2312,8 @@ local function NIXFUMP_fake_script() -- l.LocalScript
 		script.Parent.Parent.Parent.Parent.tselect.options.Visible = false
 	end)
 end
-coroutine.wrap(NIXFUMP_fake_script)()
-local function LIXW_fake_script() -- k.LocalScript 
+coroutine.wrap(KRVOH_fake_script)()
+local function UAFT_fake_script() -- k.LocalScript 
 	local script = Instance.new('LocalScript', k)
 
 	
@@ -3063,8 +2332,8 @@ local function LIXW_fake_script() -- k.LocalScript
 		script.Parent.Parent.Parent.Parent.tselect.options.Visible = false
 	end)
 end
-coroutine.wrap(LIXW_fake_script)()
-local function VIOPVV_fake_script() -- j.LocalScript 
+coroutine.wrap(UAFT_fake_script)()
+local function EMGCJI_fake_script() -- j.LocalScript 
 	local script = Instance.new('LocalScript', j)
 
 	
@@ -3083,8 +2352,8 @@ local function VIOPVV_fake_script() -- j.LocalScript
 		script.Parent.Parent.Parent.Parent.tselect.options.Visible = false
 	end)
 end
-coroutine.wrap(VIOPVV_fake_script)()
-local function PMSBPG_fake_script() -- i.LocalScript 
+coroutine.wrap(EMGCJI_fake_script)()
+local function YGHIJ_fake_script() -- i.LocalScript 
 	local script = Instance.new('LocalScript', i)
 
 	
@@ -3103,8 +2372,8 @@ local function PMSBPG_fake_script() -- i.LocalScript
 		script.Parent.Parent.Parent.Parent.tselect.options.Visible = false
 	end)
 end
-coroutine.wrap(PMSBPG_fake_script)()
-local function ABOSDTT_fake_script() -- h.LocalScript 
+coroutine.wrap(YGHIJ_fake_script)()
+local function BKTZ_fake_script() -- h.LocalScript 
 	local script = Instance.new('LocalScript', h)
 
 	
@@ -3123,8 +2392,8 @@ local function ABOSDTT_fake_script() -- h.LocalScript
 		script.Parent.Parent.Parent.Parent.tselect.options.Visible = false
 	end)
 end
-coroutine.wrap(ABOSDTT_fake_script)()
-local function EDOK_fake_script() -- g.LocalScript 
+coroutine.wrap(BKTZ_fake_script)()
+local function DPRPB_fake_script() -- g.LocalScript 
 	local script = Instance.new('LocalScript', g)
 
 	
@@ -3143,8 +2412,8 @@ local function EDOK_fake_script() -- g.LocalScript
 		script.Parent.Parent.Parent.Parent.tselect.options.Visible = false
 	end)
 end
-coroutine.wrap(EDOK_fake_script)()
-local function DPYBCJ_fake_script() -- f.LocalScript 
+coroutine.wrap(DPRPB_fake_script)()
+local function BWVSEUB_fake_script() -- f.LocalScript 
 	local script = Instance.new('LocalScript', f)
 
 	
@@ -3163,8 +2432,8 @@ local function DPYBCJ_fake_script() -- f.LocalScript
 		script.Parent.Parent.Parent.Parent.tselect.options.Visible = false
 	end)
 end
-coroutine.wrap(DPYBCJ_fake_script)()
-local function LVFYJL_fake_script() -- e.LocalScript 
+coroutine.wrap(BWVSEUB_fake_script)()
+local function OKQLMCN_fake_script() -- e.LocalScript 
 	local script = Instance.new('LocalScript', e)
 
 	
@@ -3183,8 +2452,8 @@ local function LVFYJL_fake_script() -- e.LocalScript
 		script.Parent.Parent.Parent.Parent.tselect.options.Visible = false
 	end)
 end
-coroutine.wrap(LVFYJL_fake_script)()
-local function NOJWQRL_fake_script() -- d.LocalScript 
+coroutine.wrap(OKQLMCN_fake_script)()
+local function ZBSATJL_fake_script() -- d.LocalScript 
 	local script = Instance.new('LocalScript', d)
 
 	
@@ -3203,8 +2472,8 @@ local function NOJWQRL_fake_script() -- d.LocalScript
 		script.Parent.Parent.Parent.Parent.tselect.options.Visible = false
 	end)
 end
-coroutine.wrap(NOJWQRL_fake_script)()
-local function VUHQ_fake_script() -- c.LocalScript 
+coroutine.wrap(ZBSATJL_fake_script)()
+local function NWMN_fake_script() -- c.LocalScript 
 	local script = Instance.new('LocalScript', c)
 
 	
@@ -3223,8 +2492,8 @@ local function VUHQ_fake_script() -- c.LocalScript
 		script.Parent.Parent.Parent.Parent.tselect.options.Visible = false
 	end)
 end
-coroutine.wrap(VUHQ_fake_script)()
-local function RZVDIEL_fake_script() -- b.LocalScript 
+coroutine.wrap(NWMN_fake_script)()
+local function NQEH_fake_script() -- b.LocalScript 
 	local script = Instance.new('LocalScript', b)
 
 	
@@ -3243,8 +2512,8 @@ local function RZVDIEL_fake_script() -- b.LocalScript
 		script.Parent.Parent.Parent.Parent.tselect.options.Visible = false
 	end)
 end
-coroutine.wrap(RZVDIEL_fake_script)()
-local function KAPDR_fake_script() -- a.LocalScript 
+coroutine.wrap(NQEH_fake_script)()
+local function DCQV_fake_script() -- a.LocalScript 
 	local script = Instance.new('LocalScript', a)
 
 	
@@ -3263,4 +2532,735 @@ local function KAPDR_fake_script() -- a.LocalScript
 		script.Parent.Parent.Parent.Parent.tselect.options.Visible = false
 	end)
 end
-coroutine.wrap(KAPDR_fake_script)()
+coroutine.wrap(DCQV_fake_script)()
+local function CKKYX_fake_script() -- nH.LocalScript 
+	local script = Instance.new('LocalScript', nH)
+
+	local player = game:GetService("Players").LocalPlayer.Character
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		spawn(function()
+			for _, a in pairs(game:GetService("Workspace").Characters:GetChildren()) do
+				if a.Name == player.Name then
+					for _, b in pairs(game:GetService("Workspace").Characters[a.Name]:GetDescendants()) do
+						if b.Name == "NameGui" then
+							b:Destroy()
+						end 
+					end
+				end
+			end
+		end)
+		spawn(function()
+			for _, a in pairs(game:GetService("Workspace").Characters:GetChildren()) do
+				if a.Name == player.Name then
+					for _, b in pairs(game:GetService("Workspace").Characters[a.Name]:GetDescendants()) do
+						if b.Name == "HealthGui" then
+							b:Destroy()
+						end 
+					end
+				end
+			end
+		end)
+	end)
+end
+coroutine.wrap(CKKYX_fake_script)()
+local function PYEX_fake_script() -- ObjectName.LocalScript 
+	local script = Instance.new('LocalScript', ObjectName)
+
+	script.Parent.Parent.Parent.rice2.ObjectName.FocusLost:Connect(function() 
+		if script.Parent.Parent.Parent.rice2.ObjectName.Text ~= "" then
+			ObjectPlace = script.Parent.Parent.Parent.rice2.ObjectName.Text
+		end
+	end)
+end
+coroutine.wrap(PYEX_fake_script)()
+local function XUUK_fake_script() -- Av.LocalScript 
+	local script = Instance.new('LocalScript', Av)
+
+	local condition = false
+	local char = game.Players.LocalPlayer.Character.HumanoidRootPart
+	local player = game:GetService("Players").LocalPlayer.Character
+	
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		if condition == false then
+			condition = true
+			script.Parent.Text = "Anti-Void (On)"
+		else
+			condition = false
+			script.Parent.Text = "Anti-Void (Off)"
+	
+		end
+		if condition == true then wait()
+			game:GetService("RunService").RenderStepped:Connect(function() 
+				if condition ~= false then
+					spawn(function()
+						if game:GetService("Workspace").Characters[player.Name].HumanoidRootPart.Position.y < -440 then
+							print("Ok1")
+							game:GetService("Workspace").Gravity = 0
+							char.CFrame = char.CFrame + char.CFrame.upVector * 50 
+						end
+					end)
+					spawn(function()
+						if game:GetService("Workspace").Characters[player.Name].HumanoidRootPart.Position.y > 0 and game:GetService("Workspace").Gravity == 0 then 
+							if game:GetService("Workspace").Characters[player.Name].Humanoid.FloorMaterial == Enum.Material.Air then
+								game:GetService("Workspace").Gravity = 196.2
+							end
+						end
+					end)
+				end
+			end)
+		end
+	end)
+end
+coroutine.wrap(XUUK_fake_script)()
+local function UZIXW_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	local On1 = false
+	
+	function mp()
+		if On1 == false then
+			On1 = true
+			game:GetService("Workspace").Gravity = 0
+			script.Parent.Text = "On"
+		else
+			On1 = false
+			game:GetService("Workspace").Gravity = 196.2
+			script.Parent.Text = "Off"
+		end
+		spawn(function()
+			while On1 == true do wait(0.00000000000000000000000000000000000001)
+				--CODE
+				if script.Parent.Text == "On" then
+					local args = {
+						[1] = workspace.Items:FindFirstChild("Magnetite Bar")
+					}
+	
+					game:GetService("ReplicatedStorage").Events.PickupItem:InvokeServer(unpack(args))
+	
+				end
+			end
+		end)
+	end
+	
+	script.Parent.MouseButton1Click:Connect(mp)
+		
+	
+	
+	
+end
+coroutine.wrap(UZIXW_fake_script)()
+local function YPZS_fake_script() -- Target.LocalScript 
+	local script = Instance.new('LocalScript', Target)
+
+	local player = game:GetService("Players").LocalPlayer.Character
+	
+	local plr = game:GetService("Players").LocalPlayer
+	
+	local on3 = false
+	
+	getgenv().on = false
+	
+	getgenv().on1 = false
+	
+	script.Parent.MouseEnter:Connect(function()
+		tc1 = game:GetService("Workspace").Characters[Target].BodyColors.TorsoColor
+	end)
+	script.Parent.MouseButton1Click:Connect(function()
+		if on3 == false then
+			on3 = true
+			script.Parent.Text = "Target(On)"
+		else
+			on3 = false
+			script.Parent.Text = "Target(Off)"
+		end
+		while on3 == true do wait()
+			coroutine.resume(coroutine.create(function()
+				tc = game:GetService("Workspace").Characters[player.Name].BodyColors.TorsoColor
+				for i, v in pairs(game:GetService("Players"):GetChildren()) do
+					if v.Name:lower():find(Target:lower()) and v.Name ~= player.Name then
+						if (game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).magnitude < 21 and  
+							game:GetService("Workspace").Characters[v.Name].BodyColors.TorsoColor3 ~= tc1 and game:GetService("Workspace").Characters[v.Name].Humanoid.Health > 0 then
+							local rTV = game:GetService("ReplicatedStorage").RelativeTime.Value
+							local attackTable = {
+								[1] = game:GetService("Workspace").Characters[v.Name].RightUpperLeg,
+								[2] = game:GetService("Workspace").Characters[v.Name].LeftUpperLeg
+							}
+							game:GetService("ReplicatedStorage").Events.SwingTool:FireServer(rTV, attackTable)
+						end
+					end
+				end
+			end))
+		end
+	end)
+	
+	
+	
+end
+coroutine.wrap(YPZS_fake_script)()
+local function QKAGZ_fake_script() -- TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_10)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game.StarterGui:SetCore( "ChatMakeSystemMessage", 
+			{ Text = "[ChubHub]: Secure Name And Health: Keeps your health and name anonymous unless you've been hit(DOESN'T WORK AFTER DEATH)", 
+				Color = Color3.fromRGB(6, 255, 247), 
+				Font = Enum.Font.Ubuntu, 
+				FontSize = Enum.FontSize.Size18 } )
+	end)
+end
+coroutine.wrap(QKAGZ_fake_script)()
+local function WIXT_fake_script() -- TextButton_11.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_11)
+
+	local Player = game:GetService("Players").LocalPlayer
+	local On = false
+	
+	function tpp()
+		if On == false then
+			On = true
+			script.Parent.Text = "On"
+		else
+			On = false
+			script.Parent.Text = "Off"
+		end
+		if script.Parent.Parent.Parent.rice2.Delayyyy.Text ~= "" then
+			Delayyyy = script.Parent.Parent.Parent.rice2.Delayyyy.Text
+		else
+			Delayyyy = 0.4
+		end
+		spawn(function()
+			while On == true and p3 ~= "" do wait(Delayyyy)
+				--CODE
+				local player = game:GetService("Players").LocalPlayer.Character
+	
+				for i,p in pairs(game:GetService("Workspace").Items:GetChildren()) do
+	
+					if p.Name:lower():find(p3:lower()) and p.Name ~= nil then
+	
+						player.HumanoidRootPart.CFrame = CFrame.new(p.PrimaryPart.CFrame.Position.x + 2.5, p.PrimaryPart.CFrame.Position.y, p.PrimaryPart.CFrame.Position.z)
+	
+					end
+	
+					spawn(function()
+						while On == true and p3 ~= "" do wait(0.1)
+							for _, v in pairs(game:GetService("Workspace").Items:GetChildren()) do
+								if v ~= nil and v.Name:lower():find(p3:lower()) and (game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position - v.PrimaryPart.Position).magnitude < 20 then
+									game:GetService("ReplicatedStorage").Events.PickupItem:InvokeServer(v)
+								end
+							end
+						end
+					end)
+				end
+			end
+		end)
+	end
+	
+	script.Parent.MouseButton1Down:connect(tpp)
+end
+coroutine.wrap(WIXT_fake_script)()
+local function VLMXQ_fake_script() -- TextButton_12.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_12)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		local a1 = ObjectPlace
+		local a2 = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0, -3, 0) 
+		local a3 = 0
+	
+		local events = game:GetService("ReplicatedStorage").Events.PlaceStructure:FireServer(a1,a2,a3)
+	end)
+	
+end
+coroutine.wrap(VLMXQ_fake_script)()
+local function UIOSWJA_fake_script() -- Enchance.LocalScript 
+	local script = Instance.new('LocalScript', Enchance)
+
+	local s = Instance.new("PointLight", game.Players.LocalPlayer.Character.Head)
+	script.Parent.MouseButton1Down:Connect(function(a)
+		local decalsyeeted = true -- Made by someone else (NOT ME AND IDK WHO)
+		local g = game
+		local w = g.Workspace
+		local l = g.Lighting
+		local t = w.Terrain
+		t.WaterWaveSize = 0
+		t.WaterWaveSpeed = 0
+		t.WaterReflectance = 0
+		t.WaterTransparency = 0
+		l.GlobalShadows = false
+		l.FogEnd = 9e9
+		l.Brightness = 3.2
+		for i, v in pairs(g:GetDescendants()) do
+			if v:IsA("Part") or v:IsA("Union") or v:IsA("CornerWedgePart") or v:IsA("TrussPart") then
+				v.Material = "Plastic"
+				v.Reflectance = 0
+			elseif v:IsA("Decal") or v:IsA("Texture") and decalsyeeted then
+				v.Transparency = 1
+			elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+				v.Lifetime = NumberRange.new(0)
+			elseif v:IsA("Explosion") then
+				v.BlastPressure = 1
+				v.BlastRadius = 1
+			elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") then
+				v.Enabled = false
+			elseif v:IsA("MeshPart") then
+				v.Material = "Plastic"
+				v.Reflectance = 0
+				v.TextureID = 10385902758728957
+			end
+		end
+		for i, e in pairs(l:GetChildren()) do
+			if e:IsA("BlurEffect") or e:IsA("SunRaysEffect") or e:IsA("ColorCorrectionEffect") or e:IsA("BloomEffect") or e:IsA("DepthOfFieldEffect") then
+				e.Enabled = false
+			end
+		end
+	end)
+	--
+	script.Parent.MouseButton1Down:Connect(function(a)
+		print("Works")
+		game:GetService("Workspace").RainPart:Destroy()
+	end)
+end
+coroutine.wrap(UIOSWJA_fake_script)()
+local function SZJJPGR_fake_script() -- TextButton_13.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_13)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game.StarterGui:SetCore( "ChatMakeSystemMessage", 
+			{ Text = "[ChubHub]: ESP: Detects players, their health, and their team color", 
+				Color = Color3.fromRGB(6, 255, 247), 
+				Font = Enum.Font.Ubuntu, 
+				FontSize = Enum.FontSize.Size18 } )
+	end)
+end
+coroutine.wrap(SZJJPGR_fake_script)()
+local function HLDX_fake_script() -- Hitbox.LocalScript 
+	local script = Instance.new('LocalScript', Hitbox)
+
+	local player = game:GetService("Players").LocalPlayer.Character
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		for _, a in pairs(game:GetService("Workspace").Characters:GetChildren()) do
+			if a.Name ~= player.Name then
+				for _, b in pairs(game:GetService("Workspace").Characters[a.Name]:GetDescendants()) do
+					if b.Name == "HumanoidRootPart" then
+						if game:GetService("Workspace").Characters[a.Name].HumanoidRootPart.Size == Vector3.new(2, 2, 1) then
+							game:GetService("Workspace").Characters[a.Name].HumanoidRootPart.Size = Vector3.new(10, 10, 20)
+						end 
+					end
+	
+				end
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(HLDX_fake_script)()
+local function OXLUYHR_fake_script() -- Autohit.LocalScript 
+	local script = Instance.new('LocalScript', Autohit)
+
+	local player = game:GetService("Players").LocalPlayer.Character
+	
+	local plr = game:GetService("Players").LocalPlayer
+	
+	local on4 = false
+	
+	getgenv().on = false
+	
+	getgenv().on1 = false
+	
+	script.Parent.MouseEnter:Connect(function()
+		tc = game:GetService("Workspace").Characters[player.Name].BodyColors.TorsoColor
+	end)
+	script.Parent.MouseButton1Click:Connect(function()
+		if on4 == false then
+			on4 = true
+			script.Parent.Text = "All(On)"
+		else
+			on4 = false
+			getgenv().on = false
+			getgenv().on1 = false
+			script.Parent.Text = "All(Off)"
+		end
+		while on4 == true do wait()
+			coroutine.resume(coroutine.create(function()
+				--CODE
+	
+				for i, v in pairs(game:GetService("Players"):GetPlayers()) do
+					if (game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).magnitude < 21 and v.Name ~= player.Name and  
+						game:GetService("Workspace").Characters[v.Name].BodyColors.TorsoColor == tc and game:GetService("Workspace").Characters[v.Name].Humanoid.Health > 0 then
+						getgenv().on = false
+						getgenv().on1 = true
+					else
+	
+						getgenv().on = true
+						getgenv().on1 = false
+	
+					end
+	
+					for i, v in pairs(game:GetService("Players"):GetPlayers()) do
+						if (game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).magnitude < 21 and v.Name ~= player.Name and  
+							game:GetService("Workspace").Characters[v.Name].BodyColors.TorsoColor3 == Color3.fromRGB(124, 92, 70) and game:GetService("Workspace").Characters[v.Name].Humanoid.Health > 0 then
+							getgenv().on = false
+							getgenv().on1 = false
+							getgenv().on2 = true
+						end
+					end
+				end
+				coroutine.resume(coroutine.create(function()
+	
+					if getgenv().on == true then wait() 
+						tc = game:GetService("Workspace").Characters[player.Name].BodyColors.TorsoColor
+						for i, v in pairs(game:GetService("Players"):GetPlayers()) do
+							if (game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).magnitude < 21 and v.Name ~= player.Name and  
+								game:GetService("Workspace").Characters[v.Name].BodyColors.TorsoColor ~= tc and game:GetService("Workspace").Characters[v.Name].Humanoid.Health > 0 then
+								local rTV = game:GetService("ReplicatedStorage").RelativeTime.Value
+								local attackTable = {
+									[1] = game:GetService("Workspace").Characters[v.Name].RightUpperLeg,
+									[2] = game:GetService("Workspace").Characters[v.Name].LeftUpperLeg
+								}
+								game:GetService("ReplicatedStorage").Events.SwingTool:FireServer(rTV, attackTable)
+							end
+						end
+					end
+					coroutine.resume(coroutine.create(function()
+						tc = game:GetService("Workspace").Characters[player.Name].BodyColors.TorsoColor
+						if getgenv().on1 == true then wait()
+							for i, v in pairs(game:GetService("Players"):GetPlayers()) do
+								if (game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).magnitude < 21 and v.Name ~= player.Name and game:GetService("Workspace").Characters[v.Name].Humanoid.Health > 0 then
+									local rTV = game:GetService("ReplicatedStorage").RelativeTime.Value
+									local attackTable = {
+										[1] = game:GetService("Workspace").Characters[v.Name].RightUpperLeg,
+										[2] = game:GetService("Workspace").Characters[v.Name].LeftUpperLeg
+									}
+									game:GetService("ReplicatedStorage").Events.SwingTool:FireServer(rTV, attackTable)
+								end
+							end
+						end
+						coroutine.resume(coroutine.create(function()
+							tc = game:GetService("Workspace").Characters[player.Name].BodyColors.TorsoColor
+							if getgenv().on2 == true then wait()
+								for i, v in pairs(game:GetService("Players"):GetPlayers()) do
+									if (game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).magnitude < 21 and v.Name ~= player.Name and  
+										game:GetService("Workspace").Characters[v.Name].BodyColors.TorsoColor3 == Color3.fromRGB(124, 92, 70) and game:GetService("Workspace").Characters[v.Name].Humanoid.Health > 0 then
+										local rTV = game:GetService("ReplicatedStorage").RelativeTime.Value
+										local attackTable = {
+											[1] = game:GetService("Workspace").Characters[v.Name].RightUpperLeg,
+											[2] = game:GetService("Workspace").Characters[v.Name].LeftUpperLeg
+										}
+										game:GetService("ReplicatedStorage").Events.SwingTool:FireServer(rTV, attackTable)
+									end
+								end
+							end
+						end))
+					end))
+				end))
+			end))
+		end
+	end)
+	
+	
+end
+coroutine.wrap(OXLUYHR_fake_script)()
+local function GYRPNRB_fake_script() -- TextButton_14.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_14)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game.StarterGui:SetCore( "ChatMakeSystemMessage", 
+			{ Text = "[ChubHub]: PvP Combo: Enables (Secure Name And Health), (Enchance Game), (Less Hitbox) and (Increased Hitbox) - DOESN'T WORK AFTER DYING", 
+				Color = Color3.fromRGB(6, 255, 247), 
+				Font = Enum.Font.Ubuntu, 
+				FontSize = Enum.FontSize.Size18 } )
+	end)
+end
+coroutine.wrap(GYRPNRB_fake_script)()
+local function DQRZKGW_fake_script() -- Esp.LocalScript 
+	local script = Instance.new('LocalScript', Esp)
+
+	local condition = false
+	local health = nil
+	
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		if condition == false then
+			condition = true
+			script.Parent.Text = "ESP (On)"
+		else
+			condition = false
+			script.Parent.Text = "ESP (Off)"
+			for i,v in pairs (game:GetService("Players"):GetPlayers()) do
+				v.Character.Head:FindFirstChild("Esp"):Destroy()
+			end
+		end
+		while condition == true do wait()
+			print("gat")
+			spawn(function()
+	
+				local esp_settings = { 
+					textsize = 14.5,
+					colour = 255,255,255
+				}
+	
+				local gui = Instance.new("BillboardGui")
+				local esp = Instance.new("TextLabel",gui) 
+	
+	
+				gui.Name = "Esp"; 
+				gui.ResetOnSpawn = false
+				gui.AlwaysOnTop = true;
+				gui.ExtentsOffset = Vector3.new(0, 1, 0)
+				gui.LightInfluence = 0;
+				gui.Size = UDim2.new(0, 5, 0, 5)
+				gui.StudsOffset = Vector3.new(0, 3, 0)
+	
+				esp.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+				esp.Text = ""
+				esp.Size = UDim2.new(1,0,10,0);
+				esp.BorderSizePixel = 4;
+				esp.BorderColor3 = Color3.new(esp_settings.colour)
+				esp.BorderSizePixel = 0
+				esp.Font = "SourceSansBold" 
+				esp.TextSize = esp_settings.textsize
+				esp.BackgroundTransparency = 1
+				esp.TextStrokeTransparency = 1
+				esp.TextColor3 = Color3.fromRGB(esp_settings.colour)
+				esp.Visible = true
+				esp.ZIndex = 3
+	
+	
+	
+				for i,v in pairs (game:GetService("Players"):GetPlayers()) do
+					if v ~= game:GetService("Players").LocalPlayer and v.Character.Head:FindFirstChild("Esp") == nil then 
+						health = game:GetService("Workspace").Characters[v.Name].Humanoid.Health
+						esp.TextColor3 = game:GetService("Workspace").Characters[v.Name].BodyColors.TorsoColor3
+						esp.Text = ' '..v.Name..' |  '..(health)..'%'
+						gui:Clone().Parent = v.Character.Head
+						wait(2)
+						v.Character.Head["Esp"]:Destroy()
+					end			
+				end
+			end)
+		end
+	end)
+end
+coroutine.wrap(DQRZKGW_fake_script)()
+local function DGDXJPF_fake_script() -- ItemName.LocalScript 
+	local script = Instance.new('LocalScript', ItemName)
+
+	script.Parent.Parent.Parent.rice2.ItemName.FocusLost:Connect(function() 
+		if script.Parent.Parent.Parent.rice2.ItemName.Text ~= "" then
+			p3 = script.Parent.Parent.Parent.rice2.ItemName.Text
+		end
+	end)
+end
+coroutine.wrap(DGDXJPF_fake_script)()
+local function QCXL_fake_script() -- PlayerName.LocalScript 
+	local script = Instance.new('LocalScript', PlayerName)
+
+	script.Parent.Parent.Parent.rice2.PlayerName.FocusLost:Connect(function() 
+		if script.Parent.Parent.Parent.rice2.PlayerName.Text ~= "" then
+			Target = script.Parent.Parent.Parent.rice2.PlayerName.Text
+		end
+	end)
+end
+coroutine.wrap(QCXL_fake_script)()
+local function DWKR_fake_script() -- TextButton_15.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_15)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game.StarterGui:SetCore( "ChatMakeSystemMessage", 
+			{ Text = "[ChubHub]: Increased Hitbox: Makes the hitting range farther(ENABLE AGAIN WHEN THE PLAYER DIES)", 
+				Color = Color3.fromRGB(6, 255, 247), 
+				Font = Enum.Font.Ubuntu, 
+				FontSize = Enum.FontSize.Size18 } )
+	end)
+end
+coroutine.wrap(DWKR_fake_script)()
+local function BSUKQL_fake_script() -- TextButton_16.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_16)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game.StarterGui:SetCore( "ChatMakeSystemMessage", 
+			{ Text = "[ChubHub]: Enchance Game: Makes the game less realistic for more FPS(REMOVES SHADOW)", 
+				Color = Color3.fromRGB(6, 255, 247), 
+				Font = Enum.Font.Ubuntu, 
+				FontSize = Enum.FontSize.Size18 } )
+	end)
+end
+coroutine.wrap(BSUKQL_fake_script)()
+local function YFBCTFL_fake_script() -- pvpc.LocalScript 
+	local script = Instance.new('LocalScript', pvpc)
+
+	local player = game:GetService("Players").LocalPlayer.Character
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		for _, a in pairs(game:GetService("Workspace").Characters:GetChildren()) do
+			if a.Name ~= player.Name then
+				for _, b in pairs(game:GetService("Workspace").Characters[a.Name]:GetDescendants()) do
+					if b.Name == "HumanoidRootPart" then
+						if game:GetService("Workspace").Characters[a.Name].HumanoidRootPart.Size == Vector3.new(2, 2, 1) then
+							game:GetService("Workspace").Characters[a.Name].HumanoidRootPart.Size = Vector3.new(10, 10, 20)
+						end 
+					end
+	
+				end
+			end
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("Workspace").Characters[player.Name].LeftUpperArm:Destroy()
+		game:GetService("Workspace").Characters[player.Name].RightUpperArm:Destroy()
+		game:GetService("Workspace").Characters[player.Name].LeftHand:Destroy()
+		game:GetService("Workspace").Characters[player.Name].LeftLowerArm:Destroy()
+		game:GetService("Workspace").Characters[player.Name].RightHand:Destroy()
+		game:GetService("Workspace").Characters[player.Name].RightLowerArm:Destroy()
+	
+		game:GetService("Workspace").Characters[player.Name].LeftFoot:Destroy()
+		game:GetService("Workspace").Characters[player.Name].LeftLowerLeg:Destroy()
+		game:GetService("Workspace").Characters[player.Name].LeftUpperLeg:Destroy()
+		game:GetService("Workspace").Characters[player.Name].RightFoot:Destroy()
+		game:GetService("Workspace").Characters[player.Name].RightLowerLeg:Destroy()
+		game:GetService("Workspace").Characters[player.Name].RightUpperLeg:Destroy()
+	
+	end)
+	script.Parent.MouseButton1Down:Connect(function()
+		spawn(function()
+			for _, a in pairs(game:GetService("Workspace").Characters:GetChildren()) do
+				if a.Name == player.Name then
+					for _, b in pairs(game:GetService("Workspace").Characters[a.Name]:GetDescendants()) do
+						if b.Name == "NameGui" then
+							b:Destroy()
+						end 
+					end
+				end
+			end
+		end)
+		spawn(function()
+			for _, a in pairs(game:GetService("Workspace").Characters:GetChildren()) do
+				if a.Name == player.Name then
+					for _, b in pairs(game:GetService("Workspace").Characters[a.Name]:GetDescendants()) do
+						if b.Name == "HealthGui" then
+							b:Destroy()
+						end 
+					end
+				end
+			end
+		end)
+	end)
+	local player = game:GetService("Players").LocalPlayer.Character
+	local mag = "Magnetite"
+	local adu = "Adurite"
+	local cry = "Crystal"
+	local iro = "Iron"
+	local hid = "Hide"
+	local lea = "Leaf"
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		spawn(function()
+			for _, a in pairs(game:GetService("Workspace").Characters:GetChildren()) do
+				if a.Name == player.Name then
+					for _, b in pairs(game:GetService("Workspace").Characters[a.Name]:GetDescendants()) do
+						if b.ClassName == "Model" then
+							b.PrimaryPart:Destroy()
+						end 
+					end
+					spawn(function()
+						for a,b in pairs(game:GetService("Workspace").Characters:GetChildren()) do
+							for c,d in pairs(game:GetService("Workspace").Characters[player.Name]:GetDescendants()) do
+								if d.Name:lower():find(mag:lower()) or d.Name:lower():find(adu:lower()) or d.Name:lower():find(cry:lower()) or d.Name:lower():find(iro:lower()) or d.Name:lower():find(hid:lower()) or d.Name:lower():find(lea:lower()) or d.Name == "Goober Bag" and d.ClassName == "Accessory" then
+									d.Handle:Destroy()
+								end
+							end
+						end
+					end)
+				end
+			end
+		end)
+	end)
+	
+	
+	
+	
+end
+coroutine.wrap(YFBCTFL_fake_script)()
+local function ARVA_fake_script() -- LH.LocalScript 
+	local script = Instance.new('LocalScript', LH)
+
+	local player = game:GetService("Players").LocalPlayer.Character
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("Workspace").Characters[player.Name].LeftUpperArm:Destroy()
+		game:GetService("Workspace").Characters[player.Name].RightUpperArm:Destroy()
+		game:GetService("Workspace").Characters[player.Name].LeftHand:Destroy()
+		game:GetService("Workspace").Characters[player.Name].LeftLowerArm:Destroy()
+		game:GetService("Workspace").Characters[player.Name].RightHand:Destroy()
+		game:GetService("Workspace").Characters[player.Name].RightLowerArm:Destroy()
+		
+		game:GetService("Workspace").Characters[player.Name].LeftFoot:Destroy()
+		game:GetService("Workspace").Characters[player.Name].LeftLowerLeg:Destroy()
+		game:GetService("Workspace").Characters[player.Name].LeftUpperLeg:Destroy()
+		game:GetService("Workspace").Characters[player.Name].RightFoot:Destroy()
+		game:GetService("Workspace").Characters[player.Name].RightLowerLeg:Destroy()
+		game:GetService("Workspace").Characters[player.Name].RightUpperLeg:Destroy()
+	
+	end)
+	
+	
+	
+	
+end
+coroutine.wrap(ARVA_fake_script)()
+local function QPIHNAL_fake_script() -- Delayyyy.LocalScript 
+	local script = Instance.new('LocalScript', Delayyyy)
+
+	script.Parent.Parent.Parent.rice2.Delayyyy.FocusLost:Connect(function() 
+		if script.Parent.Parent.Parent.rice2.Delayyyy.Text ~= "" then
+			Delayyyy = script.Parent.Parent.Parent.rice2.Delayyyy.Text
+		else
+			Delayyyy = 0.4
+		end
+	end)
+end
+coroutine.wrap(QPIHNAL_fake_script)()
+local function ONDB_fake_script() -- TextButton_17.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_17)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game.StarterGui:SetCore( "ChatMakeSystemMessage", 
+			{ Text = "[ChubHub]: Anti-Void: Prevents You From Dying By The Void", 
+				Color = Color3.fromRGB(6, 255, 247), 
+				Font = Enum.Font.Ubuntu, 
+				FontSize = Enum.FontSize.Size18 } )
+	end)
+end
+coroutine.wrap(ONDB_fake_script)()
+local function QRPFNDR_fake_script() -- AutoPick.LocalScript 
+	local script = Instance.new('LocalScript', AutoPick)
+
+	local on2 = false
+	
+	function ap()
+		if on2 == false then
+			on2 = true
+			script.Parent.Text = "On"
+		else
+			on2 = false
+			script.Parent.Text = "Off"
+		end
+		spawn(function()
+			while on2 == true do wait()
+				--CODE
+				for i, v in pairs(game:GetService("Workspace").Items:GetChildren()) do
+					if v ~= nil and v.PrimaryPart ~= nil and (game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position - v.PrimaryPart.Position).magnitude < 20 then
+						game:GetService("ReplicatedStorage").Events.PickupItem:InvokeServer(v)
+					end
+				end
+			end
+		end)
+	end
+	
+	script.Parent.MouseButton1Click:Connect(ap)
+	
+end
+coroutine.wrap(QRPFNDR_fake_script)()
