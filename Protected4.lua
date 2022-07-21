@@ -32,7 +32,7 @@ TextButton.TextSize = 14.000
 
 -- Scripts:
 
-local function GRIRXZR_fake_script() -- OpenClose.LocalScript 
+local function OFBIPYY_fake_script() -- OpenClose.LocalScript 
 	local script = Instance.new('LocalScript', OpenClose)
 
 	script.Parent.Draggable = true
@@ -210,12 +210,12 @@ local function GRIRXZR_fake_script() -- OpenClose.LocalScript
 	
 	
 end
-coroutine.wrap(GRIRXZR_fake_script)()
-local function MAUWB_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(OFBIPYY_fake_script)()
+local function LICVDO_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game:GetService("CoreGui"):FindFirstChild("ChubHub"):Destroy()
 	end)
 end
-coroutine.wrap(MAUWB_fake_script)()
+coroutine.wrap(LICVDO_fake_script)()
