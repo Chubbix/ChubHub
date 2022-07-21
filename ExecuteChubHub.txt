@@ -1,4 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Chubbix/ChubHub/main/Protected1.lua"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Chubbix/ChubHub/main/Protected2.lua"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Chubbix/ChubHub/main/Protected3.lua"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Chubbix/ChubHub/main/Protected4.lua"))()
+
